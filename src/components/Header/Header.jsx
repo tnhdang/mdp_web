@@ -2,13 +2,18 @@
 
 
 import React from "react";
+import "./style.scss"
 
 
 const Header = () => {
   return (
-    <>
-      <div ></div>
-      </>
+    
+      <div id="header" className="header" >
+
+        Header
+
+      </div>
+
   );
 };
 
