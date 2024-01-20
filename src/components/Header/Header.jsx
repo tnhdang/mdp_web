@@ -5,7 +5,7 @@ import React from "react";
 import "./style.css"
 import "./HeaderData"
 import { WhatWeDo, Solutions, Company, Customers, Insights, Partners } from "./HeaderData";
-import { DownOutlined } from '@ant-design/icons';
+import { DownOutlined,UpOutlined } from '@ant-design/icons';
 import { Dropdown, message, Space, Col, Divider, Row } from 'antd';
 
 const Header = () => {
@@ -15,126 +15,162 @@ const Header = () => {
   };
 
   return (
-    // <Row justify="center" align="top" >
-    //   {HeaderData.map((item, index) => {
-    //     if (index == 0) {
-    //       return (
-    //         <Col span={4}>
-    //           <a>{item.label.toUpperCase()}</a>
-    //           <Row justify="center" align="top" >
-    //             {item.list.map((subitem, subindex) => {
-    //               return (
 
-    //                 <Col span={8}>
-    //                   <a >{subitem.label}</a>
-    //                   {subitem.list.map((minisubitem, minisubindex) => {
-    //                     return (
-    //                       <Row justify="center" align="top" >
-    //                         <a>{minisubitem.label}</a>
-    //                       </Row>
-    //                     )
-    //                   })}
-    //                 </Col>
-    //               )
-    //             })}
-    //           </Row>
-    //         </Col>
-    //       )
-    //     }
-    //   })}
-    // </Row>
-
-
-    // <div className="dropdown">
-    //   {HeaderData.map((item, index) => {
-    //       return (
-    //         <>
-    //           <button className="dropbtn">{item.label.toUpperCase()}</button>
-    //           <div className="dropdown-content" style={{left:"30rem"}}>
-    //             <Row justify="center" align="top" >
-    //               {item.list.map((subitem, subindex) => {
-    //                 return (
-    //                   <Col span={8}>
-    //                     <a >{subitem.label}</a>
-    //                     {subitem.list.map((minisubitem, minisubindex) => {
-    //                       return (
-    //                         <Row justify="center" align="top" >
-    //                           <a>{minisubitem.label}</a>
-    //                         </Row>
-    //                       )
-    //                     })}
-    //                   </Col>
-    //                 )
-    //               })}
-
-    //             </Row>
-    //           </div>
-    //         </>
-    //       )
-
-    //   })}</div>
-
-
-    <>
-      <Row justify="center" align="top" >
-        <Col span={4} className="whatwedo menu">
-          <div className="dropdowndata">
-          <Row justify="center" align="middle" >
-            <h2 className="title">What we do</h2>
-            <DownOutlined />
-          </Row>
-
-          <Row justify="center" align="middle" >
-            {WhatWeDo.map((subitem, subindex) => {
-              return (
-                <Col span={8}>
-                  <a>{subitem.label}</a>
-                  {subitem.list.map((minisubitem, minisubindex) => {
-                    return (
-                      <Row justify="center" align="top" >
-                        <a>{minisubitem.label}</a>
-                      </Row>
-                    )
-                  })}
-                </Col>
-              )
-            })} 
-          </Row>
+    
+    <Row justify="center" align="middle" className="header-container" >
+      <Col span={8}>
+        <img className="logo" src="https://mambu.com/images/logo/mambu-logo-2023.svg" alt="logo" />
+      </Col>
+      <Col span={16}>
+      <Row justify="center" align="middle" className="header-content">
+        <Col span={3.4} className="whatwedo-hover">
+          <div className="dropdown dropdown-whatwedo">
+            <h2 className="title dropbtn">What we do <DownOutlined className="downicon-whatwedo" /><UpOutlined className="upicon-whatwedo upicon" /></h2>  
+            <div className="dropdown-content dropdown-content-whatwedo">
+              <Row justify="center" align="top" >
+                {WhatWeDo.map((item, index) => {
+                  return (
+                    <Col span={8}>
+                      <a className="subtittle">{item.label}</a>
+                      {item.list.map((subitem, subindex) => {
+                        return (
+                          <Row justify="center" align="top" >
+                            <a>{subitem.label}</a>
+                          </Row>
+                        )
+                      })}
+                    </Col>
+                  )
+                })}
+              </Row>
+      </div>
           </div>
         </Col>
-        <Col span={4}>
-          <Row justify="center" align="middle" >
-            <h2>Solutions</h2>
-            <DownOutlined />
-          </Row>
+        <Col span={3.4} className="solutions-hover">
+          <div  className="dropdown dropdown-solutions">
+            <h2 className="title dropbtn">Solutions<DownOutlined className="downicon-solutions" /><UpOutlined className="upicon upicon-solutions"/></h2>
+            <div className="dropdown-content dropdown-content-solutions">
+              <Row justify="center" align="top" >
+                {Solutions.map((item, index) => {
+                  return (
+                    <Col span={8}>
+                      <a className="subtittle">{item.label}</a>
+                      {item.list.map((subitem, subindex) => {
+                        return (
+                          <Row justify="center" align="top" >
+                            <a>{subitem.label}</a>
+                          </Row>
+                        )
+                      })}
+                    </Col>
+                  )
+                })}
+              </Row>
+            </div>
+            
+          </div>
         </Col>
-        <Col span={4}>
-          <Row justify="center" align="middle" >
-            <h2>Customers</h2>
-            <DownOutlined />
-          </Row>
+        <Col span={3.4} className="customers-hover">
+          <div className="dropdown dropdown-customers">
+            <h2 className="title dropbtn">Customers<DownOutlined className="downicon-customers" /><UpOutlined className="upicon upicon-customers"/></h2>
+            <div className="dropdown-content dropdown-content-customers">
+              <Row justify="center" align="top" >
+                {Customers.map((item, index) => {
+                  return (
+                    <Col span={12}>
+                      <a className="subtittle">{item.label}</a>
+                      {item.list.map((subitem, subindex) => {
+                        return (
+                          <Row justify="center" align="top" >
+                            <a>{subitem.label}</a>
+                          </Row>
+                        )
+                      })}
+                    </Col>
+                  )
+                })}
+              </Row>
+              </div>
+          </div>
         </Col>
-        <Col span={4}>
-          <Row justify="center" align="middle" >
-            <h2>Partners</h2>
-            <DownOutlined />
-          </Row>
+        <Col span={3.4} className="partners-hover">
+          <div className="dropdown dropdown-partners">
+            <h2 className="title dropbtn">Partners<DownOutlined className="downicon-partners" /><UpOutlined className="upicon upicon-partners"/></h2>
+            <div className="dropdown-content dropdown-content-partners">
+              <Row justify="center" align="top" >
+                {Partners.map((item, index) => {
+                  return (
+                    <Col span={12}>
+                      <a className="subtittle">{item.label}</a>
+                      {item.list.map((subitem, subindex) => {
+                        return (
+                          <Row justify="center" align="top" >
+                            <a>{subitem.label}</a>
+                          </Row>
+                        )
+                      })}
+                    </Col>
+                  )
+                })}
+              </Row>
+              </div>
+          </div>
         </Col>
-        <Col span={4}>
-          <Row justify="center" align="middle" >
-            <h2>Company</h2>
-            <DownOutlined />
-          </Row>
+        <Col span={3.4} className="company-hover">
+          <div className="dropdown dropdown-company">
+            <h2 className="title dropbtn">Company<DownOutlined  className="downicon-company"/><UpOutlined className="upicon upicon-company"/></h2>
+            <div className="dropdown-content dropdown-content-company">
+              <Row justify="center" align="top" >
+                {Company.map((item, index) => {
+                  return (
+                    <Col span={8}>
+                      <a className="subtittle">{item.label}</a>
+                      {item.list.map((subitem, subindex) => {
+                        return (
+                          <Row justify="center" align="top" >
+                            <a>{subitem.label}</a>
+                          </Row>
+                        )
+                      })}
+                    </Col>
+                  )
+                })}
+              </Row>
+              </div>
+          </div>
         </Col>
-        <Col span={4}>
-          <Row justify="center" align="middle" >
-            <h2>Insights</h2>
-            <DownOutlined />
-          </Row>
+        <Col span={3.4} className="insights-hover">
+          <div className="dropdown dropdown-insights">
+            <h2 className="title dropbtn">Insights<DownOutlined className="downicon-insights" /><UpOutlined className="upicon-insights upicon"/></h2>
+            <div className="dropdown-content dropdown-content-insights">
+              <Row justify="center" align="top" >
+                {Insights.map((item, index) => {
+                  return (
+                    <Col span={24}>
+                      <a className="subtittle">{item.label}</a>
+                      {item.list.map((subitem, subindex) => {
+                        return (
+                          <Row justify="center" align="top" >
+                            <a>{subitem.label}</a>
+                          </Row>
+                        )
+                      })}
+                    </Col>
+                  )
+                })}
+              </Row>
+              </div>
+          </div>
+        </Col>
+        <Col span={3.4}>
+          <button className="contact-btn">Contact us</button>
         </Col>
 
       </Row>
-    </>
+      </Col>
+    </Row>
+      
+    
 
   );
 };

@@ -1,0 +1,34 @@
+.container{
+    background-color: #555555;
+    color: white;
+    font-family: inherit !important;
+    padding: 3rem 5rem;
+}
+
+.footer-group{
+    padding: 0 0 0 6rem;
+    text-align: left;
+}
+
+.footer-tittle{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1rem
+}
+
+.footer-subtittle{
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    color: white;
+    line-height: 2rem;
+}
+
+.footer-subtittle:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    display: block;
+    color: white;
+    line-height: 2rem;
+}
