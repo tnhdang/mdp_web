@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+/** @format */
+
+import logo from "./logo.svg";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import DefaultLayout from "./layouts/DefaultLayout";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
           {/* <Route path="/login" element={<LoginPage />} /> */}
           {/* <Route path="/register" element={<RegisterPage />}></Route> */}
         </Routes>
+        <div></div>
       </Router>
     </div>
   );
