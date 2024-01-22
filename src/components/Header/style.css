@@ -2,6 +2,10 @@
   height: 6rem !important;
 }
 
+h2,a{
+  cursor: grab;
+}
+
 .dropbtn {
   border: none;
   font-size: 17px;
