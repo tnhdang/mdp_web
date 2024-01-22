@@ -11,7 +11,7 @@ const Footer = () => {
             <img className="logo" src={logo} alt="logo" />
             </Row>
             <Row justify="start" align="top">
-                <Col xs={24} sm={24} md={24} lg={6} xl={6} className="footer-group" >
+                <Col xs={24} sm={12} md={12} lg={6} xl={6} className="footer-group" >
                     <h2 className="footer-tittle">Technology</h2>
                     <a className="footer-subtittle">Our platform</a>
                     <a className="footer-subtittle">Lending</a>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <a className="footer-subtittle">Customers</a>
                     <a className="footer-subtittle">Marketplace</a>
                 </Col>
-                <Col xs={24} sm={24} md={24} lg={6} xl={6} className="footer-group">
+                <Col xs={24} sm={12} md={12} lg={6} xl={6} className="footer-group">
                 <h2 className="footer-tittle">Company</h2>
                 <a className="footer-subtittle">About</a>
                 <a className="footer-subtittle">Sustainability</a>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <a className="footer-subtittle">SpeakUp</a>
                 <a className="footer-subtittle">Contact us</a>
                 </Col>
-                <Col xs={24} sm={24} md={24} lg={6} xl={6} className="footer-group">
+                <Col xs={24} sm={12} md={12} lg={6} xl={6} className="footer-group">
                 <h2 className="footer-tittle">Event</h2>
                 <a className="footer-subtittle">Articles</a>
                 <a className="footer-subtittle">News</a>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <a className="footer-subtittle">Podcasts</a>
                 <a className="footer-subtittle">Reports</a>
                 </Col>
-                <Col xs={24} sm={24} md={24} lg={6} xl={6} className="footer-group">
+                <Col xs={24} sm={12} md={12} lg={6} xl={6} className="footer-group">
                 <h2 className="footer-tittle">Mambu support</h2>
                 <a className="footer-subtittle">Mambu User Guide</a>
                 <a className="footer-subtittle">API Reference</a>
