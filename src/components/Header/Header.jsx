@@ -27,6 +27,12 @@ const Header = () => {
     }
     else {
       setvisible("none");
+      setvisibleCompany("none");
+      setvisibleCustomers("none");
+      setvisibleInsights("none");
+      setvisiblePartners("none");
+      setvisibleSolutions("none");
+      setvisibleWhatWeDo("none");
     }
   };
 
@@ -89,8 +95,8 @@ const Header = () => {
   return (
 
     <>
-      <Row justify="center" align="middle" className="header-container" >
-        <Col span={5} className="logo-pc">
+      <Row justify="center" align="middle" className="header-container-pc" >
+        <Col span={5} className="logo-col">
           <img className="logo" src={logo} alt="logo" />
         </Col>
         <Col span={19} className="navbar-pc">
@@ -240,106 +246,112 @@ const Header = () => {
 
           </Row>
         </Col>
-        <Col span={19} className="navbar-mobile">
+      </Row>
+      <Row justify="center" align="middle" className="header-container-mobile" >
+        <Col span={16} className="logo-col-mobile">
+          <img className="logo-mobile" src={logo} alt="logo" />
+        </Col>
+        <Col span={8} className="navbar-mobile">
           <MenuOutlined onClick={() => onClickNavBar()} />
         </Col>
-        <div className="dropdown-mobile" style={{ display: visible }}>
-          <h2 className="title dropbtn" onClick={() => onClickNavBarWhatWeDo()}>What we do <DownOutlined className="downicon-whatwedo" /><UpOutlined className="upicon-whatwedo upicon" /></h2>
-          {Customers.map((item, index) => {
-            return (
-              <div style={{ display: visibleWhatWeDo }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="center" align="top" >
-                      <a>{subitem.label}</a>
-                    </Row>
-                  )
-                })}
-              </div>
-            )
-          })}
-          <h2 className="title dropbtn" onClick={()=>onClickNavBarSolutions()}>Solutions<DownOutlined className="downicon-solutions" /><UpOutlined className="upicon upicon-solutions" /></h2>
-          {Solutions.map((item, index) => {
-            return (
-              <div style={{ display: visibleSolutions }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="center" align="top" >
-                      <a>{subitem.label}</a>
-                    </Row>
-                  )
-                })}
-              </div>
-            )
-          })}
-
-          <h2 className="title dropbtn" onClick={()=>onClickNavBarCustomers()}>Customers<DownOutlined className="downicon-customers" /><UpOutlined className="upicon upicon-customers" /></h2>
-          {Customers.map((item, index) => {
-            return (
-              <div style={{ display: visibleCustomers }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="center" align="top" >
-                      <a>{subitem.label}</a>
-                    </Row>
-                  )
-                })}
-              </div>
-            )
-          })}
-          <h2 className="title dropbtn" onClick={()=>onClickNavBarPartners()}>Partners<DownOutlined className="downicon-partners" /><UpOutlined className="upicon upicon-partners" /></h2>
-
-          {Partners.map((item, index) => {
-            return (
-              <div style={{ display: visiblePartners }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="center" align="top" >
-                      <a>{subitem.label}</a>
-                    </Row>
-                  )
-                })}
-              </div>
-            )
-          })}
-
-          <h2 className="title dropbtn" onClick={()=>onClickNavBarCompany()}>Company<DownOutlined className="downicon-company" /><UpOutlined className="upicon upicon-company" /></h2>
-          {Company.map((item, index) => {
-            return (
-              <div style={{ display: visibleCompany }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="center" align="top" >
-                      <a>{subitem.label}</a>
-                    </Row>
-                  )
-                })}
-              </div>
-            )
-          })}
-          <h2 className="title dropbtn" onClick={()=>onClickNavBarInsights()}>Insights<DownOutlined className="downicon-insights" /><UpOutlined className="upicon-insights upicon" /></h2>
-          {Insights.map((item, index) => {
-            return (
-              <div style={{ display: visibleInsights }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="center" align="top" >
-                      <a>{subitem.label}</a>
-                    </Row>
-                  )
-                })}
-              </div>
-            )
-          })}
+        <div className="dropdown-mobile-container" style={{ display: visible }} onClick={() => onClickNavBar()}>
         </div>
-      </Row>
+        <div className="dropdown-mobile" style={{ display: visible }}>
+            <h2 className="title dropbtn" onClick={() => onClickNavBarWhatWeDo()}>What we do <DownOutlined className="downicon-whatwedo" /><UpOutlined className="upicon-whatwedo upicon" /></h2>
+            {Customers.map((item, index) => {
+              return (
+                <div style={{ display: visibleWhatWeDo }}>
+                  <a className="subtittle">{item.label}</a>
+                  {item.list.map((subitem, subindex) => {
+                    return (
+                      <Row justify="end" align="top" >
+                        <a>{subitem.label}</a>
+                      </Row>
+                    )
+                  })}
+                </div>
+              )
+            })}
+            <h2 className="title dropbtn" onClick={() => onClickNavBarSolutions()}>Solutions<DownOutlined className="downicon-solutions" /><UpOutlined className="upicon upicon-solutions" /></h2>
+            {Solutions.map((item, index) => {
+              return (
+                <div style={{ display: visibleSolutions }}>
+                  <a className="subtittle">{item.label}</a>
+                  {item.list.map((subitem, subindex) => {
+                    return (
+                      <Row justify="end" align="top" >
+                        <a>{subitem.label}</a>
+                      </Row>
+                    )
+                  })}
+                </div>
+              )
+            })}
 
+            <h2 className="title dropbtn" onClick={() => onClickNavBarCustomers()}>Customers<DownOutlined className="downicon-customers" /><UpOutlined className="upicon upicon-customers" /></h2>
+            {Customers.map((item, index) => {
+              return (
+                <div style={{ display: visibleCustomers }}>
+                  <a className="subtittle">{item.label}</a>
+                  {item.list.map((subitem, subindex) => {
+                    return (
+                      <Row justify="end" align="top" >
+                        <a>{subitem.label}</a>
+                      </Row>
+                    )
+                  })}
+                </div>
+              )
+            })}
+            <h2 className="title dropbtn" onClick={() => onClickNavBarPartners()}>Partners<DownOutlined className="downicon-partners" /><UpOutlined className="upicon upicon-partners" /></h2>
+
+            {Partners.map((item, index) => {
+              return (
+                <div style={{ display: visiblePartners }}>
+                  <a className="subtittle">{item.label}</a>
+                  {item.list.map((subitem, subindex) => {
+                    return (
+                      <Row justify="end" align="top" >
+                        <a>{subitem.label}</a>
+                      </Row>
+                    )
+                  })}
+                </div>
+              )
+            })}
+
+            <h2 className="title dropbtn" onClick={() => onClickNavBarCompany()}>Company<DownOutlined className="downicon-company" /><UpOutlined className="upicon upicon-company" /></h2>
+            {Company.map((item, index) => {
+              return (
+                <div style={{ display: visibleCompany }}>
+                  <a className="subtittle">{item.label}</a>
+                  {item.list.map((subitem, subindex) => {
+                    return (
+                      <Row justify="end" align="top" >
+                        <a>{subitem.label}</a>
+                      </Row>
+                    )
+                  })}
+                </div>
+              )
+            })}
+            <h2 className="title dropbtn" onClick={() => onClickNavBarInsights()}>Insights<DownOutlined className="downicon-insights" /><UpOutlined className="upicon-insights upicon" /></h2>
+            {Insights.map((item, index) => {
+              return (
+                <div style={{ display: visibleInsights }}>
+                  <a className="subtittle">{item.label}</a>
+                  {item.list.map((subitem, subindex) => {
+                    return (
+                      <Row justify="end" align="top" >
+                        <a>{subitem.label}</a>
+                      </Row>
+                    )
+                  })}
+                </div>
+              )
+            })}
+          </div>
+      </Row>
 
     </>
 

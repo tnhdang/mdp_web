@@ -92,7 +92,7 @@ h2,a{
   padding: 17px;
 }
 
-.logo-pc{
+.logo-col{
   padding-left: 5rem;
 }
 
@@ -190,8 +190,27 @@ h2,a{
   display: none;
 }
 
+.header-container-mobile{
+  display: none;
+}
+
 
 @media only screen and (max-width: 600px) {
+  .header-container-pc{
+    display: none;
+  }
+
+  .header-container-mobile{
+    display: flex;
+  }
+
+  .logo-col-mobile{
+    padding-left: 3rem;
+  }
+
+  .logo-mobile{
+    height: 4rem;
+  }
 
   .navbar-pc {
     display: none;
@@ -199,18 +218,45 @@ h2,a{
 
   .navbar-mobile {
     display: block;
-    padding-left: 15rem;
+    
+  }
+
+  .dropdown-mobile-container{
+    width: 100vw;
+    height: 100%;
+    z-index: 2;
+    background-image: url("https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg");
+    opacity: 0.95;
+    filter: blur(8px);
+    position: fixed;
+    left: 0rem;
+    top: 4rem;
+  
   }
 
   .dropdown-mobile{
-    width: 19rem;
-    height: fit-content;
-    z-index: 2;
-    background-color: yellow;
-    /* display:block; */
+    z-index: 5;
+    width: fit-content;
     position: absolute;
-    right: 0rem;
-    top: 3rem;
+    top: 4rem;
+    right: 1rem;
+    text-align: right;
+    
   }
+
+  .title{
+    text-align: right;
+  }
+
+  .subtittle {
+    font-size: 15px;
+    text-align: right;
+    padding: 0;
+  }
+
+  h2{
+    font-weight: 700;
+  }
+
 
 }
