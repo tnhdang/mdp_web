@@ -44,6 +44,10 @@
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.logo{
+  width: 9rem !important;
+}
+
 .dropdown-content-partners{
   display: none;
     background: #ffffff;

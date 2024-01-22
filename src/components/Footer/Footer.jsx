@@ -2,12 +2,13 @@ import React from "react";
 import "./style.css";
 import {WhatWeDo, Company, Insights} from "../Header/HeaderData";
 import { Col, Row } from "antd";
+import logo from "../Header/logo.png";
 
 const Footer = () => {
     return (
         <div className="container">
             <Row justify="start" align="middle">
-            <img className="logo" src="https://mambu.com/images/logo/mambu-logo-2023-white.svg" alt="logo" />
+            <img className="logo" src={logo} alt="logo" />
             </Row>
             <Row justify="start" align="top">
                 <Col span={6} className="footer-group" >
