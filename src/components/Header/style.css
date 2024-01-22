@@ -260,3 +260,31 @@ h2,a{
 
 
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .header-container-pc{
+    display: none;
+  }
+
+  .header-container-mobile{
+    display: flex;
+  }
+
+  .logo-col-mobile{
+    padding-left: 3rem;
+  }
+
+  .logo-mobile{
+    height: 4rem;
+  }
+
+  .navbar-pc {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+    
+  }
+}
