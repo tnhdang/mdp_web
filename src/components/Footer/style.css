@@ -34,7 +34,7 @@
     line-height: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
     .footer-tittle{
         padding-top: 2rem;
         font-size: 1rem;
