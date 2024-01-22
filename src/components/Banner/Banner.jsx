@@ -20,7 +20,7 @@ const Banner = () => {
             ></path>
           </g>
         </svg>
-        <div className="w-[50%] flex flex-col gap-6 pl-40">
+        <div className="w-[50%] flex flex-col gap-6 pl-40 justify-center">
           <p className="text-6xl font-bold text-start">
             Join the trailblazers changing banking.
           </p>
