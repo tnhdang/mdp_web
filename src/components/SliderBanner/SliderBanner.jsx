@@ -39,7 +39,7 @@ const SliderBanner = () => {
   ];
   return (
     <div>
-      <div className="bg-[#251e59]  w-[70%] mx-auto rounded-lg my-10 py-10">
+      <div className="bg-[#251e59]  w-[70%] mx-auto rounded-lg my-10 py-10 pvmax:max-xl:w-[90%]">
         <Carousel effect="fade" autoplay>
           {dataSlider.map((item, index) => {
             return (

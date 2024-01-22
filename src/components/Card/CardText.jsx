@@ -63,7 +63,7 @@ const CardText = () => {
   ];
   return (
     <>
-      <div className="flex w-[75%] mx-auto pb-20">
+      <div className="grid grid-cols-3 w-[75%] mx-auto pb-20 md:max-lg:grid-cols-2 pvmax:max-md:grid-cols-1 ">
         {dataCardText.map((item, index) => {
           return (
             <div className="flex flex-col gap-y-3 px-6 cursor-pointer hover:bg-slate-300 hover:-translate-y-2 duration-500 py-2 rounded-md">

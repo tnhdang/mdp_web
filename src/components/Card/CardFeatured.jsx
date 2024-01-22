@@ -7,9 +7,6 @@ const CardFeatured = ({ img, tags, desTime, title, descrption }) => {
     <div className="bg-[#fafafa] shadow-md shadow-gray-600 rounded-xl cursor-pointer hover:-translate-y-2 duration-300">
       <div className="relative rounded-t-xl">
         <img className="w-[full] rounded-t-xl" src={img}></img>
-        <div className="bg-[#AFD2D2] w-[150px] px-4 py-2 rounded-2xl absolute right-10 -bottom-4">
-          <p className="text-black font-bold">{tags}</p>
-        </div>
       </div>
 
       <div className="w-[80%] mx-auto pb-10">

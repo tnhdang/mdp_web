@@ -1,0 +1,30 @@
+.flip-container {
+   
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .flip-container:hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  .flipper  {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .front,
+  .back {
+    backface-visibility: hidden;
+    position: absolute;
+   
+    
+  }
+  .back {
+   
+    transform: rotateY(180deg);
+  }
