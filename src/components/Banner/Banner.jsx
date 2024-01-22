@@ -5,7 +5,7 @@ import imageBanner from "../../assets/images/banner.png";
 const Banner = () => {
   return (
     <div className="pt-2">
-      <div className="relative flex gap-2 w-[70%] mx-auto ">
+      <div className="relative flex gap-2 w-[100%] mx-auto ">
         <svg
           data-testid="double-forward-slash"
           className="absolute h-[300px] w-[700px ] overflow-hidden -left-60 -z-10"
@@ -20,7 +20,7 @@ const Banner = () => {
             ></path>
           </g>
         </svg>
-        <div className="w-[30%] flex flex-col gap-6">
+        <div className="w-[50%] flex flex-col gap-6 pl-40">
           <p className="text-6xl font-bold text-start">
             Join the trailblazers changing banking.
           </p>
