@@ -20,7 +20,7 @@ const CardStatic = ({ title, number, Prefix }) => {
         </h1>
       </div>
       <div className="w-[70%] flex justify-start pvmax:max-md:w-[90%] pvmax:max-md:justify-center ">
-        <p className="text-3xl text-start font-bold pvmax:max-md:text-xl pvmax:max-md:text-center">
+        <p className="text-3xl text-start font-bold pvmax:max-md:text-xl pvmax:max-md:text-center pvmax:max-md:w-[80%] ">
           {title}
         </p>
       </div>

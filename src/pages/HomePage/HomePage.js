@@ -213,7 +213,7 @@ const HomePage = () => {
       <div className="py-10">
         <p className="text-5xl font-bold text-center">Mambu by the numbers</p>
       </div>
-      <div className="grid grid-cols-3 gap-x-16 gap-y-28 pl-20 w-[90%] mx-auto sm:max-lg:grid-cols-2 sm:max-lg:w-[100%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[100%]">
+      <div className="grid grid-cols-3 gap-x-16 gap-y-28 pl-20 w-[90%] mx-auto sm:max-lg:grid-cols-2 sm:max-lg:w-[100%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[100%] pvmax:max-sm:pl-6">
         <CardStatic title={"Global customers"} Prefix={"+"} number={260} />
         <CardStatic title={"End users"} Prefix={"m"} number={101} />
         <CardStatic title={"API calls per day"} Prefix={"m"} number={200} />
