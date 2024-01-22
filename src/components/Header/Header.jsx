@@ -90,7 +90,7 @@ const Header = () => {
 
     <>
       <Row justify="center" align="middle" className="header-container" >
-        <Col span={5} >
+        <Col span={5} className="logo-pc">
           <img className="logo" src={logo} alt="logo" />
         </Col>
         <Col span={19} className="navbar-pc">

@@ -88,6 +88,10 @@
   padding: 17px;
 }
 
+.logo-pc{
+  padding-left: 5rem;
+}
+
 .dropdown-content a:hover {
   background: #ddd;
 }
