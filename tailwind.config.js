@@ -34,6 +34,9 @@ module.exports = {
         dv: "1440px",
         dh: "5000px",
       },
+      boxShadow: {
+        card: "1px 1px 1px 1px rgba(0, 0, 0, 0.3)",
+      },
     },
   },
   plugins: [require("@tailwindcss/line-clamp")],
