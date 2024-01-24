@@ -1,0 +1,305 @@
+.firstpart-lending{
+    font-family: 'Courier New', Courier, monospace !important;
+    padding: 2rem 5rem;
+    position: relative;
+}
+
+.firstpart-lending h1{
+    text-align: left;
+    line-height: 7rem;
+    font-size: 6rem;
+    font-weight: bolder;
+    font-family: monospace !important;
+    padding-bottom: 1rem;
+}
+
+.firstpart-lending p{
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family:  sans-serif!important;
+}
+
+
+.firstpart-lending button{
+    background-color: #00B240;
+    color: white;
+    font-family:  monospace!important;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 0.6rem 1rem;
+    border-radius: 3rem;
+    position: absolute;
+    left: 0;
+    margin-top: 1.5rem;
+}
+
+.firstpart-lending-right{
+    padding: 0 0 2rem 2rem;
+}
+
+/* Part 2 */
+
+.img-part2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.secondpart-lending{
+    padding: 3rem 5rem;
+    margin-bottom: 3rem;
+}
+
+.secondpart-lending h1{
+    font-family: sans-serif !important;
+    font-size: 3rem;
+    font-weight: bolder;
+ }
+
+ .secondpart-lending .line{
+    height: 0.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+ }
+
+ .secondpart-lending .line >div {
+    background-color: #00B240;
+    height: 0.2rem;
+    width: 10%;
+  }
+
+  .secondpart-lending h2{
+    margin: 2rem 0;
+    font-family: sans-serif!important;
+    font-size: 1.8rem;
+    font-weight: bolder;
+  }
+
+  .secondpart-lending p{
+    font-family: sans-serif!important;
+    font-size: 1.2rem;
+  }
+
+  /* Part 3 */
+  .thirdpart-lending{
+    padding: 5rem 3rem;
+    background-color: #212121;
+  }
+
+  .thirdpart-lending h2{
+    font-family: sans-serif;
+    color: #00B240;
+    font-size: 1.5rem;
+  }
+
+  .thirdpart-lending h1{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+
+  .thirdpart-lending .line{
+    height: 0.1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+ }
+
+ .thirdpart-lending .line >div {
+    background-color: #00B240;
+    height: 0.15rem;
+    width: 10%;
+  }
+
+
+
+
+
+  
+  .thirdpart-lending .ant-card{
+    height: 30rem;
+    text-align: left !important;
+  }
+
+  .thirdpart-lending .ant-card-body {
+    padding: 1rem;
+  }
+
+  .thirdpart-lending .ant-card-meta-title{
+    font-family: sans-serif !important;
+    font-size: 1.5rem;
+  }
+
+  .thirdpart-lending .ant-card-meta-description{
+    font-size: 1.2rem;
+    color: black !important;
+  }
+
+  .thirdpart-lending p{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: black !important;
+  }
+
+  .thirdpart-lending a{
+    color: #087674;
+    font-weight: 700;
+  }
+
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+
+    .firstpart-lending{
+        font-family: 'Courier New', Courier, monospace !important;
+        padding: 1rem 2rem;
+        position: relative;
+    }
+
+    .firstpart-lending h1{
+        text-align: left;
+        line-height: 2rem;
+        font-size: 2.2rem;
+        font-weight: bolder;
+        font-family: monospace !important;
+        padding-bottom: 1rem;
+    }
+
+    .firstpart-lending p{
+        text-align: left;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        font-family:  sans-serif!important;
+    }
+
+    .firstpart-lending button{
+        background-color: #00B240;
+        color: white;
+        font-family:  monospace!important;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding: 0.5rem 1rem;
+        border-radius: 3rem;
+        margin-top: 1rem;
+        
+    }
+
+    .firstpart-lending-right{
+        padding: 0 0 2rem 0 ;
+        margin-top: 5rem;
+    }
+
+    /* Part 3 */
+
+    .thirdpart-lending{
+        padding: 5rem 6rem;
+        background-color: #212121;
+      }
+
+    .thirdpart-lending .ant-card{
+        height: 30rem;
+        margin-bottom: 2rem;
+        text-align: left !important;
+      }
+
+      .thirdpart-lending h1{
+        font-size: 2rem;
+      }
+
+      .thirdpart-lending h2{
+        font-size: 1rem;
+      }
+
+    
+}
+
+/* Middle */
+
+@media only screen and (max-width: 992px) and (min-width: 600px){
+
+    .firstpart-lending{
+        font-family: 'Courier New', Courier, monospace !important;
+        padding: 2rem 5rem 5rem 5rem;
+        position: relative;
+    }
+
+    .firstpart-lending p{
+        text-align: left;
+        line-height: 1.8rem;
+        font-size: 1.5rem;
+        font-family:  sans-serif!important;
+    }
+
+    .firstpart-lending button{
+        background-color: #00B240;
+        color: white;
+        font-family:  monospace!important;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding: 0.7rem 1rem;
+        border-radius: 3rem;
+        margin-top: 1rem;
+    }
+
+    .firstpart-lending-right{
+        margin-top: 5rem;
+    }
+
+    /* Part 3 */
+  
+    
+
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1200px) and (min-width: 993px){
+
+    .firstpart-lending{
+        font-family: 'Courier New', Courier, monospace !important;
+        padding: 2rem 5rem 5rem 5rem;
+        position: relative;
+    }
+
+    .firstpart-lending p{
+        text-align: left;
+        line-height: 1.8rem;
+        font-size: 1.5rem;
+        font-family:  sans-serif!important;
+    }
+
+    .firstpart-lending button{
+        background-color: #00B240;
+        color: white;
+        font-family:  monospace!important;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        padding: 0.7rem 1rem;
+        border-radius: 3rem;
+        margin-top: 1rem;
+    }
+
+    .firstpart-lending-right{
+        margin-top: 8rem;
+    }
+
+    /* Part 3 */
+    .thirdpart-lending{
+        padding: 5rem 15rem;
+        background-color: #212121;
+      }
+
+    .thirdpart-lending .ant-card{
+        height: 30rem;
+        margin-bottom: 2rem;
+        text-align: left !important;
+      }
+
+}

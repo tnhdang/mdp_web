@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
+<<<<<<< HEAD
 import "./style.css";
 import "./HeaderData";
 import {
@@ -16,6 +17,20 @@ import { message, Space, Col, Divider, Row } from "antd";
 import logo from "./logo.png";
 
 const Header = () => {
+=======
+import { useNavigate } from "react-router-dom";
+import "./style.css"
+import "./HeaderData"
+import { WhatWeDo, Solutions, Company, Customers, Insights, Partners } from "./HeaderData";
+import { DownOutlined, UpOutlined, MenuOutlined } from '@ant-design/icons';
+import { message, Space, Col, Divider, Row } from 'antd';
+import logo from "./logo.png";
+
+const Header = () => {
+
+  const navigate = useNavigate();
+
+>>>>>>> d833d9b3e0d44b266cf1399216728b7170d1f1b2
   const [visible, setvisible] = useState("none");
   const [visibleWhatWeDo, setvisibleWhatWeDo] = useState("none");
   const [visibleSolutions, setvisibleSolutions] = useState("none");
@@ -90,7 +105,7 @@ const Header = () => {
     <>
       <Row justify="center" align="middle" className="header-container-pc">
         <Col span={5} className="logo-col">
-          <img className="logo" src={logo} alt="logo" />
+          <img className="logo" src={logo} alt="logo" onClick={()=>navigate("/")} />
         </Col>
         <Col span={19} className="navbar-pc">
           <Row justify="center" align="middle" className="header-content">
@@ -263,7 +278,7 @@ const Header = () => {
       </Row>
       <Row justify="center" align="middle" className="header-container-mobile">
         <Col span={16} className="logo-col-mobile">
-          <img className="logo-mobile" src={logo} alt="logo" />
+          <img className="logo-mobile" src={logo} alt="logo" onClick={()=>navigate("/")}/>
         </Col>
         <Col span={8} className="navbar-mobile">
           <MenuOutlined onClick={() => onClickNavBar()} />
