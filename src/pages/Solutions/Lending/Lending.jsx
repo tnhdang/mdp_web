@@ -11,6 +11,20 @@ import img5 from "../../../assets/Lending/5.png";
 import img6 from "../../../assets/Lending/6.png";
 import img7 from "../../../assets/Lending/7.png";
 import img8 from "../../../assets/Lending/8.png";
+import img9 from "../../../assets/Lending/9.svg";
+import img10 from "../../../assets/Lending/10.svg";
+import img11 from "../../../assets/Lending/11.svg";
+import img15 from "../../../assets/Lending/15.svg";
+import img16 from "../../../assets/Lending/16.svg";
+import img17 from "../../../assets/Lending/17.svg";
+
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 
 
@@ -118,6 +132,149 @@ const Lending = () => {
           </Card>
         </Col>
       </Row>
+
+      {/* Fourth big Row */}
+      <div className="part4">
+      <Row justify="center " xs={24} sm={24} md={24} lg={24} xl={24} className="Part4h2" >
+            <h2>THOUSANDS OF USE CASES</h2>
+          </Row>
+          <Row justify="center "  xs={24} sm={24} md={24} lg={24} xl={24} className="Part4h1" >
+            <h1>Our lending solutions</h1>
+          </Row>
+          <div className="line"><div></div></div>
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper-pc"
+      >
+        <SwiperSlide>
+        <div className="img-part2"><img src={img9} /></div>
+          <h2>Customised reports</h2>
+          <p>Reporting options ensure that key operational and performance metrics are easily identified, analysed and tracked.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img10} /></div>
+          <h2>Flexible configuration</h2>
+          <p>Configure interest rate and fees, limits, payment terms, grace periods, payment holidays, and more according to your needs.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img11} /></div>
+          <h2>Embedded finance</h2>
+          <p>Connect loan products to any buying ecosystem. Offer everything from buy-now-pay-later to revolving credit and more.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img2} /></div>
+          <h2>End-to-end solutions</h2>
+          <p>Utilise a broad range of partner solutions, connectors and APIs to deliver a faster and smoother lending experience.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img9} /></div>
+          <h2>Customised reports</h2>
+          <p>Reporting options ensure that key operational and performance metrics are easily identified, analysed and tracked.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img10} /></div>
+          <h2>Flexible configuration</h2>
+          <p>Configure interest rate and fees, limits, payment terms, grace periods, payment holidays, and more according to your needs.</p>
+        </SwiperSlide>
+        
+      </Swiper>
+
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper-mobile"
+      >
+        <SwiperSlide>
+        <div className="img-part2"><img src={img9} /></div>
+          <h2>Customised reports</h2>
+          <p>Reporting options ensure that key operational and performance metrics are easily identified, analysed and tracked.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img10} /></div>
+          <h2>Flexible configuration</h2>
+          <p>Configure interest rate and fees, limits, payment terms, grace periods, payment holidays, and more according to your needs.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img11} /></div>
+          <h2>Embedded finance</h2>
+          <p>Connect loan products to any buying ecosystem. Offer everything from buy-now-pay-later to revolving credit and more.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img2} /></div>
+          <h2>End-to-end solutions</h2>
+          <p>Utilise a broad range of partner solutions, connectors and APIs to deliver a faster and smoother lending experience.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img9} /></div>
+          <h2>Customised reports</h2>
+          <p>Reporting options ensure that key operational and performance metrics are easily identified, analysed and tracked.</p>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-part2"><img src={img10} /></div>
+          <h2>Flexible configuration</h2>
+          <p>Configure interest rate and fees, limits, payment terms, grace periods, payment holidays, and more according to your needs.</p>
+        </SwiperSlide>
+        
+      </Swiper>
+      </div>
+
+      {/* Part 5 */}
+
+      <div className="fifthpart-lending">
+      <Row justify="center " xs={24} sm={24} md={24} lg={24} xl={24} className="" >
+            <h2 className="part5-tittle1">THOUSANDS OF USE CASES</h2>
+          </Row>
+          <Row justify="center "  xs={24} sm={24} md={24} lg={24} xl={24} className="" >
+            <h1 className="part5-tittle2">Trusted by leading lenders</h1>
+          </Row>
+          <div className="line"><div></div></div>
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper-part5"
+      >
+        <SwiperSlide>
+          <div className="part5-swiper-content">
+            <img src={img15}/>
+            <p className="quotes">"Being cloud native, Mambu and its composable architecture gave us the foundation needed to seamlessly integrate with Allica’s own proprietary applications in our cloud based tech stack."</p>
+            <p className="author">- Chief Executive Officer, Allica Bank</p>
+            <button>Customer success story</button>
+          </div>
+
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="part5-swiper-content">
+            <img src={img16}/>
+            <p className="quotes">"By democratising access to an innovative bank-grade system, our partnership with Mambu has created a game-changing solution for the modern lending industry."</p>
+            <p className="author">- Founder and Co-CEO, Kennek</p>
+            <button>Customer success story</button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="part5-swiper-content">
+            <img src={img17}/>
+            <p className="quotes">"Leveraging Mambu’s technology and ecosystem, we will speed up the development of flexible lending solutions, offering customers a full-range service combination of transactional, saving and credit solutions."</p>
+            <p className="author">- Chief Executive Officer, Plazo</p>
+            <button>Customer success story</button>
+          </div>
+        </SwiperSlide>
+        
+      </Swiper>
+
+      </div>
     </>
   );
 };

@@ -3,7 +3,7 @@
     color: white;
     font-family: inherit !important;
     padding: 3rem 5rem;
-    min-width: 100vw;
+    min-width: 98vw;
 
 }
 
@@ -50,4 +50,11 @@
         line-height: 2rem;
     }
 
+}
+
+@media only screen and (min-width: 1800px) {
+    .container{
+       min-width: 99vw;
+    
+    }
 }
