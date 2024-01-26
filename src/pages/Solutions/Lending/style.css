@@ -126,6 +126,10 @@
   text-align: left !important;
 }
 
+.thirdpart-card{
+  padding-left: 2.5rem !important;
+}
+
 .thirdpart-lending .ant-card-body {
   padding: 1rem;
 }
@@ -220,7 +224,6 @@
 }
 
 .part5-tittle2 {
-  font-family: sans-serif;
   font-size: 4rem;
   font-family: sans-serif !important;
   font-weight: 700;
@@ -275,6 +278,141 @@
   font: 1.2rem sans-serif;
   color: white;
 }
+
+/* Part52 */
+.part52{
+  padding: 0 5rem 5rem 5rem;
+}
+
+.part52-left{
+  padding: 0 2rem;
+  text-align: left;
+}
+
+.part52-left h1{
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.part52-left p{
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.part52-left button{
+  background-color: #00B240;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  font: 1.2rem sans-serif;
+  color: white;
+  margin-top: 2rem;
+}
+
+.part52-right{
+  padding: 1rem 2rem;
+}
+
+
+/* Part6 */
+.sixthpart-lending{
+  height: fit-content;
+  background-color: #212121;
+  padding: auto 10rem;
+  width: 100vw;
+}
+
+.sixthpart-lending h2{
+  font-family: sans-serif;
+  color: #00B240;
+  font-size: 1.5rem;
+  padding: 5rem 0 0 0;
+}
+
+.sixthpart-lending h1{
+  font: 3rem sans-serif;
+  margin: 0 15rem;
+  font-weight: 700;
+  color: white;
+}
+
+.sixthpart-lending  button{
+  background-color: #00B240;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  font: 1rem sans-serif;
+  color: white;
+  margin: 2rem 0 6rem 0;
+}
+
+/* Part7 */
+.seventhpart-lending{
+  padding: 0 5rem;
+  margin: 5rem 0;
+}
+
+.part7-tittle h2{
+  font-family: sans-serif;
+  color: #00B240;
+  font-size: 1.5rem;
+
+}
+
+.part7-tittle h1{
+  font: 3rem sans-serif;
+  margin: 0 15rem;
+  font-weight: 700;
+}
+
+.seventhpart-lending .line{
+  height: 0.1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 5rem 0;
+}
+
+.seventhpart-lending .line > div{
+  background-color: #00B240;
+  height: 0.15rem;
+  width: 10%;
+}
+
+.part7-cardgroup{
+  padding: 0 0rem;
+}
+
+.part7-card{
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.part7-card .ant-card{
+  height: 35rem;
+}
+
+.part7-card h2{
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(155, 153, 153);
+  margin-bottom: 1rem;
+}
+
+.part7-card .ant-card-meta-title{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+}
+
+.part7-card .ant-card-meta-description{
+  font-family: sans-serif;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.549);
+}
+
 
 
 
@@ -432,6 +570,65 @@
   }
 
 
+  /* Part52 */
+.part52{
+  padding: 0 2rem 5rem 2rem;
+}
+
+.part52-left{
+  padding: 0;
+}
+
+.part52-left h1{
+  font-size: 2rem;
+}
+
+.part52-left p{
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.part52-left button{
+  background-color: #00B240;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  font: 1rem sans-serif;
+  color: white;
+  margin-top: 2rem;
+}
+
+.part52-right{
+  margin-top: 2rem;
+  padding: 0;
+}
+
+
+  /* Part6 */
+.sixthpart-lending{
+
+}
+
+.sixthpart-lending h2{
+  font-size: 1rem;
+  padding: 4rem 0 0 0;
+}
+
+.sixthpart-lending h1{
+  font: 2rem sans-serif;
+  margin: 2rem 1rem;
+  font-weight: 600;
+}
+
+.sixthpart-lending  button{
+  background-color: #00B240;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  font: 1rem sans-serif;
+  color: white;
+  margin: 2rem 0 4rem 0;
+}
+
+
 }
 
 /* Middle */
@@ -532,6 +729,10 @@
     height: 30rem;
     margin-bottom: 2rem;
     text-align: left !important;
+  }
+
+  .part52-right{
+    padding: 5rem 0;
   }
 
 }

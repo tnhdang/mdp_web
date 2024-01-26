@@ -17,6 +17,10 @@ import img11 from "../../../assets/Lending/11.svg";
 import img15 from "../../../assets/Lending/15.svg";
 import img16 from "../../../assets/Lending/16.svg";
 import img17 from "../../../assets/Lending/17.svg";
+import img18 from "../../../assets/Lending/18.png";
+import img19 from "../../../assets/Lending/19.png";
+import img20 from "../../../assets/Lending/20.png";
+import img21 from "../../../assets/Lending/21.png";
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -89,7 +93,7 @@ const Lending = () => {
           </Row>
           <div className="line"><div></div></div>
         </Col>
-        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="t">
+        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="thirdpart-card">
 
           <Card
             hoverable
@@ -101,7 +105,7 @@ const Lending = () => {
           </Card>
 
         </Col>
-        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="">
+        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="thirdpart-card">
         <Card
             hoverable
             style={{ width: 240 }}
@@ -111,7 +115,7 @@ const Lending = () => {
             <p>Discover <a href="#">personal lending</a></p>
           </Card>
         </Col>
-        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="">
+        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="thirdpart-card">
         <Card
             hoverable
             style={{ width: 240 }}
@@ -121,7 +125,7 @@ const Lending = () => {
             <p>Explore <a href="#">business lending</a></p>
           </Card>
         </Col>
-        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="">
+        <Col xs={24} sm={24} md={24} lg={12} xl={6} className="thirdpart-card">
         <Card
             hoverable
             style={{ width: 240 }}
@@ -275,6 +279,76 @@ const Lending = () => {
       </Swiper>
 
       </div>
+
+      {/* part52 */}
+      <div className="part52">
+      <Row justify = "start" align="top" className="" >
+        <Col xs={24} sm={24} md={24} lg={12} xl={12} className="part52-left">
+          <h1>Seamless integration with world-class partners</h1>
+          <p>Through open APIs, Mambu seamlessly integrates with market-leading software solutions supporting the full end-to-end loan life cycle from loan origination to collections.</p>
+          <button type="button" >Visit our partners</button>
+        </Col>
+        <Col xs={24} sm={24} md={24} lg={12} xl={12} className="part52-right">
+          <img src={img18} />
+        </Col>
+      </Row>
+      </div>
+          
+        {/* Part 6 */}
+        <div className="sixthpart-lending">
+        <Row justify="center " xs={24} sm={24} md={24} lg={24} xl={24} className="" >
+            <h2>READY TO GET STARTED?</h2>
+          </Row>
+          <Row justify="center "  xs={24} sm={24} md={24} lg={24} xl={24} className="" >
+            <h1>Let’s accelerate your lending journey together.</h1>
+          </Row>
+          <Row justify="center "  xs={24} sm={24} md={24} lg={24} xl={24} className="" >
+            <button>Get in touch</button>
+          </Row>
+        </div>
+        {/* Part 7 */}
+        <div className="seventhpart-lending">
+        <Row justify="center " xs={24} sm={24} md={24} lg={24} xl={24} className="part7-tittle" >
+            <h2>THOUSANDS OF USE CASES</h2>
+          </Row>
+          <Row justify="center "  xs={24} sm={24} md={24} lg={24} xl={24} className="part7-tittle" >
+            <h1>Our lending solutions</h1>
+          </Row>
+          <div className="line"><div></div></div>
+
+          <Row justify="center "  align="middle" className="part7-cardgroup" >
+            <Col xs={24} sm={24} md={24} lg={8} xl={8} className="part7-card">
+              <Card
+                hoverable
+                cover={<img alt="example" src={img19} />}
+              >
+                <h2>ARTICLE - SEP 25, 2023</h2>
+                <Meta title="Time for lenders to adapt to SME needs or risk losing out" description="CSmall and medium-sized enterprises (SMEs) face significant challenges, including continuous changes and turbulent economics. To survive and thrive, SMEs require access to flexible financial support." />
+                
+              </Card>
+            </Col>
+            <Col xs={24} sm={24} md={24} lg={8} xl={8} className="part7-card">
+              <Card
+                hoverable
+                cover={<img alt="example" src={img20} />}
+              >
+                <h2>ARTICLE - JUL 17, 2023</h2>
+                <Meta title="Tech-driven lending: trends & opportunities" description="Despite the pandemic, macroeconomic challenges, and the potential for a recession, personal lenders remain increasingly popular." />
+                
+              </Card>
+            </Col>
+            <Col xs={24} sm={24} md={24} lg={8} xl={8} className="part7-card">
+              <Card
+                hoverable
+                cover={<img alt="example" src={img21} />}
+              >
+                <h2>ARTICLE - APR 8, 2022</h2>
+                <Meta title="Buy now, pay later: lending for the digital age " description="Buy now, pay later (BNPL) ubiquitousness is unparalleled these days and resembles a behavioural change that we haven’t seen in finance since the arrival of credit cards - a business model that BNPL is now challenging in a big way by putting greater purchasing power in the hands of a younger demographic." />
+                
+              </Card>
+            </Col>
+          </Row>
+        </div>
     </>
   );
 };
