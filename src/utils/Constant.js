@@ -5,6 +5,7 @@ import { useEffect } from "react";
 export const path = {
   HOME: "/",
   OURPLATFORM: "our-platform",
+  COMPOSABLE: "composable-approach",
 };
 
 export const ScrollToTop = () => {

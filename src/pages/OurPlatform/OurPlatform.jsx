@@ -75,13 +75,14 @@ const OurPlatform = () => {
   ];
   return (
     <div>
-      <div className=" h-[500px] w-[100vw] bg-gradient-to-r from-[#14acbb] to-[#926db6] flex items-center">
+      <div className=" h-[400px] w-[100vw] bg-gradient-to-r from-[#14acbb] to-[#926db6] flex items-center">
         <div className="  w-[70%] mx-auto pvmax:max-lg:w-[90%] ">
-          <p className="text-white text-7xl  font-bold text-start  w-[80%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-4xl">
+          <p className="text-white text-7xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-4xl">
             Our cloud banking platform
           </p>
         </div>
       </div>
+
       {/* Start Section Breacrumb */}
       <div
         className={`${
