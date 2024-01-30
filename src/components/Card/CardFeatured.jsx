@@ -7,7 +7,7 @@ const CardFeatured = ({ img, tags, desTime, title, descrption }) => {
     <div className="bg-[#fafafa] shadow-md shadow-gray-600 rounded-xl cursor-pointer hover:-translate-y-2 duration-300">
       <div className="relative rounded-t-xl">
         <img
-          className="w-full rounded-t-xl object-cover h-[300px]"
+          className=" w-full rounded-t-xl object-cover h-[300px]"
           src={img}
         ></img>
       </div>

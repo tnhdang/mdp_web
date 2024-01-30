@@ -253,12 +253,47 @@ const Composable = () => {
       </div> */}
       <div className="w-[70%] mx-auto py-20 md:max-xl:w-[90%] ">
         <Swiper
-          slidesPerView={1}
-          spaceBetween={30}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            280: {
+              slidesPerView: 1,
+            },
+            360: {
+              slidesPerView: 1,
+            },
+            480: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 1,
+            },
+            1024: {
+              slidesPerView: 2,
+            },
+            1280: {
+              slidesPerView: 2,
+            },
+            1440: {
+              slidesPerView: 3,
+            },
+            1536: {
+              slidesPerView: 3,
+            },
+            1700: {
+              slidesPerView: 3,
+            },
+          }}
+          spaceBetween={10}
           pagination={{
             clickable: true,
           }}
           modules={[Pagination]}
+          className=" mx-auto"
         >
           {dataInsights.map((item, index) => {
             return (
