@@ -31,14 +31,14 @@ const Composable = () => {
         </div>
       </div>
       {/* End Section Banner */}
-      <div className="w-[70%] mx-auto py-10 md:max-xl:w-[90%] ">
-        <p className="text-2xl font-bold text-start w-[60%] py-10 md:max-xl:w-[90%]  ">
+      <div className="w-[70%] mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%]">
+        <p className="text-2xl font-bold text-start w-[60%] py-10 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
           Heard of composable banking? The concept originated here at Mambu.
           We’ve been champions of composable for over a decade.
         </p>
-        <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 ">
-          <div className="text-start ">
-            <p className="w-[70%] leading-10 text-lg pb-10">
+        <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
+          <div className="text-start pv:max-md:w-[100%]">
+            <p className="w-[70%] leading-10 text-lg pb-10 pv:max-md:w-[100%]">
               With Mambu’s{" "}
               <a className="text-secondary1 cursor-pointer underline">
                 cloud banking platform{" "}
@@ -54,19 +54,19 @@ const Composable = () => {
               <p className="text-white font-bold">Get in touch</p>
             </button>
           </div>
-          <div className="md:max-xl:w-[90%] mx-auto">
+          <div className="md:max-xl:w-[90%] mx-auto pv:max-md:w-[90%]">
             <img
-              className="hover:grayscale-50 cursor-zoom-in filter visible"
+              className=""
               src="https://cdn.sanity.io/images/0k2k2bbv/production/d25c549483b4955c7011ec6156810e11563b1142-1200x1197.png?w=800&q=75&fit=max&auto=format"
             ></img>
           </div>
         </div>
       </div>
-      <div className="w-[70%] mx-auto py-20  md:max-xl:w-[90%] ">
-        <p className="text-5xl font-bold text-start py-10">
+      <div className="w-[70%] mx-auto py-20  md:max-xl:w-[90%] pvmax:max-md:w-[90%] ">
+        <p className="text-5xl font-bold text-start py-10 pvmax:max-md:w-[100%]">
           What’s composability?
         </p>
-        <p className="text-start w-[60%] leading-9 md:max-xl:w-[100%] ">
+        <p className="text-start w-[60%] leading-9 md:max-xl:w-[100%] pvmax:max-md:w-[100%] ">
           Composability is a system design principle that deals with the
           inter-relationships of components. A highly composable system provides
           components that can be selected and assembled in various combinations
@@ -87,7 +87,7 @@ const Composable = () => {
           clear and transparent SaaS pricing model.
         </p>
       </div>
-      <div className=" h-[700px] rounded-2xl  w-[70%] mx-auto py-10  md:max-xl:w-[90%]">
+      <div className=" h-[700px] rounded-2xl  w-[70%] mx-auto py-10  md:max-xl:w-[90%] pvmax:max-md:w-[90%] sm:max-md:h-[500px] pvmax:max-sm:h-[400px]  md:max-xl:h-[500px]">
         <ReactPlayer
           url={"https://www.youtube.com/watch?v=g_c6Wm4XYjo"}
           controls
@@ -95,9 +95,9 @@ const Composable = () => {
           height="100%"
         />
       </div>
-      <div className=" grid grid-cols-2  mx-auto w-[70%] py-20  md:max-xl:w-[90%]  md:max-xl:grid-cols-1">
+      <div className=" grid grid-cols-2  mx-auto w-[70%] py-20  md:max-xl:w-[90%] pvmax:max-md:w-[90%]  md:max-xl:grid-cols-1 pvmax:max-md:grid-cols-1">
         <div className="text-start ">
-          <p className="w-[70%] leading-10 text-lg pb-10">
+          <p className="w-[70%] leading-10 text-lg pb-10 md:max-xl:w-[100%] pvmax:max-md:w-[100%]  ">
             With Mambu’s{" "}
             <a className="text-secondary1 cursor-pointer underline">
               cloud banking platform{" "}
@@ -113,7 +113,7 @@ const Composable = () => {
             <p className="text-white font-bold">Contact us</p>
           </button>
         </div>
-        <div className="py-4">
+        <div className="py-4 pvmax:max-md:w-[90%] md:max-xl:w-[90%] mx-auto">
           <img
             className=""
             src="https://cdn.sanity.io/images/0k2k2bbv/production/51d9c38987d93697db4d4fc8e3c8436458e96c7f-1200x800.jpg?w=800&h=533&q=75&fit=max&auto=format"
@@ -121,11 +121,11 @@ const Composable = () => {
         </div>
       </div>
 
-      <div className="mx-auto w-[70%]  md:max-xl:w-[90%]">
-        <p className="text-5xl font-bold text-start py-10">
+      <div className="mx-auto w-[70%]  md:max-xl:w-[90%] pvmax:max-md:w-[90%]">
+        <p className="text-4xl font-bold text-start py-10 pvmax:max-md:w-[100%]">
           The cornerstones of composability
         </p>
-        <div className="grid grid-cols-2 gap-10 pt-10 pb-32  md:max-xl:grid-cols-2">
+        <div className="grid grid-cols-2 gap-10 pt-10 pb-32  md:max-xl:grid-cols-2 pvmax:max-md:grid-cols-1">
           {dataCornerStone.map((item, index) => {
             return (
               <>
@@ -140,7 +140,8 @@ const Composable = () => {
           })}
         </div>
       </div>
-      <div className=" h-[700px] rounded-2xl  w-[70%] mx-auto py-10  md:max-xl:w-[90%]">
+
+      <div className=" h-[700px] rounded-2xl  w-[70%] mx-auto py-10  md:max-xl:w-[90%] pvmax:max-md:w-[90%] sm:max-md:h-[500px] pvmax:max-sm:h-[400px]  md:max-xl:h-[500px]">
         <ReactPlayer
           url={"https://www.youtube.com/watch?v=g_c6Wm4XYjo"}
           controls
@@ -150,9 +151,11 @@ const Composable = () => {
       </div>
       {/* Start Section Read our guides */}
 
-      <div className="py-20 mx-auto w-[70%] md:max-xl:w-[90%]">
-        <p className="text-5xl font-bold text-start py-10">Read our guides</p>
-        <div className="grid grid-cols-2 gap-20 md:max-xl:grid-cols-2">
+      <div className="py-20 mx-auto w-[70%] md:max-xl:w-[90%] pvmax:max-md:w-[90%] ">
+        <p className="text-5xl font-bold text-start py-10 md:max-xl:w-[100%]">
+          Read our guides
+        </p>
+        <div className="grid grid-cols-2 gap-20 md:max-xl:grid-cols-2 pvmax:max-md:grid-cols-1 ">
           {dataRAG.map((item, index) => {
             return (
               <CardRAG
@@ -170,9 +173,9 @@ const Composable = () => {
 
       {/* Start Section  Quotations */}
       <div className="  w-[100vw] bg-gradient-to-r from-[#37a95b] to-[#0a565b] py-20 ">
-        <div className="mx-auto w-[70%] md:max-xl:w-[90%]">
+        <div className="mx-auto w-[70%] md:max-xl:w-[90%] pvmax:max-md:w-[90%]">
           <div className=" w-[100%] mx-auto flex flex-col">
-            <p className="text-white font-bold text-4xl text-start leading-loose">
+            <p className="text-white font-bold text-4xl text-start leading-loose pvmax:max-md:text-3xl">
               "We’ve selected Mambu’s composable platform to build Vietnam’s
               first digital only bank as it is fully scalable, allowing us to
               grow quickly and respond with agility to customer needs as they
@@ -180,7 +183,7 @@ const Composable = () => {
               we can design it to meet our specific requirements."
             </p>
           </div>
-          <div className="flex justify-end py-20">
+          <div className="flex justify-end py-20 ">
             <img
               className="w-[100px] "
               src="https://mambu.com/_ipx/w_1920,q_75/https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0k2k2bbv%2Fproduction%2F9e673b1fc643ccf6b0718b927d21caa61ef323a0-201x67.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0k2k2bbv%2Fproduction%2F9e673b1fc643ccf6b0718b927d21caa61ef323a0-201x67.png&w=1920&q=75"
@@ -190,8 +193,8 @@ const Composable = () => {
       </div>
       {/* End Section  Quotations */}
 
-      <div className=" grid grid-cols-2  mx-auto w-[70%] py-20 md:max-xl:grid-cols-1">
-        <div className="w-[80%] mx-auto">
+      <div className=" grid grid-cols-2  mx-auto w-[70%] py-20 md:max-xl:grid-cols-1 pvmax:max-md:grid-cols-1">
+        <div className="w-[80%] mx-auto pvmax:max-md:w-[100%]">
           <p className="text-start">
             Mambu gives you a composable technology foundation to enable a new
             agile-first operating model for your business:
@@ -221,9 +224,11 @@ const Composable = () => {
 
       {/* Start Section Customer stories */}
 
-      <div className="py-20 mx-auto w-[70%] md:max-xl:w-[90%]">
-        <p className="text-5xl font-bold text-start">Customer stories</p>
-        <div className="grid grid-cols-2 gap-20 py-20 md:max-xl:grid-cols-1">
+      <div className="py-20 mx-auto w-[70%] md:max-xl:w-[90%] pvmax:max-md:w-[90%]">
+        <p className="text-5xl font-bold text-start pvmax:max-md:w-[100%]">
+          Customer stories
+        </p>
+        <div className="grid grid-cols-2 gap-20 py-20 md:max-lg:grid-cols-1 pvmax:max-md:grid-cols-1">
           {dataCustomerstories.map((item, index) => {
             return (
               <CardCusStories
@@ -236,22 +241,8 @@ const Composable = () => {
           })}
         </div>
       </div>
-      {/* End Section Customer stories */}
-      {/* <div className="w-[70%] mx-auto  grid grid-cols-3 gap-16 mb-10 sm:max-xl:grid-cols-2 sm:max-xl:w-[95%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[80%] ">
-        {dataInsights.map((item, index) => {
-          return (
-            <CardFeatured
-              key={item.key}
-              img={item.img}
-              tags={item.tags}
-              desTime={item.desTime}
-              title={item.title}
-              descrption={item.descrption}
-            />
-          );
-        })}
-      </div> */}
-      <div className="w-[70%] mx-auto py-20 md:max-xl:w-[90%] ">
+
+      <div className="w-[90%] mx-auto py-20 md:max-xl:w-[90%] pvmax:max-md:w-[100%] ">
         <Swiper
           breakpoints={{
             0: {
@@ -270,13 +261,13 @@ const Composable = () => {
               slidesPerView: 1,
             },
             768: {
-              slidesPerView: 1,
+              slidesPerView: 2,
             },
             1024: {
               slidesPerView: 2,
             },
             1280: {
-              slidesPerView: 2,
+              slidesPerView: 3,
             },
             1440: {
               slidesPerView: 3,
