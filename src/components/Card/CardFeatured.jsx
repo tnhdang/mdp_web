@@ -4,7 +4,7 @@ import React from "react";
 
 const CardFeatured = ({ img, tags, desTime, title, descrption }) => {
   return (
-    <div className="bg-[#fafafa] shadow-md shadow-gray-600 rounded-xl cursor-pointer hover:-translate-y-2 duration-300">
+    <div className="bg-[#fafafa]  rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 duration-300">
       <div className="relative rounded-t-xl">
         <img
           className=" w-full rounded-t-xl object-cover h-[300px]"
@@ -20,7 +20,7 @@ const CardFeatured = ({ img, tags, desTime, title, descrption }) => {
           <p className="text-lg text-gray-500 text-start">{desTime}</p>
         </div>
         <div className="py-2">
-          <p className="text-start text-xl font-bold line-clamp-2">{title}</p>
+          <p className="text-start text-xl font-bold line-clamp-1">{title}</p>
         </div>
         <div className="pb-6">
           <p className="text-start line-clamp-4 text-lg">{descrption}</p>

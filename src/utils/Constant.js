@@ -9,7 +9,7 @@ export const path = {
   MULTICLOUD: "multicloud-approach",
   SOLUTIONS_DEPOSITS: "/solutions/deposits",
   SOLUTIONS_LENDING: "/solutions/lending",
-  SOLUTIONS_BUSINESS_LENDING: "/solutions/business-lending",
+  PROCESS_ORCHESTRATOR: "process-orchestrator",
 };
 
 export const ScrollToTop = () => {
