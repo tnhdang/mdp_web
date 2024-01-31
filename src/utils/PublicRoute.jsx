@@ -1,7 +1,7 @@
 /** @format */
 
 // import { HomePage } from "../pages/HomePage/HomePage";
-import { HomePage, OurPlatform } from "../pages";
+import { BusinessLending, HomePage, OurPlatform } from "../pages";
 
 import Lending from "../pages/Solutions/Lending/Lending";
 import { path } from "./Constant";
@@ -14,7 +14,7 @@ const routes = [
     main: () => <HomePage />,
   },
   {
-    path: "/lending",
+    path: path.LENDING,
     exact: true,
     component: <Lending />,
     main: () => <Lending />,
@@ -25,6 +25,12 @@ const routes = [
     component: <OurPlatform />,
     main: () => <OurPlatform />,
   },
+  {
+    path: path.BUSINESSLENDING,
+    exact: true,
+    component: <BusinessLending />,
+    main: () => <BusinessLending />,
+  }
 ];
 
 export default routes;

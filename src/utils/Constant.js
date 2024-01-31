@@ -5,6 +5,8 @@ import { useEffect } from "react";
 export const path = {
   HOME: "/",
   OURPLATFORM: "our-platform",
+  LENDING: "lending",
+  BUSINESSLENDING: "business-lending",
 };
 
 export const ScrollToTop = () => {
