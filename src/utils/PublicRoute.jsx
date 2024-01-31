@@ -1,7 +1,13 @@
 /** @format */
 
 // import { HomePage } from "../pages/HomePage/HomePage";
-import { HomePage, OurPlatform, Composable, MultiCloud } from "../pages";
+import {
+  HomePage,
+  OurPlatform,
+  Composable,
+  MultiCloud,
+  ProcessOrchesTrator,
+} from "../pages";
 import { Deposits } from "../pages";
 import Lending from "../pages/Solutions/Lending/Lending";
 import { path } from "./Constant";
@@ -42,6 +48,12 @@ const routes = [
     exact: true,
     component: <Deposits />,
     main: () => <Deposits />,
+  },
+  {
+    path: path.PROCESS_ORCHESTRATOR,
+    exact: true,
+    component: <ProcessOrchesTrator />,
+    main: () => <ProcessOrchesTrator />,
   },
 ];
 
