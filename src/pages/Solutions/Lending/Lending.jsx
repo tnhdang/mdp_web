@@ -22,10 +22,8 @@ import img19 from "../../../assets/Lending/19.png";
 import img20 from "../../../assets/Lending/20.png";
 import img21 from "../../../assets/Lending/21.png";
 
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
