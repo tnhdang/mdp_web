@@ -1,9 +1,8 @@
 /** @format */
 
 // import { HomePage } from "../pages/HomePage/HomePage";
-import { HomePage, OurPlatform, Composable, MultiCloud } from "../pages";
-import { Deposits } from "../pages";
-import Lending from "../pages/Solutions/Lending/Lending";
+import { HomePage, OurPlatform, Composable, MultiCloud, BusinessLending } from "../pages";
+import { Deposits, Lending } from "../pages";
 import { path } from "./Constant";
 
 const routes = [
@@ -18,6 +17,12 @@ const routes = [
     exact: true,
     component: <Lending />,
     main: () => <Lending />,
+  },
+  {
+    path: path.SOLUTIONS_BUSINESS_LENDING,
+    exact: true,
+    component: <BusinessLending />,
+    main: () => <BusinessLending />,
   },
   {
     path: path.OURPLATFORM,

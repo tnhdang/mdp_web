@@ -26,7 +26,7 @@ import img21 from "../../../assets/Lending/21.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import {  Navigation,Pagination } from 'swiper/modules';
 
 
 
