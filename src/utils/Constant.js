@@ -6,6 +6,7 @@ export const path = {
   HOME: "/",
   OURPLATFORM: "our-platform",
   COMPOSABLE: "composable-approach",
+  MULTICLOUD: "multicloud-approach",
 };
 
 export const ScrollToTop = () => {

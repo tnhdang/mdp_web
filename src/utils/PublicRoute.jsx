@@ -1,7 +1,7 @@
 /** @format */
 
 // import { HomePage } from "../pages/HomePage/HomePage";
-import { HomePage, OurPlatform, Composable } from "../pages";
+import { HomePage, OurPlatform, Composable, MultiCloud } from "../pages";
 
 import Lending from "../pages/Solutions/Lending/Lending";
 import { path } from "./Constant";
@@ -30,6 +30,12 @@ const routes = [
     exact: true,
     component: <Composable />,
     main: () => <Composable />,
+  },
+  {
+    path: path.MULTICLOUD,
+    exact: true,
+    component: <MultiCloud />,
+    main: () => <MultiCloud />,
   },
 ];
 

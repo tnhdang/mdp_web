@@ -6,7 +6,7 @@ import PrivateLayout from "./PrivateLayout";
 import PublicLayout from "./PublicLayout";
 import PublicRoute from "../utils/PublicRoute";
 import PrivateRoute from "../utils/PrivateRoute";
-
+import { BackToTopButton } from "../components";
 const DefaultLayout = (props) => {
   //Routes
   const showContentMenu = (routes) => {
@@ -38,6 +38,7 @@ const DefaultLayout = (props) => {
           {showContentMenu(PrivateRoute)}
         </Route>
       </Routes>
+      <BackToTopButton />
     </>
   );
 };
