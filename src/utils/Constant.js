@@ -7,6 +7,8 @@ export const path = {
   OURPLATFORM: "our-platform",
   COMPOSABLE: "composable-approach",
   MULTICLOUD: "multicloud-approach",
+  SOLUTIONS_DEPOSITS: "/solutions/deposits",
+  SOLUTIONS_LENDING: "/solutions/lending",
 };
 
 export const ScrollToTop = () => {
