@@ -9,6 +9,8 @@ export const path = {
   MULTICLOUD: "multicloud-approach",
   SOLUTIONS_DEPOSITS: "/solutions/deposits",
   SOLUTIONS_LENDING: "/solutions/lending",
+  SOLUTION_BUSINESS_LENDING: "/solution/businesslending",
+  SOLUTION_BUSINESS_BANKING: "/solution/businessbanking",
   PROCESS_ORCHESTRATOR: "process-orchestrator",
 };
 

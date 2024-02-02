@@ -9,6 +9,7 @@ import {
   ProcessOrchesTrator,
 } from "../pages";
 import { Deposits } from "../pages";
+import BusinessBanking from "../pages/Solutions/Businessbanking/BusinessBanking";
 import Lending from "../pages/Solutions/Lending/Lending";
 import { path } from "./Constant";
 
@@ -25,6 +26,13 @@ const routes = [
     component: <Lending />,
     main: () => <Lending />,
   },
+  {
+    path: path.SOLUTION_BUSINESS_BANKING,
+    exact: true,
+    component: <BusinessBanking />,
+    main: () => <BusinessBanking />,
+  },
+
   {
     path: path.OURPLATFORM,
     exact: true,

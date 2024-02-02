@@ -372,6 +372,58 @@ const Deposits = () => {
                         </Card>
                     </SwiperSlide>
                 </Swiper>
+
+
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[Pagination]}
+                    className="part14_Deposits_mySwiper-mobile"
+                >
+                    <SwiperSlide>
+                        <Card
+                            hoverable
+                            style={{ width: 240 }}
+                            cover={<img alt="example" src={img19} />}
+                        >
+                            <h3>REPORT - Sep 15, 2021</h3>
+                            <Meta title="Evolve or be extinct" description="Covid-19 has triggered large-scale digital disruption for industries globally. Retail banking is no exception.A report by Financial Times Focus in partnership with Mambu explores what banks need to build stronger,..." />
+                        </Card>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card
+                            hoverable
+                            style={{ width: 240 }}
+                            cover={<img alt="example" src={img20} />}
+                        >
+                            <h3>ARTICLE - Jan 21, 2022</h3>
+                            <Meta title="Why Mambu's customers are 32% more likely to scale " description="Our Advisory team explains how cloud-native infrastructure, composable platforms, configurable products, and low upfront investments are paramount to unlocking value and scale faster, cheaper, and with a better customer experience...." />
+                        </Card>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card
+                            hoverable
+                            style={{ width: 240 }}
+                            cover={<img alt="example" src={img21} />}
+                        >
+                            <h3>ARTICLE- Jan 28, 2022</h3>
+                            <Meta title="Portrait of a techcelerator" description="Get behind these tech-savvy consumers who manage their money online, having increasingly adopted digital banking services during the pandemic." />
+                        </Card>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Card
+                            hoverable
+                            style={{ width: 240 }}
+                            cover={<img alt="example" src={img22} />}
+                        >
+                            <h3>ARTICLE- Nov 12, 2021</h3>
+                            <Meta title="What’s your banking tribe? " description="The one-size-fits-all segmentation model, in which customers are divided up based on how much they earn, has become obsolete with the rise of open banking. It’s time for banks to..." />
+                        </Card>
+                    </SwiperSlide>
+                </Swiper>
             </div>
 
             {/* Part 15 */}
