@@ -1,0 +1,611 @@
+.part1_Deposits{
+    background-image: linear-gradient(to right,#02C5B0, #6D29AA);
+    height: 60vh;
+    color: white;
+    font-size: 5rem;
+    text-align: left;
+    font-weight: 700; 
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.part2_Deposits{
+    width: 100%;
+    text-align: left;
+    padding: 2rem 0 0 10rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.part2_Deposits .anticon svg{
+    width: 3rem;
+}
+
+.part2_Deposits_main{
+    color: cornflowerblue;
+}
+
+.part3_Deposits{
+    width: 70vw;
+    padding: 8rem 0 8rem 10rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.part4_Deposits{
+    width: 100vw;
+    height: 80vh;
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(235, 239, 240) 100%);
+}
+
+.part4_Deposits_content,
+.part11_Deposits_content{
+    padding: 0 3rem 0 9rem;
+}
+
+.part4_Deposits_content_text,
+.part11_Deposits_content_text{
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 0 4rem 0 0;
+}
+
+.part4_Deposits_content_text p,
+.part11_Deposits_content_text p{
+    font-size: 1.2rem;
+}
+
+.part4_Deposits_content_text button{
+    background-color: #4FB645;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 3rem;
+    letter-spacing: 1.5px;
+    margin: 5rem 0;
+    font-size: 1.5rem;
+}
+
+.part4_Deposits_content_img{
+    padding: 0 8rem 0 2rem;
+}
+
+.part5_Deposits{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: linear-gradient(0deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+}
+
+/* .part5_Deposits .part5_Deposits_bg{
+    width: 100%;
+    height: fit-content;
+
+} */
+
+.part5_Deposits .part5_Deposits_content{
+    padding: 5rem 0 5rem 10rem;
+    text-align: left;
+}
+
+.part5_Deposits_content img{
+    width: 60rem;
+}
+
+.part5_Deposits_content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 23rem 5rem 0;
+}
+
+.part5_Deposits_content p{
+    font-size: 1.5rem;
+    padding: 0 10rem 5rem 0;
+}
+
+.part6_Deposits{
+    width: 100vw;
+    height: 20rem;
+    background-image: url("../../../assets/Deposits/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part6_Deposits img{
+    width: 100%;
+    height: 25rem;
+
+}
+
+.part6_Deposits h1{
+
+    font: 3.5rem sans-serif;
+    font-weight: 600;
+    padding: 5rem 5rem 0 5rem;
+}
+
+.part7_Deposits{
+    height: fit-content;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+    padding: 5rem 10rem;
+    text-align: left;
+}
+
+.part7_Deposits h2,
+.part8_Deposits h2,
+.part12_Deposits h2,
+.part13_Deposits h2{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 5rem;
+}
+
+.part7_Deposits_content_card div{
+    background-color: white;
+    padding: 3rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.068) 10px 10px 10px;
+}
+
+.part8_Deposits_content_card div,
+.part12_Deposits_content_card div,
+.part13_Deposits_content_card div{
+    background-color: white;
+    padding: 3rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.068) 10px 10px 10px;
+}
+
+.part7_Deposits_content_card h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.part8_Deposits_content_card h3,
+.part12_Deposits_content_card h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.part7_Deposits_content_card p{
+    font-size: 1.2rem;
+    padding:  2rem 0;
+}
+
+.part7_Deposits_content_card a{
+    font-size: 1.2rem;
+    color: mediumseagreen;
+}
+
+
+.part8_Deposits_content_card p,
+.part12_Deposits_content_card p,
+.part13_Deposits_content_card p{
+    font-size: 1.2rem;
+    padding:  3rem 0;
+}
+
+
+.part8_Deposits_content_card a,
+.part13_Deposits_content_card a{
+    font-size: 1.5rem;
+    color: mediumseagreen;
+}
+
+.part8_Deposits,
+.part12_Deposits{
+    height: fit-content;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+    padding: 5rem 10rem;
+    text-align: left;
+}
+.part8_Deposits_content_card div,
+.part7_Deposits_content_card div,
+.part13_Deposits_content_card div{
+    height: 30rem;
+}
+
+.part9_Deposits{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #068f06 0%, #0e8db8  100%);
+    padding: 2rem;
+}
+
+.part9_Deposits h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 5rem 10rem 0 10rem;
+    color: white;
+    text-align: left;
+}
+
+.part9_Deposits_cre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2rem 15rem 0 0;
+}
+
+.part9_Deposits_cre img{
+    width: 5rem;
+}
+
+
+.part11_Deposits{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(235, 239, 240) 100%);
+}
+
+.part11_Deposits_content_text h2{
+
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    font-weight: 600;
+}
+
+.part11_Deposits_content_text{
+    padding: 5rem 4rem 0 0;
+}
+
+.part11_Deposits_content_img{
+    padding: 10rem 5rem 0 5rem;
+}
+
+.part12_Deposits{
+    background: linear-gradient(0deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+}
+
+.part12_Deposits_content_card div{
+    height: 35rem;
+}
+
+.part13_Deposits{
+    height: fit-content;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+    padding: 5rem 10rem;
+    text-align: left;
+}
+
+.part13_Deposits_content_card h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.part14_Deposits{
+    background: linear-gradient(0deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+    padding: 10rem 0;
+}
+
+.part14_Deposits_mySwiper-mobile{
+    display: none;
+}
+
+.part14_Deposits h2{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 12rem;
+}
+
+.part14_Deposits_mySwiper-pc{
+    padding: 5rem 10rem;
+}
+
+.part14_Deposits_mySwiper-pc .swiper-slide{
+    width: 35rem !important;
+}
+
+.part14_Deposits_mySwiper-pc .ant-card{
+    width: 30rem !important;
+    height: 45rem !important;
+    text-align: left;
+}
+
+.part14_Deposits_mySwiper-pc h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #00000073;
+}
+
+.part14_Deposits_mySwiper-pc .ant-card-meta-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.part14_Deposits_mySwiper-pc .ant-card-meta-description{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.part15_Deposits{
+
+    height: 30rem;
+    width: 100vw;
+    background: linear-gradient(to right, #068f06 0%, #0e8db8  100%);
+    padding: 5rem;
+
+}
+
+.part15_Deposits h1{
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 2rem 0 0 5rem;
+    color: white;
+    text-align: left;
+}
+
+.part15_Deposits .button {
+    flex: 0 0 40% !important;
+}
+
+.part15_Deposits button {
+    background-color: #4FB645;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) and (min-width: 0px) {
+
+    .part1_Deposits {
+    
+        height: 20vh;
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+
+    .part2_Deposits {
+        padding: 1rem 0 0 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .part3_Deposits {
+        width: 100vw;
+        padding: 3rem 0 3rem 2rem;
+        font-size: 1rem;
+    }
+
+    .part4_Deposits {
+        height: 60vh;
+    }
+
+    .part4_Deposits_content, .part11_Deposits_content {
+        padding: 0 3rem 0 2rem;
+    }
+
+    .part4_Deposits_content_text, 
+    .part11_Deposits_content_text {
+        padding: 0;
+    }
+
+    .part4_Deposits_content_text p, .part11_Deposits_content_text p {
+        font-size: 1rem;
+    }
+
+    .part4_Deposits_content_text button {
+        background-color: #4FB645;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 3rem;
+        letter-spacing: 1.5px;
+        margin: 3rem 0;
+        font-size: 1.2rem;
+    }
+
+    .part4_Deposits_content_img {
+        padding: 0;
+    }
+
+    .part5_Deposits .part5_Deposits_content {
+        padding: 5rem 0 0rem 3rem;
+    }
+
+    .part5_Deposits_content h2 {
+        font-size: 1.5rem;
+        padding: 0 0rem 3rem 0;
+    }
+
+    .part5_Deposits_content p {
+        font-size: 1.2rem;
+        padding: 0 3rem 3rem 0;
+    }
+
+    .part5_Deposits_content img {
+        width: 21rem;
+    }
+
+    .part6_Deposits {
+        height: 7rem;
+    }
+
+    .part6_Deposits h1 {
+        font: 1.5rem sans-serif;
+        font-weight: 600;
+        padding: 2rem 1rem 0 2rem;
+    }
+
+    .part7_Deposits {
+        padding: 3rem 2rem;
+    }
+
+    .part7_Deposits h2, .part8_Deposits h2, .part12_Deposits h2, .part13_Deposits h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 3rem;
+    }
+
+    .part8_Deposits_content_card div, .part7_Deposits_content_card div, .part13_Deposits_content_card div {
+        height: 20rem;
+    }
+
+    .part7_Deposits_content_card h3, .part8_Deposits_content_card h3, .part12_Deposits_content_card h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .part7_Deposits_content_card p, .part8_Deposits_content_card p, .part12_Deposits_content_card p, .part13_Deposits_content_card p {
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+
+    .part7_Deposits_content_card a, .part8_Deposits_content_card a, .part13_Deposits_content_card a {
+        font-size: 1rem;
+        color: mediumseagreen;
+    }
+
+    .part8_Deposits, .part12_Deposits {
+        height: -moz-fit-content;
+        height: fit-content;
+        width: 100vw;
+        background: linear-gradient(180deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+        padding: 1rem 3rem 4rem 3rem;
+        text-align: left;
+    }
+
+    .part8_Deposits_content_card div{
+        background-color: white;
+        padding: 1rem 3rem;
+        box-shadow: rgba(0, 0, 0, 0.068) 10px 10px 10px;
+    }
+
+    .part8_Deposits img{
+        max-width: 50% !important;
+        height: auto;
+    }
+
+    .part9_Deposits {
+        height: 52vh;
+        padding: 0rem;
+    }
+
+    .part9_Deposits h1 {
+        font-size: 1.5rem;
+        padding: 3rem 2rem 0 3rem;
+    }
+
+    .part9_Deposits_cre {
+        padding: 2rem;
+    }
+
+    .part9_Deposits_cre img {
+        width: 5rem;
+    }
+
+    .part11_Deposits_content_img {
+        padding: 3rem 3rem 0 3rem;
+    }
+
+    .part11_Deposits {
+        width: 100vw;
+        height: 65vh;
+        background: linear-gradient(rgb(255, 255, 255) 0%, rgb(235, 239, 240) 100%);
+    }
+
+    .part12_Deposits {
+        background: linear-gradient(0deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+    }
+
+    .part12_Deposits_content_card div {
+        height: 25rem;
+    }
+
+    .part13_Deposits {
+        padding: 0rem 3rem;
+    }
+
+    .part13_Deposits_content_card div {
+        height: 24rem;
+    }
+
+    .part14_Deposits {
+        background: linear-gradient(0deg, rgba(255, 255, 255,1) 0%, rgba(235, 239, 240,1) 100%);
+        padding: 5rem 0;
+    }
+
+    .part14_Deposits_mySwiper-mobile{
+        display: block;
+    }
+
+    .part14_Deposits_mySwiper-pc{
+        display: none;
+    }
+
+    .part14_Deposits h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: left;
+        padding-left: 3rem;
+    }
+
+    .part14_Deposits_mySwiper-mobile {
+        padding: 5rem 1rem;
+    }
+
+    .part14_Deposits_mySwiper-mobile .ant-card {
+        width: 20rem !important;
+        height: 35rem !important;
+        text-align: left;
+    }
+
+    .part14_Deposits_mySwiper-mobile h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #00000073;
+    }
+
+    .part14_Deposits_mySwiper-mobile .ant-card-meta-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .part14_Deposits_mySwiper-mobile .ant-card-meta-description {
+        font-size: 1rem;
+        color: #000;
+    }
+
+    .part14_Deposits_mySwiper-mobile .swiper-slide{
+        width: 23rem !important;
+    }
+
+    .part15_Deposits {
+        padding: 2rem 0;
+        height: 26rem;
+    }
+
+    .part15_Deposits h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        padding: 2rem 1rem 3rem 3rem;
+        color: white;
+        text-align: left;
+    }
+
+    .part15_Deposits .button {
+        flex: 0 0 100% !important;
+    }
+
+    .part15_Deposits button {
+        background-color: #4FB645;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 1.5rem 3rem;
+        border-radius: 3rem;
+    }
+
+
+
+}

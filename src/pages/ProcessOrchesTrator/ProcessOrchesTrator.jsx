@@ -1,23 +1,14 @@
 /** @format */
 
 import React, { useState, useEffect } from "react";
-import {
-  CardDisrupt,
-  CardStatic,
-  CardArticle,
-  CardWhoTransform,
-} from "../../components";
-import {
-  dataDisrupt,
-  dataArticle,
-  dataWhoTransform,
-} from "../../utils/Mockdata";
+import { CardDisrupt, CardArticle } from "../../components";
+import { datanstantconnection, dataArticle_2 } from "../../utils/Mockdata";
 import { Icon } from "@iconify/react";
 import { Dropdown } from "antd";
-const OurPlatform = () => {
-  const [isBreacrumb1, setBreacrumb1] = useState(true);
+const ProcessOrchesTrator = () => {
+  const [isBreacrumb1, setBreacrumb1] = useState(false);
   const [isBreacrumb2, setBreacrumb2] = useState(false);
-  const [isBreacrumb3, setBreacrumb3] = useState(false);
+  const [isBreacrumb3, setBreacrumb3] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
   // get size screen
@@ -75,13 +66,15 @@ const OurPlatform = () => {
   ];
   return (
     <div>
+      {/* Start Section Banner */}
       <div className=" h-[400px] w-[100vw] bg-gradient-to-r from-[#14acbb] to-[#926db6] flex items-center">
         <div className="  w-[70%] mx-auto pvmax:max-lg:w-[90%] ">
           <p className="text-white text-7xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-4xl">
-            Our cloud banking platform
+            Simplified process orchestration
           </p>
         </div>
       </div>
+      {/* End Section Banner */}
 
       {/* Start Section Breacrumb */}
       <div
@@ -129,7 +122,6 @@ const OurPlatform = () => {
           Simplified process orchestration
         </a>
       </div>
-
       <Dropdown
         menu={{
           items,
@@ -158,144 +150,125 @@ const OurPlatform = () => {
           </button>
         </div>
       </Dropdown>
-
       {/* End Section Breacrumb */}
 
       <div className="mx-auto w-[70%] py-20 pvmax:max-lg:w-[90%] ">
         <p className="text-start font-bold text-lg w-[70%] pvmax:max-lg:w-[100%]">
-          Customers want better ways to manage their money. They are looking for
-          choice and convenience, and all this means change. Our cloud banking
-          platform helps make financial change happen. Differentiate,
-          collaborate and breathe new life into services.
+          Build your composable ecosystem your way. Pick and scale service paths
+          and ensure seamless interactions. Mambu Process Orchestrator (MPO)
+          joins the dots, so you can integrate services and deliver great
+          financial experiences at speed.
         </p>
       </div>
-      {/* Start Section technology that delivers more */}
+
+      {/* Start  section Instant Connection */}
       <div className="flex w-[70%] mx-auto py-10 pvmax:max-lg:w-[90%]">
-        <p className="text-5xl font-bold ">Technology that delivers more.</p>
+        <p className="text-5xl font-bold ">
+          Instant connection to the Mambu ecosystem
+        </p>
       </div>
       <div className="grid grid-cols-2 w-[70%] mx-auto py-10 pvmax:max-lg:w-[90%] md:max-lg:grid-cols-1 md:max-lg:w-[90%] pvmax:max-md:grid-cols-1">
         <div className="flex flex-col  ">
           <p className="text-start w-[70%]  ">
-            Mambu is a SaaS, cloud-native, API-driven banking and financial
-            services platform. It is designed to power financial innovation, to
-            bring solutions to market faster, drive down cost barriers and allow
-            ecosystems to expand.
+            MPO provides access to a new world of innovation. Use it to tap into
+            a bank of external services that can be tailored and configured to
+            your customers’ needs.
+          </p>
+          <p className="text-start w-[70%]  ">
+            Leading tech-providers already interface their products or services
+            direct to Mambu’s core banking software as a service (SaaS) engine.
+            Enabling “Integration as a Product”, MPO’s prebuilt connectors
+            (productised integration layers) can link you direct to this
+            ready-made, constantly expanding financial ecosystem.
+          </p>
+          <p className="text-start w-[70%]  ">
+            There’s no need to vet partners, build complex integrations on top
+            of APIs, or worry about hosting. This dramatically reduces time to
+            market for new services, especially during initial implementation.
           </p>
           <div className="flex py-10">
             <button className="py-2 px-4 rounded-2xl bg-secondary1 text-white font-bold hover:bg-black ">
-              <p className="">Join our live demo</p>
+              <p className="">Explore marketplace</p>
             </button>
           </div>
         </div>
-        <div className="bg-white p-4 shadow-lg shadow-gray-400 ">
+        <div className=" p-4  ">
           <img
             className="object-cover"
-            src="https://cdn.sanity.io/images/0k2k2bbv/production/36323a451df58e4a9722f2b993951dcd55b20670-519x411.png?w=800&h=634&q=75&fit=max&auto=format"
+            src="https://cdn.sanity.io/images/0k2k2bbv/production/d25c549483b4955c7011ec6156810e11563b1142-1200x1197.png?w=800&q=75&fit=max&auto=format"
           ></img>
         </div>
       </div>
-      {/* End Section technology that delivers more */}
-
-      {/* Start Section Disrupt  */}
-
-      <div className="w-[70%] mx-auto py-10">
-        <p className="text-5xl font-bold text-start">
-          Disrupt without disruption
-        </p>
-      </div>
-      <div className=" grid grid-cols-2 gap-10 w-[70%] mx-auto md:max-lg:w-[90%] pvmax:max-md:grid-cols-1 pvmax:max-md:w-[90%] pb-10">
-        {dataDisrupt.map((item, index) => {
-          return (
-            <>
-              <CardDisrupt
-                key={item.key}
-                title={item.title}
-                description={item.description}
-                img={item.img}
-                linkprefix={item.linkprefix}
-              />
-            </>
-          );
-        })}
-        <CardStatic
-          title={"Of customers go live within 2 months"}
-          Prefix={"+%"}
-          number={95}
-        />
-        <CardStatic
-          title={"Reduction in operating cost"}
-          Prefix={"+%"}
-          number={70}
-        />
-      </div>
-
-      {/* End Section Disrupt  */}
-
-      {/* Start Section Quotations*/}
-      <div className="  w-[100vw] bg-gradient-to-r from-[#37a95b] to-[#0a565b] py-24 ">
-        <div className="mx-auto w-[70%]">
-          <div className=" w-[100%] mx-auto flex flex-col">
-            <p className="text-white font-bold text-4xl text-start">
-              "Everything that we need is available online, all APIs are already
-              there and it is easy to do integrations."
-            </p>
-          </div>
-          <div className="flex justify-end py-20">
-            <img
-              className="w-[100px] "
-              src="https://mambu.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F0k2k2bbv%2Fproduction%2F12619becaf6e6a7588f412c6fb89ff8e1a7d0194-273x102.png&w=1920&q=75"
-            ></img>
-          </div>
+      <div className="mx-auto w-[70%]  md:max-xl:w-[90%] pvmax:max-md:w-[90%]">
+        <div className="grid grid-cols-2 gap-10 pt-10 pb-32  md:max-xl:grid-cols-2 pvmax:max-md:grid-cols-1">
+          {datanstantconnection.map((item, index) => {
+            return (
+              <>
+                <CardDisrupt
+                  title={item.title}
+                  img={item.img}
+                  description={item.description}
+                  key={index}
+                />
+              </>
+            );
+          })}
         </div>
       </div>
+      {/* End section Instant connection */}
 
-      {/* End Section Quotations*/}
-
-      {/* Start Section Competitors */}
-
+      {/* Start Section Take back control */}
       <div className="flex w-[70%] mx-auto py-20 pvmax:max-md:w-[90%]">
         <p className="text-5xl font-bold text-start w-[70%] pvmax:max-md:w-[100%]">
-          Competitors, markets and behaviours change fast. You must be faster…
-          and better..
+          Take back control
         </p>
       </div>
       <div className="grid grid-cols-2 w-[70%] mx-auto py-10 pvmax:max-md:w-[90%] pvmax:max-md:grid-cols-1">
         <div className="flex flex-col  ">
-          <p className="text-start w-[70%] font-bold">
-            Mambu is a fast, fluid and flexible platform that doesn’t tie you
-            down.
+          <p className="text-start w-[70%] ">
+            Our composable approach fastracks financial services using the rapid
+            and flexible assembly of independent, best-for-purpose systems. It
+            provides the API connections and business process management that
+            bring it all together to power competitive advantage. MPO, as an
+            Integration Platform as a Service (iPaaS) offers ecosystem
+            connectors and pre-built integrations.
           </p>
-          <ul className="list-disc w-[90%] text-start  py-10 pvmax:max-md:mx-auto ">
-            <li className="py-2">
-              Plug-in integrations for simple, streamlined and automated
-              customer journeys
-            </li>
-            <li className="py-2">
-              Configure and integrate instead of coding and customising
-            </li>
-            <li className="py-2">
-              Harness the power of cloud instead of on-prem deployments
-            </li>
-            <li className="py-2">
-              Constantly improve and be nimble, ready for change as it happens
-            </li>
-          </ul>
+
           <div className="flex py-20">
             <button className="py-2 px-4 rounded-2xl bg-secondary1 text-white font-bold hover:bg-black ">
-              <p className="">Read more</p>
+              <p className="">Explore composable</p>
             </button>
           </div>
         </div>
-        <div className="bg-white p-4 shadow-lg shadow-gray-400 ">
+        <div className="p-4 ">
           <img
             className="object-cover"
-            src="https://cdn.sanity.io/images/0k2k2bbv/production/190bf316deb162652c08592c326ce99fbfcbc40f-515x410.png?w=800&h=637&q=75&fit=max&auto=format"
+            src="https://cdn.sanity.io/images/0k2k2bbv/production/2d7d27be15fc66f3d9194d4481b3b4aae0d0b388-1000x600.png?w=800&q=75&fit=max&auto=format"
           ></img>
         </div>
       </div>
+      {/* End Section Take back control */}
 
-      <div className="grid grid-cols-2 mx-auto w-[70%] gap-10 pvmax:max-md:w-[90%] pvmax:max-md:grid-cols-1">
-        {dataArticle.map((item, index) => {
+      {/* Start Section How MPO's */}
+      <div className="flex w-[70%] mx-auto py-10 pvmax:max-lg:w-[90%]">
+        <p className="text-5xl font-bold text-start">
+          How MPO's composable architecture facilitates getting things done
+          faster
+        </p>
+      </div>
+      <div className="mx-auto w-[70%] py-20 pvmax:max-lg:w-[90%] ">
+        <p className="text-start  text-lg w-[70%] pvmax:max-lg:w-[100%]">
+          Mambu Process Orchestrator acts as the middle layer between different
+          business systems, processes and parties, it pulls, pushes and
+          processes data via our cutting-edge, world-proven APIs. Complexity is
+          made easy with a graphical interface that lets you instantly model,
+          create and execute business process management and workflows in the
+          cloud.
+        </p>
+      </div>
+
+      <div className="grid grid-cols-2 mx-auto w-[70%] gap-10 pvmax:max-md:w-[90%] pvmax:max-md:grid-cols-1 pb-20">
+        {dataArticle_2.map((item, index) => {
           return (
             <>
               <CardArticle
@@ -308,40 +281,23 @@ const OurPlatform = () => {
         })}
         <div className="">
           <p class=" text-start font-bold text-8xl  pvmax:max-md:text-5xl bg-gradient-to-r  from-[#7878ff]  to-[#6e2aac] text-transparent bg-clip-text h-[200px]">
-            Say yes to Mambu.
+            Build your ecosystem your way.
           </p>
         </div>
       </div>
       {/* End Section Competitors */}
 
-      {/* Start Section Who we transform  */}
-      <div className=" mx-auto w-[70%] pt-36 pvmax:max-md:w-[90%] ">
-        <p className="text-start text-5xl font-bold">Who we transform</p>
-      </div>
-
-      <div className=" grid grid-cols-2 gap-10 w-[70%] mx-auto py-20 pvmax:max-md:w-[90%] pvmax:max-md:grid-cols-1">
-        {dataWhoTransform.map((item, index) => {
-          return (
-            <>
-              <CardWhoTransform
-                key={item.key}
-                title={item.title}
-                description={item.description}
-              />
-            </>
-          );
-        })}
-      </div>
-      {/* End Section Who we transform  */}
-
       {/* Start Section Ready Contact */}
 
       <div className="  w-[100vw] bg-gradient-to-r from-[#37a95b] to-[#0a565b] py-24 flex flex-col items-center gap-10 ">
+        <p className="text-white">
+          Discover the future of developing true SaaS banking services
+        </p>
         <p className="text-white font-bold text-8xl text-start mx-auto pvmax:max-md:text-5xl pvmax:max-md:text-center ">
-          Ready to get started?
+          Eager to build?
         </p>
         <button className="bg-white text-black font-bold px-4 py-2 rounded-lg hover:bg-black hover:text-white">
-          <p className="">Contact us</p>
+          <p className="">Get in touch</p>
         </button>
       </div>
       {/* End Section Ready Contact */}
@@ -349,4 +305,4 @@ const OurPlatform = () => {
   );
 };
 
-export default OurPlatform;
+export default ProcessOrchesTrator;

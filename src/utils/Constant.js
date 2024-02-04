@@ -5,6 +5,15 @@ import { useEffect } from "react";
 export const path = {
   HOME: "/",
   OURPLATFORM: "our-platform",
+  LENDING: "lending",
+  BUSINESSLENDING: "business-lending",
+  COMPOSABLE: "composable-approach",
+  MULTICLOUD: "multicloud-approach",
+  SOLUTIONS_DEPOSITS: "/solutions/deposits",
+  SOLUTIONS_LENDING: "/solutions/lending",
+  SOLUTION_BUSINESS_LENDING: "/solution/businesslending",
+  SOLUTION_BUSINESS_BANKING: "/solution/businessbanking",
+  PROCESS_ORCHESTRATOR: "process-orchestrator",
 };
 
 export const ScrollToTop = () => {
