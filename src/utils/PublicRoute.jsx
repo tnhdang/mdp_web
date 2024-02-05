@@ -5,7 +5,9 @@ import { HomePage,
   Composable,
   MultiCloud,
   ProcessOrchesTrator,
+  BusinessLending
 } from "../pages";
+
 import { Deposits } from "../pages";
 import BusinessBanking from "../pages/Solutions/Businessbanking/BusinessBanking";
 
