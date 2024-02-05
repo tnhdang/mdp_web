@@ -1,6 +1,5 @@
 /** @format */
 
-// import { HomePage } from "../pages/HomePage/HomePage";
 import { HomePage,
   OurPlatform,
   Composable,
