@@ -101,169 +101,44 @@ const Header = () => {
           />
         </Col>
         <Col span={19} className="navbar-pc">
-          <Row justify="center" align="middle" className="header-content">
-            <Col span={3.2} className="whatwedo-hover">
+          <Row gutter={[24, 48]} justify="center" align="middle" className="header-content">
+            <Col span={3.4} className="whatwedo-hover">
               <div className="dropdown dropdown-whatwedo">
                 <h2 className="title dropbtn">
-                  What we do <DownOutlined className="downicon-whatwedo" />
-                  <UpOutlined className="upicon-whatwedo upicon" />
+                  Services
                 </h2>
-                <div className="dropdown-content dropdown-content-whatwedo">
-                  <Row justify="center" align="top">
-                    {WhatWeDo.map((item, index) => {
-                      return (
-                        <Col span={8}>
-                          <a className="subtittle">{item.label}</a>
-                          {item.list.map((subitem, subindex) => {
-                            return (
-                              <Row justify="center" align="top">
-                                <a>{subitem.label}</a>
-                              </Row>
-                            );
-                          })}
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                </div>
               </div>
             </Col>
-            <Col span={3.2} className="solutions-hover">
+            <Col span={3.4} className="solutions-hover">
               <div className="dropdown dropdown-solutions">
                 <h2 className="title dropbtn">
-                  Solutions
-                  <DownOutlined className="downicon-solutions" />
-                  <UpOutlined className="upicon upicon-solutions" />
+                  Use Cases
                 </h2>
-                <div className="dropdown-content dropdown-content-solutions">
-                  <Row justify="center" align="top">
-                    {Solutions.map((item, index) => {
-                      return (
-                        <Col span={8}>
-                          <a className="subtittle">{item.label}</a>
-                          {item.list.map((subitem, subindex) => {
-                            return (
-                              <Row justify="center" align="top">
-                                <a>{subitem.label}</a>
-                              </Row>
-                            );
-                          })}
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                </div>
               </div>
             </Col>
-            <Col span={3.2} className="customers-hover">
+            <Col span={3.4} className="customers-hover">
               <div className="dropdown dropdown-customers">
                 <h2 className="title dropbtn">
-                  Customers
-                  <DownOutlined className="downicon-customers" />
-                  <UpOutlined className="upicon upicon-customers" />
+                BaaS
                 </h2>
-                <div className="dropdown-content dropdown-content-customers">
-                  <Row justify="center" align="top">
-                    {Customers.map((item, index) => {
-                      return (
-                        <Col span={12}>
-                          <a className="subtittle">{item.label}</a>
-                          {item.list.map((subitem, subindex) => {
-                            return (
-                              <Row justify="center" align="top">
-                                <a>{subitem.label}</a>
-                              </Row>
-                            );
-                          })}
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                </div>
               </div>
             </Col>
-            <Col span={3.2} className="partners-hover">
+            <Col span={3.4} className="partners-hover">
               <div className="dropdown dropdown-partners">
                 <h2 className="title dropbtn">
                   Partners
-                  <DownOutlined className="downicon-partners" />
-                  <UpOutlined className="upicon upicon-partners" />
                 </h2>
-                <div className="dropdown-content dropdown-content-partners">
-                  <Row justify="center" align="top">
-                    {Partners.map((item, index) => {
-                      return (
-                        <Col span={12}>
-                          <a className="subtittle">{item.label}</a>
-                          {item.list.map((subitem, subindex) => {
-                            return (
-                              <Row justify="center" align="top">
-                                <a>{subitem.label}</a>
-                              </Row>
-                            );
-                          })}
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                </div>
               </div>
             </Col>
-            <Col span={3.2} className="company-hover">
+            <Col span={3.4} className="company-hover">
               <div className="dropdown dropdown-company">
                 <h2 className="title dropbtn">
                   Company
-                  <DownOutlined className="downicon-company" />
-                  <UpOutlined className="upicon upicon-company" />
                 </h2>
-                <div className="dropdown-content dropdown-content-company">
-                  <Row justify="center" align="top">
-                    {Company.map((item, index) => {
-                      return (
-                        <Col span={8}>
-                          <a className="subtittle">{item.label}</a>
-                          {item.list.map((subitem, subindex) => {
-                            return (
-                              <Row justify="center" align="top">
-                                <a>{subitem.label}</a>
-                              </Row>
-                            );
-                          })}
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                </div>
               </div>
             </Col>
-            <Col span={3} className="insights-hover">
-              <div className="dropdown dropdown-insights">
-                <h2 className="title dropbtn">
-                  Insights
-                  <DownOutlined className="downicon-insights" />
-                  <UpOutlined className="upicon-insights upicon" />
-                </h2>
-                <div className="dropdown-content dropdown-content-insights">
-                  <Row justify="center" align="top">
-                    {Insights.map((item, index) => {
-                      return (
-                        <Col span={24}>
-                          <a className="subtittle">{item.label}</a>
-                          {item.list.map((subitem, subindex) => {
-                            return (
-                              <Row justify="center" align="top">
-                                <a>{subitem.label}</a>
-                              </Row>
-                            );
-                          })}
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                </div>
-              </div>
-            </Col>
-            <Col span={3.2}>
+            
+            <Col span={3.4}>
               <button className="contact-btn">Contact us</button>
             </Col>
           </Row>
@@ -287,128 +162,29 @@ const Header = () => {
           onClick={() => onClickNavBar()}
         ></div>
         <div className="dropdown-mobile" style={{ display: visible }}>
-          <h2 className="title dropbtn" onClick={() => onClickNavBarWhatWeDo()}>
-            What we do <DownOutlined className="downicon-whatwedo" />
-            <UpOutlined className="upicon-whatwedo upicon" />
+          <h2 className="title dropbtn" >
+            Services
           </h2>
-          {Customers.map((item, index) => {
-            return (
-              <div style={{ display: visibleWhatWeDo }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="end" align="top">
-                      <a>{subitem.label}</a>
-                    </Row>
-                  );
-                })}
-              </div>
-            );
-          })}
+         
           <h2
             className="title dropbtn"
-            onClick={() => onClickNavBarSolutions()}
           >
-            Solutions
-            <DownOutlined className="downicon-solutions" />
-            <UpOutlined className="upicon upicon-solutions" />
+            Use Cases
           </h2>
-          {Solutions.map((item, index) => {
-            return (
-              <div style={{ display: visibleSolutions }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="end" align="top">
-                      <a>{subitem.label}</a>
-                    </Row>
-                  );
-                })}
-              </div>
-            );
-          })}
 
           <h2
             className="title dropbtn"
-            onClick={() => onClickNavBarCustomers()}
           >
-            Customers
-            <DownOutlined className="downicon-customers" />
-            <UpOutlined className="upicon upicon-customers" />
+            BaaS
           </h2>
-          {Customers.map((item, index) => {
-            return (
-              <div style={{ display: visibleCustomers }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="end" align="top">
-                      <a>{subitem.label}</a>
-                    </Row>
-                  );
-                })}
-              </div>
-            );
-          })}
-          <h2 className="title dropbtn" onClick={() => onClickNavBarPartners()}>
+          <h2 className="title dropbtn">
             Partners
-            <DownOutlined className="downicon-partners" />
-            <UpOutlined className="upicon upicon-partners" />
           </h2>
 
-          {Partners.map((item, index) => {
-            return (
-              <div style={{ display: visiblePartners }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="end" align="top">
-                      <a>{subitem.label}</a>
-                    </Row>
-                  );
-                })}
-              </div>
-            );
-          })}
 
-          <h2 className="title dropbtn" onClick={() => onClickNavBarCompany()}>
+          <h2 className="title dropbtn">
             Company
-            <DownOutlined className="downicon-company" />
-            <UpOutlined className="upicon upicon-company" />
           </h2>
-          {Company.map((item, index) => {
-            return (
-              <div style={{ display: visibleCompany }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="end" align="top">
-                      <a>{subitem.label}</a>
-                    </Row>
-                  );
-                })}
-              </div>
-            );
-          })}
-          <h2 className="title dropbtn" onClick={() => onClickNavBarInsights()}>
-            Insights
-            <DownOutlined className="downicon-insights" />
-            <UpOutlined className="upicon-insights upicon" />
-          </h2>
-          {Insights.map((item, index) => {
-            return (
-              <div style={{ display: visibleInsights }}>
-                <a className="subtittle">{item.label}</a>
-                {item.list.map((subitem, subindex) => {
-                  return (
-                    <Row justify="end" align="top">
-                      <a>{subitem.label}</a>
-                    </Row>
-                  );
-                })}
-              </div>
-            );
-          })}
         </div>
       </Row>
     </>

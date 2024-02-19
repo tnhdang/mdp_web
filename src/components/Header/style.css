@@ -8,7 +8,7 @@ h2,a{
 
 .dropbtn {
   border: none;
-  font-size: 17px;
+  font-size: 20px;
   padding: 17px;
   font-family: inherit !important;
 }
@@ -192,6 +192,14 @@ h2,a{
 
 .header-container-mobile{
   display: none;
+}
+
+.header-content{
+  margin: 0 !important;
+}
+
+.header-content button{
+  margin-left: 2rem;
 }
 
 

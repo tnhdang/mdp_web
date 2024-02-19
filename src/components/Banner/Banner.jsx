@@ -5,7 +5,7 @@ import imageBanner from "../../assets/images/banner.png";
 import "./style.css";
 const Banner = () => {
   return (
-    <div className="pt-2">
+    <div className="pt-2 banner">
       <div className="relative flex gap-2 w-[100%] mx-auto pvmax:max-xl:flex-col ">
         <div className="w-[40%] flex flex-col gap-6 pl-40 justify-center pvmax:max-xl:w-[100%] pvmax:max-xl:items-center pvmax:max-xl:mx-auto pvmax:max-xl:pl-0  ">
           <p className="text-6xl font-bold text-start lg:max-xl:w-[50%] lg:max-xl:mx-auto lg:max-xl:text-center pvmax:max-lg:w-[90%] pvmax:max-lg:mx-auto pvmax:max-lg:text-center ">

@@ -1,29 +1,29 @@
 /** @format */
 
 export const WhatWeDo = [
-  {
-    label: "Technology",
-    list: [
-      {
-        label: "Our Platform",
-      },
-      {
-        label: "Composable approach",
-      },
-      {
-        label: "Multi-cloud approach",
-      },
-      {
-        label: "Process orchestration",
-      },
-      {
-        label: "Configuration as Code",
-      },
-      {
-        label: "Security & compliance",
-      },
-    ],
-  },
+  // {
+  //   label: "Technology",
+  //   list: [
+  //     {
+  //       label: "Our Platform",
+  //     },
+  //     {
+  //       label: "Composable approach",
+  //     },
+  //     {
+  //       label: "Multi-cloud approach",
+  //     },
+  //     {
+  //       label: "Process orchestration",
+  //     },
+  //     {
+  //       label: "Configuration as Code",
+  //     },
+  //     {
+  //       label: "Security & compliance",
+  //     },
+  //   ],
+  // },
   {
     label: "Service",
     list: [

@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
+import "./style.css";
 import {
   SliderBanner,
   CardText,
@@ -19,12 +20,13 @@ const HomePage = () => {
   const [isTab1, setIsTab1] = useState(true);
   const [isTab2, setIsTab2] = useState(false);
   const [isTab3, setIsTab3] = useState(false);
+  
 
   return (
     <>
       <Banner />
       <SliderBanner></SliderBanner>
-      <div className="pt-20">
+      <div className="pt-20 after-slider">
         <CardText></CardText>
       </div>
 
@@ -112,7 +114,8 @@ const HomePage = () => {
       <div className="py-10">
         <p className="text-5xl font-bold">Featured insights</p>
       </div>
-      <div className="w-[70%] mx-auto  grid grid-cols-3 gap-16 mb-10 sm:max-xl:grid-cols-2 sm:max-xl:w-[95%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[80%] ">
+{/* //sfdjshflohf */}
+      <div className="w-[70%] mx-auto  grid grid-cols-3 gap-16 mb-10 sm:max-xl:grid-cols-2 sm:max-xl:w-[95%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[80%]">
         {dataFeatured.map((item, index) => {
           return (
             <CardFeatured
@@ -132,7 +135,7 @@ const HomePage = () => {
       <div className="py-10">
         <p className="text-5xl font-bold text-center">Mambu by the numbers</p>
       </div>
-      <div className="grid grid-cols-3 gap-x-16 gap-y-28 pl-20 w-[90%] mx-auto sm:max-lg:grid-cols-2 sm:max-lg:w-[100%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[100%] pvmax:max-sm:pl-10">
+      <div className="Mambubythenumbers grid grid-cols-3 gap-x-16 gap-y-28 pl-20 w-[90%] mx-auto sm:max-lg:grid-cols-2 sm:max-lg:w-[100%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[100%] pvmax:max-sm:pl-10">
         <CardStatic title={"Global customers"} Prefix={"+"} number={260} />
         <CardStatic title={"End users"} Prefix={"m"} number={101} />
         <CardStatic title={"API calls per day"} Prefix={"m"} number={200} />

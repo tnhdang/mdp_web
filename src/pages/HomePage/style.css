@@ -1,0 +1,24 @@
+.banner{
+    background-image: url("../../assets/seedoflife.png");
+    background-repeat: no-repeat;
+    background-position: -10rem;
+    background-size: 30rem;
+    background-position-y: 10rem; 
+    
+}
+
+.after-slider{
+    background-image: url("../../assets/MetatronsCube.png");
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: center; 
+}
+
+.Mambubythenumbers{
+
+    background-image: url("../../assets/Merkaba.png");
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: center; 
+
+}
