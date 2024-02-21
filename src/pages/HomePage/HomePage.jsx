@@ -218,11 +218,11 @@ const HomePage = () => {
       ></CardTabs>
       {/* End Section Card Tab */}
 
-      {/* Start Section Featured */}
-      <div className="py-10">
+      
+      {/* <div className="py-10">
         <p className="text-5xl font-bold">Featured insights</p>
       </div>
-{/* //sfdjshflohf */}
+
       <div className="w-[70%] mx-auto  grid grid-cols-3 gap-16 mb-10 sm:max-xl:grid-cols-2 sm:max-xl:w-[95%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[80%]">
         {dataFeatured.map((item, index) => {
           return (
@@ -237,9 +237,9 @@ const HomePage = () => {
           );
         })}
       </div>
-      {/* End Section  Featured */}
+      
 
-      {/* Start Section Mambu number */}
+
       <div className="py-10">
         <p className="text-5xl font-bold text-center">Mambu by the numbers</p>
       </div>
@@ -259,9 +259,9 @@ const HomePage = () => {
           number={4}
         />
       </div>
-      {/* End Section Mambu number */}
+      
 
-      {/* Start Section Friends */}
+      
       <div className="py-36">
         <p className="text-5xl font-bold">Friends with everyone you know</p>
       </div>
@@ -280,9 +280,9 @@ const HomePage = () => {
         </button>
       </div>
 
-      {/* End Section Friends */}
+     
 
-      {/* Start Subcribe */}
+     
       <div className="bg-[#f5ebe1] py-32">
         <div className="grid grid-cols-2  mx-auto w-[75%] pvmax:max-md:grid-cols-1 pvmax:max-md:w-[90%]">
           <div className="flex flex-col justify-center py-2">
@@ -293,7 +293,7 @@ const HomePage = () => {
           <FormSubcribe></FormSubcribe>
         </div>
       </div>
-      {/* End Subcribe */}
+       */}
     </>
   );
 };
