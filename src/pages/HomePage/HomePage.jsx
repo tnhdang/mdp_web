@@ -174,7 +174,7 @@ const HomePage = () => {
       </div>
       <CardTabs
         className={` ${
-          isTab1 ? "grid" : "hidden"
+          isTab1 ? "CardTabsSolutions grid" : "hidden"
         } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Accelerated Time to Market:"}
         description={
@@ -185,7 +185,7 @@ const HomePage = () => {
       ></CardTabs>
       <CardTabs
         className={` ${
-          isTab2 ? "grid" : "hidden"
+          isTab2 ? "CardTabsSolutions grid" : "hidden"
         } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Easy-to-Use Interface:"}
         description={
@@ -196,7 +196,7 @@ const HomePage = () => {
       ></CardTabs>
       <CardTabs
         className={`  ${
-          isTab3 ? "grid" : "hidden"
+          isTab3 ? "CardTabsSolutions grid" : "hidden"
         } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Lower Total Cost of Ownership (TCO):"}
         description={
@@ -207,7 +207,7 @@ const HomePage = () => {
       ></CardTabs>
       <CardTabs
         className={` ${
-          isTab4 ? "grid" : "hidden"
+          isTab4 ? "CardTabsSolutions grid" : "hidden"
         } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Innovative Product Offerings: "}
         description={
