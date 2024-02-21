@@ -22,3 +22,48 @@
     background-position: center; 
 
 }
+
+.top-home{
+    /* background: linear-gradient(to right,#7926F0, #03BD66), url(https://grainy-gradients.vercel.app/noise.svg); */
+    background: #170F58;
+}
+
+.top-home-img{
+    background-image: url("../../assets/HomePage/tophome-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 1300px) {
+    .bankname{
+        font-size: 7rem;
+    }
+
+    .bankdescription{
+        font-size: 2rem;
+    }
+
+    .banner-content{
+        font-size: 1.5rem;
+    }
+
+    .slider-banner-container{
+        height: 55vh;
+    }
+    .solution-intro{
+        padding-left: 12rem;
+    }
+
+    .Keyfeatures{
+        padding-left: 15rem;
+    }
+
+    .solution-card-img{
+        width: 70%;
+        height: 80%;
+    }
+
+    .solution{
+        height: 20rem;
+    }
+}
