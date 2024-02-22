@@ -37,7 +37,7 @@ const EndSolutions = () => {
       ];
 
     return ( 
-        <div className="EndSolutionContainer w-[100%] h-[80vh] content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
+        <div className="EndSolutionContainer w-[100%] h-[80vh] pvmax:max-lg:h-[100vh] content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
            <div className="w-full h-[100vh] pvmax:max-lg:h-fit flex flex-col justify-center">
                 <p className="text-[1rem] text-start px-[4rem] font-bold">
                 At MDP, we are committed to driving digital transformation in the banking industry and empowering our clients 
