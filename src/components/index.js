@@ -14,3 +14,6 @@ export { default as CardWhoTransform } from "./Card/CardWhoTransform";
 export { default as CardRAG } from "./Card/CardRAG";
 export { default as CardCusStories } from "./Card/CardCusStories";
 export { default as BackToTopButton } from "./BackToTopButton";
+export { default as EndSolutions } from "./EndSolutions";
+
+

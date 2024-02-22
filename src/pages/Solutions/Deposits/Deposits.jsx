@@ -9,7 +9,7 @@ import { Row, Col, Card } from "antd";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import {  Pagination } from 'swiper/modules';
 
 import img1 from "../../../assets/Deposits/1.svg";
 import img2 from "../../../assets/Deposits/2.png";

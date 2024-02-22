@@ -10,6 +10,7 @@ import {
   CardFeatured,
   CardStatic,
   FormSubcribe,
+  EndSolutions,
 } from "../../components";
 import ImgCampain from "../../assets/HomePage/banner.png";
 import ImgTab1 from "../../assets/images/imageTab1.png";
@@ -28,17 +29,17 @@ const HomePage = () => {
 
   return (
     <>
-    <div className=" h-[100vh] w-[100%] top-home flex items-center">
-        <div className="  w-[50%] mx-auto pvmax:max-lg:w-[90%] flex justify-end">
-          <p className="text-white text-[5rem]  text-start  w-[70%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl font-mono bankname">
+    <div className=" h-[100vh] w-[100%]  top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:justify-center">
+        <div className="  w-[50%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
+          <p className="text-white text-[5rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[70%] md:max-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-5xl font-mono bankname">
           MDP digital bank
           </p>
         </div>
-        <div className="  w-[50%] h-[100vh] mx-auto pvmax:max-lg:w-[90%] flex flex-col  justify-center align-middle ">
-          <div className="w-[70%] h-[50%] top-home-img">
+        <div className="  w-[50%] h-[100vh] mx-auto pvmax:max-lg:w-[60%] pvmax:max-lg:h-[30vh] flex flex-col  justify-center align-middle ">
+          <div className="w-[70%] h-[50%] top-home-img pvmax:max-lg:w-[100%] pvmax:max-lg:h-[100%]">
           </div>
           <div className="w-[100%]">
-          <p className="text-white text-[1rem]  text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl font-mono uppercase bankdescription">
+          <p className="text-white text-[1rem]  text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-[1rem] font-mono uppercase bankdescription">
           A digital meet-up for agility, flexibility and Innovation
           </p>
           </div>
@@ -67,7 +68,7 @@ const HomePage = () => {
       </div> */}
 
 {/* Solutions */}
-<div className=" h-[15rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
+<div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
         <div className="  w-[70%] mx-auto pvmax:max-lg:w-[90%] ">
           <p className="text-white text-8xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
           Solutions
@@ -75,8 +76,8 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="w-[100%] mx-auto pl-[8rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-        <p className="text-[1.1rem] font-bold text-start w-[80%] py-10 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+      <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+        <p className="text-[1.1rem] font-bold text-start w-[80%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
         MDP is proud to announce our strategic partnership with Mambu, a leading digital core banking platform, 
         to revolutionize the banking landscape and empower financial institutions (FIs) to thrive in the digital 
         age. Through this collaboration, we are harnessing the power of Mambu's cutting-edge technology to build 
@@ -88,21 +89,21 @@ const HomePage = () => {
         <div className="w-[80%] mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%]">
         <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
           <div className="text-start pv:max-md:w-[100%] flex flex-col justify-center">
-            <p className="w-[100%] leading-10 text-[1.1rem] pb-5 pv:max-md:w-[100%]">
+            <p className="w-[100%] leading-10 text-[1.1rem] pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem]">
             Our solution integrates <span className="underline">Best-for-Purpose</span> solution partners, carefully selected for their expertise and 
             innovation, to create a robust ecosystem that caters to the diverse needs of banks and FIs. By leveraging 
             the strengths of these partners, we provide a holistic suite of solutions that cover every aspect of banking 
             operations, from customer experience to back-office processes.
             </p>
             
-            <button className="px-4 py-2 rounded-xl bg-secondary1 hover:bg-black w-fit">
+            <button className="px-4 py-2 pvmax:max-lg:my-[3rem] rounded-xl bg-secondary1 hover:bg-black w-fit">
               <p className="text-white font-bold">Get in touch</p>
             </button>
             {/* <p className="w-[70%] font-bold leading-5 text-[1.5rem] pb-10 pt-10 pv:max-md:w-[100%]">
             Key features of our Mambu-powered BaaS platform include:
             </p> */}
           </div>
-          <div className="md:max-xl:w-[90%] mx-auto pv:max-md:w-[90%] pl-[3rem]">
+          <div className="md:max-xl:w-[90%] mx-auto pv:max-md:w-[90%] pvmax:max-lg:w-full pvmax:max-lg:pl-0 pl-[3rem]">
             <img
               className=""
               src={SolutionsImg}
@@ -116,7 +117,7 @@ const HomePage = () => {
 
 
       {/* Section Card Tab */}
-      <p className="w-[100%] font-bold leading-5 text-[1.5rem] py-16 pv:max-md:w-[100%] text-start text-[2.2rem] text-[#4fb645] pl-[10rem] Keyfeatures">
+      <p className="w-[100%] font-bold leading-5 pvmax:max-lg:leading-10 pvmax:max-lg:py-0 pvmax:max-lg:pl-[2rem] text-[1.5rem] py-16 pv:max-md:w-[100%] text-start text-[2.2rem] text-[#4fb645] pl-[10rem] Keyfeatures">
             Key features of our Mambu-powered BaaS platform include:
             </p>
       <div className="flex w-[75%] mx-auto gap-10  pvmax:max-xl:hidden">
@@ -217,6 +218,8 @@ const HomePage = () => {
         titleButton={"Discover deposits"}
       ></CardTabs>
       {/* End Section Card Tab */}
+
+        <EndSolutions/>
 
       
       {/* <div className="py-10">
