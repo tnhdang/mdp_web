@@ -41,6 +41,20 @@
     background-position: center;
 }
 
+.floweroflife-cardtabs{
+    background: url("../../assets/Merkaba.png");
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    background-position: center;
+}
+
+.MetatronsCube{
+    background: url("../../assets/MetatronsCube.png");
+    background-repeat: no-repeat;
+    background-size: 15rem;
+    background-position: center;
+}
+
 @media only screen and (min-width: 1300px) {
     .bankname{
         font-size: 7rem;
@@ -79,5 +93,19 @@
         background-repeat: no-repeat;
         background-size: 25rem;
         background-position: center;
+    }
+
+    .floweroflife-cardtabs{
+        background: url("../../assets/Merkaba.png");
+        background-repeat: no-repeat;
+        background-size: 25rem;
+        background-position: center;
+    }
+
+    .MetatronsCube{
+        background: url("../../assets/MetatronsCube.png");
+        background-repeat: no-repeat;
+        background-size: 15rem;
+        background-position: left;
     }
 }

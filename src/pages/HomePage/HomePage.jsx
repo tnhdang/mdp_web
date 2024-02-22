@@ -88,7 +88,7 @@ const HomePage = () => {
 
         <div className="w-[80%] mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%]">
         <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
-          <div className="text-start pv:max-md:w-[100%] flex flex-col justify-center">
+          <div className="text-start pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
             <p className="w-[100%] leading-10 text-[1.1rem] pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
             Our solution integrates <span className="underline">Best-for-Purpose</span> solution partners, carefully selected for their expertise and 
             innovation, to create a robust ecosystem that caters to the diverse needs of banks and FIs. By leveraging 
