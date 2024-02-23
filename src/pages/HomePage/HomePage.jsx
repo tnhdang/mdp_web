@@ -11,6 +11,7 @@ import {
   CardStatic,
   FormSubcribe,
   EndSolutions,
+  Sustainability,
 } from "../../components";
 import ImgCampain from "../../assets/HomePage/banner.png";
 import ImgTab1 from "../../assets/images/imageTab1.png";
@@ -220,6 +221,8 @@ const HomePage = () => {
       {/* End Section Card Tab */}
 
         <EndSolutions/>
+
+      <Sustainability/>
 
       
       {/* <div className="py-10">

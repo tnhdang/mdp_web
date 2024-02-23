@@ -15,5 +15,8 @@ export { default as CardRAG } from "./Card/CardRAG";
 export { default as CardCusStories } from "./Card/CardCusStories";
 export { default as BackToTopButton } from "./BackToTopButton";
 export { default as EndSolutions } from "./EndSolutions";
+export { default as Sustainability } from "./Sustainability";
+
+
 
 

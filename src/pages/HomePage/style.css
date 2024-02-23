@@ -35,7 +35,7 @@
 }
 
 .banner-content{
-    background: url("../../assets/HomePage/floweroflife.png");
+    background: url("../../assets/HomePage/seedoflife.png");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
@@ -54,6 +54,22 @@
     background-size: 15rem;
     background-position: center;
 }
+
+.sustain-carousel .slick-dots-bottom li{
+    background-color: #170F58;
+}
+
+.sustain-carousel .slick-dots-bottom .slick-active button{
+    background-color: rgb(42, 165, 52) !important;
+}
+
+.sustain-seedoflife{
+    background: url("../../assets/HomePage/seedoflife.png");
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    background-position: center;
+}
+
 
 @media only screen and (min-width: 1300px) {
     .bankname{
@@ -89,7 +105,7 @@
     }
 
     .banner-content{
-        background: url("../../assets/HomePage/floweroflife.png");
+        background: url("../../assets/HomePage/seedoflife.png");
         background-repeat: no-repeat;
         background-size: 25rem;
         background-position: center;
@@ -107,5 +123,20 @@
         background-repeat: no-repeat;
         background-size: 15rem;
         background-position: left;
+    }
+
+    .sustain-des{
+        font-size: 1.2rem;
+    }
+
+    .sustain-title{
+        font-size: 4rem;
+    }
+
+    .sustain-seedoflife{
+        background: url("../../assets/HomePage/seedoflife.png");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: top;
     }
 }
