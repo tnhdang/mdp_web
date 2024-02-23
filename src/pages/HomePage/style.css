@@ -8,7 +8,7 @@
 } */
 
 .after-slider{
-    background-image: url("../../assets/MetatronsCube.png");
+    background-image: url("../../assets/HomePage/floweroflife.png");
     background-repeat: no-repeat;
     background-size: 30rem;
     background-position: center; 
@@ -16,7 +16,7 @@
 
 .Mambubythenumbers{
 
-    background-image: url("../../assets/Merkaba.png");
+    background-image: url("../../assets/floweroflife.png");
     background-repeat: no-repeat;
     background-size: 30rem;
     background-position: center; 
@@ -42,14 +42,14 @@
 }
 
 .floweroflife-cardtabs{
-    background: url("../../assets/Merkaba.png");
+    background: url("../../assets/floweroflife.png");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
 }
 
 .MetatronsCube{
-    background: url("../../assets/MetatronsCube.png");
+    background: url("../../assets/floweroflife.png");
     background-repeat: no-repeat;
     background-size: 15rem;
     background-position: center;
@@ -96,14 +96,14 @@
     }
 
     .floweroflife-cardtabs{
-        background: url("../../assets/Merkaba.png");
+        background: url("../../assets/floweroflife.png");
         background-repeat: no-repeat;
         background-size: 25rem;
         background-position: center;
     }
 
     .MetatronsCube{
-        background: url("../../assets/MetatronsCube.png");
+        background: url("../../assets/floweroflife.png");
         background-repeat: no-repeat;
         background-size: 15rem;
         background-position: left;
