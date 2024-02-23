@@ -96,13 +96,13 @@ const Sustainability = () => {
 
             <div className="w-full h-[100vh] pvmax:max-lg:h-fit flex flex-col justify-center">
                 <div className="  w-full  mx-auto mb-10 py-10 ">
-                    <Carousel effect="fade"  className="sustain-carousel pvmax:max-lg:pb-20">
+                    <Carousel effect="fade"  className="sustain-carousel ">
                         {dataSlider.map((item, index) => {
                             return (
-                                <div className="  w-full h-[90vh] " key={item.key}>
+                                <div className="  w-full h-[90vh] pv:max-md:h-fit " key={item.key}>
                                     <p className="sustain-title text-[2.5rem] text-[#170F58] font-bold font ">{item.title}</p>
 
-                                    <div className="w-full h-[70vh] mx-auto pt-10 pvmax:max-lg:pt-14  pb-20 grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
+                                    <div className="w-full h-[70vh] mx-auto pt-10 pvmax:max-lg:pt-14  pb-20 grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 pv:max-md:h-fit">
 
 
                                         <div className="h-[60vh] w-full pvmax:max-lg:h-[30vh] flex justify-center  ">
