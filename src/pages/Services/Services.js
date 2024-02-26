@@ -133,21 +133,21 @@ const Services = () => {
             >
 
                 {Consulting.map((item, index) => {
-                    return (<SwiperSlide className="!pb-[5rem]">
+                    return (<SwiperSlide className="!pb-[5rem] pvmax:max-lg:!pb-0">
                         <div className="w-full flex flex-col align-middle justify-center" key={item.key}>
                             <p className="text-[2.5rem] text-[#170F58] font-bold font ">
                                 {item.title}
                             </p>
-                            <p className="px-[8rem]  py-[3rem]">
+                            <p className="text-start px-[8rem] pvmax:max-lg:px-[1rem]  py-[3rem]">
                                 {item.description}
                             </p>
-                            <img src={item.img} className="w-full px-[30rem]  "></img>
+                            <img src={item.img} className="w-full px-[30rem] pvmax:max-lg:px-0 "></img>
 
                         </div>
                     </SwiperSlide>)
                 })}
             </Swiper>
-            <p className="px-[8rem]  py-[3rem]">At MDP, we are committed to helping our clients navigate the complexities of the digital landscape, drive innovation, and achieve sustainable growth. With our expertise in Customer Experience, Digital Transformation, Digital Bank use cases, Product and platform design, Enterprise platform, PMO, and Engineering, we empower businesses to thrive in the digital age and deliver exceptional value to their customers.</p>
+            <p className="text-start px-[8rem] pvmax:max-lg:px-[2rem] py-[3rem]">At MDP, we are committed to helping our clients navigate the complexities of the digital landscape, drive innovation, and achieve sustainable growth. With our expertise in Customer Experience, Digital Transformation, Digital Bank use cases, Product and platform design, Enterprise platform, PMO, and Engineering, we empower businesses to thrive in the digital age and deliver exceptional value to their customers.</p>
             <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
                 <div className="  w-[70%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-8xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
@@ -172,21 +172,21 @@ const Services = () => {
             >
 
                 {Baas.map((item, index) => {
-                    return (<SwiperSlide className="!pb-[5rem]">
+                    return (<SwiperSlide className="!pb-[5rem] pvmax:max-lg:!pb-0">
                         <div className="w-full flex flex-col align-middle justify-center" key={item.key}>
                             <p className="text-[2.5rem] text-[#170F58] font-bold font ">
                                 {item.title}
                             </p>
-                            <p className="px-[8rem]  py-[3rem]">
+                            <p className="text-start px-[8rem] pvmax:max-lg:px-[1rem]  py-[3rem]">
                                 {item.description}
                             </p>
-                            <img src={item.img} className="w-full px-[30rem]  "></img>
+                            <img src={item.img} className="w-full px-[30rem] pvmax:max-lg:px-0 "></img>
 
                         </div>
                     </SwiperSlide>)
                 })}
             </Swiper>
-            <p className="px-[8rem]  py-[3rem]">At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, we enable businesses to thrive in the rapidly evolving digital landscape and deliver exceptional value to their customers.</p>
+            <p className="text-start px-[8rem] pvmax:max-lg:px-[2rem] py-[3rem]">At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, we enable businesses to thrive in the rapidly evolving digital landscape and deliver exceptional value to their customers.</p>
         </div>
     );
 };

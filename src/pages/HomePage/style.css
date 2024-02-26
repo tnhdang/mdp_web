@@ -70,6 +70,20 @@
     background-position: center;
 }
 
+.slider-banner-container{
+    background: url("../../assets/HomePage/triangle.png");
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: left center;
+}
+
+.slider-endsolutions{
+    background: url("../../assets/HomePage/triangleflip.png");
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    background-position: right center;
+}
+
 
 @media only screen and (min-width: 1600px) {
     .bankname{
@@ -138,5 +152,12 @@
         background-repeat: no-repeat;
         background-size: 30rem;
         background-position: top;
+    }
+
+    .slider-endsolutions{
+        background: url("../../assets/HomePage/triangleflip.png");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: right center;
     }
 }

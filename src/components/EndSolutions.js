@@ -46,7 +46,7 @@ const EndSolutions = () => {
                 usability, and lowering total cost of ownership.
                     </p>
            </div>
-           <div className="w-full h-[100vh] pvmax:max-lg:h-fit flex flex-col justify-center">
+           <div className="w-full h-[100vh] pvmax:max-lg:h-fit flex flex-col justify-center slider-endsolutions">
            <div className="  w-[70%] bg-[#4fb645] mx-auto rounded-lg my-10 py-10 pvmax:max-xl:w-[90%]">
         <Carousel effect="fade" autoplay>
           {dataSlider.map((item, index) => {
