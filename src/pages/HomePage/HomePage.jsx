@@ -31,13 +31,13 @@ const HomePage = () => {
 
   return (
     <>
-    <div className=" h-[100vh] w-[100%]  top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:justify-center">
-        <div className="  w-[50%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
-          <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[70%] md:max-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[3rem] font-mono bankname">
+    <div className=" h-[100vh] w-[100%]  top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:h-fit pvmax:max-lg:justify-center">
+        <div className="  w-[70%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
+          <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[90%] md:max-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[3rem] font-mono bankname">
           Mdp vision is to universalise banking for community well-being and a greener world
           </p>
         </div>
-        <div className="  w-[50%] h-[100vh] mx-auto pvmax:max-lg:w-[60%] pvmax:max-lg:h-[30vh] flex flex-col  justify-center align-middle ">
+        <div className="  w-[50%] pl-[6rem] h-[100vh] mx-auto pvmax:max-lg:w-[60%] pvmax:max-lg:h-[30vh] pvmax:max-lg:mb-[5rem] pvmax:max-lg:pl-0  flex flex-col  justify-center align-middle ">
           <div className="w-[70%] h-[50%] top-home-img pvmax:max-lg:w-[100%] pvmax:max-lg:h-[100%]">
           </div>
           <div className="w-[100%]">

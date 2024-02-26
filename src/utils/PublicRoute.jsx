@@ -5,7 +5,8 @@ import { HomePage,
   Composable,
   MultiCloud,
   ProcessOrchesTrator,
-  BusinessLending
+  BusinessLending,
+  Services
 } from "../pages";
 
 import { Deposits } from "../pages";
@@ -70,7 +71,12 @@ const routes = [
     component: <ProcessOrchesTrator />,
     main: () => <ProcessOrchesTrator />,
   },
-
+  {
+    path: path.SERVICES,
+    exact: true,
+    component: <Services />,
+    main: () => <Services />,
+  },
 ];
 
 export default routes;

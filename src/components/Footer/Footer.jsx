@@ -18,7 +18,7 @@ const Footer = () => {
             <p className="text-start pl-20 leading-9"> * 39 Bạch Đằng, Phường 2, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</p>
             <p className="text-start pl-20 leading-9"> * 24 P. Tôn Đức Thắng, Cát Linh, Đống Đa, Hà Nội, Việt Nam</p> */}
 
-<Row justify="start" align="middle">
+<Row justify="start" align="top">
             <Col xs={24} sm={24} md={24} lg={8} xl={8}>
             <p className="text-start pl-20 leading-9"> * 100 Đ. Lê Lai, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</p>
             </Col>

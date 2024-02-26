@@ -8,3 +8,4 @@ export { default as Composable } from "./Composable/Composable";
 export { default as MultiCloud } from "./MultiCloud/MultiCloud";
 export { default as Deposits } from "./Solutions/Deposits/Deposits";
 export { default as ProcessOrchesTrator } from "./ProcessOrchesTrator/ProcessOrchesTrator";
+export {default as Services} from "./Services/Services";

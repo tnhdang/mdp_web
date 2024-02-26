@@ -104,9 +104,9 @@ const Header = () => {
           <Row gutter={[24, 48]} justify="center" align="middle" className="header-content">
             <Col span={3.4} className="whatwedo-hover">
               <div className="dropdown dropdown-whatwedo">
-                <h2 className="title dropbtn">
+                <a href="/services" className="title dropbtn">
                   Services
-                </h2>
+                </a>
               </div>
             </Col>
             <Col span={3.4} className="solutions-hover">
