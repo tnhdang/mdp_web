@@ -87,7 +87,7 @@ const Sustainability = () => {
             </div>
 
             <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-start w-[80%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                <p className="text-[1.1rem] font-bold text-start w-[88%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                     MDP's plan and commitments for sustainability should encompass a holistic approach that addresses environmental, social, and
                     economic dimensions. Here's a comprehensive plan outlining key initiatives and commitments:
 

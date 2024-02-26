@@ -79,7 +79,7 @@ const HomePage = () => {
       </div>
 
       <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-        <p className="text-[1.1rem] font-bold text-justify w-[80%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+        <p className="text-[1.1rem] font-bold text-justify w-[88%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
         MDP is proud to announce our strategic partnership with Mambu, a leading digital core banking platform, 
         to revolutionize the banking landscape and empower financial institutions (FIs) to thrive in the digital 
         age. Through this collaboration, we are harnessing the power of Mambu's cutting-edge technology to build 
