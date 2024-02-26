@@ -8,9 +8,9 @@ h2,a{
 
 .dropbtn {
   border: none;
-  font-size: 20px;
+  font-size: 16px;
   padding: 17px;
-  font-family: inherit !important;
+  /* font-family: inherit !important; */
 }
 
 .drobdown {
@@ -84,7 +84,7 @@ h2,a{
 }
 
 .subtittle {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bolder !important;
   text-transform: uppercase;
   color: #828080 !important;
@@ -201,6 +201,12 @@ h2,a{
 .header-content button{
   margin-left: 2rem;
 }
+.title{
+  text-align: right;
+  font-family:    sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -254,6 +260,8 @@ h2,a{
 
   .title{
     text-align: right;
+    font-family: futura-regular;
+    src: local(futura-regular), url(../../font/FUTURA/SFUFuturaRegular.TTF);
   }
 
   .subtittle {

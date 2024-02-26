@@ -99,33 +99,33 @@ const Sustainability = () => {
                     <Carousel effect="fade" autoplay  className="sustain-carousel pvmax:max-lg:pb-20">
                         {dataSlider.map((item, index) => {
                             return (
-                                <div className="  w-full h-[90vh] pv:max-md:h-fit " key={item.key}>
+                                <div className="  w-full h-[40rem] pv:max-md:h-fit " key={item.key}>
                                     <p className="sustain-title text-[2.5rem] text-[#170F58] font-bold font ">{item.title}</p>
 
-                                    <div className="w-full h-[70vh] mx-auto pt-10 pvmax:max-lg:pt-14  pb-20 grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 pv:max-md:h-fit">
+                                    <div className="w-full h-[90vh] mx-auto pt-10 pvmax:max-lg:pt-14  pb-20 grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 pv:max-md:h-fit">
 
 
                                         <div className="h-[60vh] w-full pvmax:max-lg:h-[30vh] flex justify-center  ">
                                             <img className="w-[60%]" src={item.picture} alt=""/>
                                         </div>
-                                        <div className="h-[70vh] w-full pvmax:max-lg:px-8 sustain-seedoflife ">
-                                            <p className="sustain-des text-[0.9rem] text-start w-[80%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                        <div className="h-[90vh] w-full pvmax:max-lg:px-8 sustain-seedoflife ">
+                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle1}</span>
                                                 {item.mindescription1}
                                             </p>
-                                            <p className="sustain-des text-[0.9rem] text-start w-[80%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle2}</span>
                                                 {item.mindescription2}
                                             </p>
-                                            <p className="sustain-des text-[0.9rem] text-start w-[80%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle3}</span>
                                                 {item.mindescription3}
                                             </p>
-                                            <p className="sustain-des text-[0.9rem] text-start w-[80%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle4}</span>
                                                 {item.mindescription4}
                                             </p>
-                                            <p className="sustain-des text-[0.9rem] text-start w-[80%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle5}</span>
                                                 {item.mindescription5}
                                             </p>

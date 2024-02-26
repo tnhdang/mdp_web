@@ -85,7 +85,7 @@ const SliderBanner = () => {
         {/* Section Card Tab */}
       <div className="flex w-[75%] mx-auto gap-10  pvmax:max-xl:hidden">
       <button
-          className={`text-3xl text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${
+          className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${
             isTab1 ? "text-black border-b-[3px] border-black " : ""
           }`}
           onClick={() => {
@@ -99,7 +99,7 @@ const SliderBanner = () => {
         </button>
         
         <button
-          className={`text-3xl text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${
+          className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${
             isTab2 ? "text-black border-b-[3px] border-black " : ""
           }`}
           onClick={() => {
@@ -113,7 +113,7 @@ const SliderBanner = () => {
         </button>
 
         <button
-          className="text-3xl text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black "
+          className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black "
           onClick={() => {
             setIsTab1(false);
             setIsTab2(false);

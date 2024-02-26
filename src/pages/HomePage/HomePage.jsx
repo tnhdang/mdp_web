@@ -17,6 +17,7 @@ import ImgCampain from "../../assets/HomePage/banner.png";
 import ImgTab1 from "../../assets/images/imageTab1.png";
 import ImgTab2 from "../../assets/images/imageTab2.webp";
 import ImgTab3 from "../../assets/images/imageTab3.webp";
+import Img4 from "../../assets/HomePage/808.jpg"
 import draftsolutioncontent from "../../assets/HomePage/solution.jpg"
 import SolutionsImg from "../../assets/HomePage/Solution.png"
 import { dataFeatured, dataFriends } from "../../utils/Mockdata";
@@ -32,8 +33,8 @@ const HomePage = () => {
     <>
     <div className=" h-[100vh] w-[100%]  top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:justify-center">
         <div className="  w-[50%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
-          <p className="text-white text-[5rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[70%] md:max-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-5xl font-mono bankname">
-          MDP digital bank
+          <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[70%] md:max-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[3rem] font-mono bankname">
+          Mdp vision is to universalise banking for community well-being and a greener world
           </p>
         </div>
         <div className="  w-[50%] h-[100vh] mx-auto pvmax:max-lg:w-[60%] pvmax:max-lg:h-[30vh] flex flex-col  justify-center align-middle ">
@@ -123,7 +124,7 @@ const HomePage = () => {
             </p>
       <div className="flex w-[75%] mx-auto gap-10  pvmax:max-xl:hidden">
       <button
-          className={`text-3xl text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black  ${
+          className={`text-[1.5rem] text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black  ${
             isTab1 ? "text-black border-b-[3px] border-black " : ""
           }`}
           onClick={() => {
@@ -137,7 +138,7 @@ const HomePage = () => {
         </button>
         
         <button
-          className={`text-3xl text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black  ${
+          className={`text-[1.5rem] text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black  ${
             isTab2 ? "text-black border-b-[3px] border-black " : ""
           }`}
           onClick={() => {
@@ -151,7 +152,7 @@ const HomePage = () => {
         </button>
 
         <button
-          className="text-3xl text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black "
+          className="text-[1.5rem] text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black "
           onClick={() => {
             setIsTab1(false);
             setIsTab2(false);
@@ -163,7 +164,7 @@ const HomePage = () => {
         </button>
 
         <button
-          className="text-3xl text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black "
+          className="text-[1.5rem] text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black "
           onClick={() => {
             setIsTab1(false);
             setIsTab2(false);
@@ -182,7 +183,7 @@ const HomePage = () => {
         description={
           "With pre-built integrations and modular architecture, our platform enables banks and FIs to launch new products and services in record time. By eliminating the need for lengthy development cycles and customizations, we empower our clients to stay ahead of the competition and capitalize on market opportunities swiftly."
         }
-        image="https://plus.unsplash.com/premium_photo-1682511145862-3cb4edc53aeb?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
         titleButton={"Learn More"}
       ></CardTabs>
       <CardTabs
@@ -193,7 +194,7 @@ const HomePage = () => {
         description={
           "Our user-friendly interface and intuitive design make it easy for banks and FIs to onboard and manage customers, process transactions, and access valuable insights. Whether it's configuring products, managing workflows, or analyzing data, our platform streamlines every aspect of banking operations for maximum efficiency and convenience."
         }
-        image="https://plus.unsplash.com/premium_photo-1682511145862-3cb4edc53aeb?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
         titleButton={"Learn More"}
       ></CardTabs>
       <CardTabs
@@ -204,7 +205,7 @@ const HomePage = () => {
         description={
           "By adopting a cloud-native approach and leveraging Mambu's scalable infrastructure, our platform offers unparalleled cost savings and flexibility. Banks and FIs can scale their operations seamlessly to accommodate growth and fluctuations in demand, without incurring significant upfront investments or ongoing maintenance costs."
         }
-        image= "https://plus.unsplash.com/premium_photo-1682511145862-3cb4edc53aeb?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image= "https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
         titleButton={"Explore lending"}
       ></CardTabs>
       <CardTabs
@@ -215,7 +216,7 @@ const HomePage = () => {
         description={
           "Through our partnership with Best-for-Purpose solution partners, we empower banks and FIs to innovate their product offerings and deliver differentiated experiences to their customers. Whether it's launching digital lending solutions, personalized wealth management tools, or AI-powered analytics, our platform provides the flexibility and agility to adapt to changing market trends and customer preferences."
         }
-        image="https://plus.unsplash.com/premium_photo-1682511145862-3cb4edc53aeb?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
         titleButton={"Discover deposits"}
       ></CardTabs>
       {/* End Section Card Tab */}

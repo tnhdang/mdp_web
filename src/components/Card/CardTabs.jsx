@@ -6,10 +6,10 @@ const CardTabs = ({ title, description, image, titleButton, className }) => {
   return (
     <div className={className}>
       <div className="w-[70%] mx-auto pvmax:max-xl:w-[90%] flex flex-col justify-center floweroflife-cardtabs">
-        <p className="text-4xl font-bold text-start py-4">{title}</p>
-        <p className="text-lg text-start py-4"> {description}</p>
+        <p className="text-[1.1rem] font-bold text-start py-4">{title}</p>
+        <p className="text-[1.1rem] text-start py-4"> {description}</p>
         <button className="py-2 px-4 rounded-3xl bg-[#4fb645] hover:bg-black cursor-pointer flex w-fit pvmax:max-lg:my-[3rem]">
-          <p className="text-[1rem]  text-white">{titleButton}</p>
+          <p className="text-[1.1rem]  text-white">{titleButton}</p>
         </button>
       </div>
       <div className=" mx-auto flex flex-col justify-center h-fit">
