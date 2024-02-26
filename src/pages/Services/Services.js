@@ -171,7 +171,7 @@ const Services = () => {
                 className=" "
             >
 
-                {Consulting.map((item, index) => {
+                {Baas.map((item, index) => {
                     return (<SwiperSlide className="!pb-[5rem]">
                         <div className="w-full flex flex-col align-middle justify-center" key={item.key}>
                             <p className="text-[2.5rem] text-[#170F58] font-bold font ">
