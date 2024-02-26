@@ -71,9 +71,9 @@
 }
 
 .slider-banner-container{
-    background: url("../../assets/HomePage/triangle.png");
+    background: url("../../assets/HomePage/triangleflip.png");
     background-repeat: no-repeat;
-    background-size: 30rem;
+    background-size: 20rem;
     background-position: left center;
 }
 

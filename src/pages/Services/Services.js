@@ -138,7 +138,7 @@ const Services = () => {
                             <p className="text-[2.5rem] text-[#170F58] font-bold font ">
                                 {item.title}
                             </p>
-                            <p className="text-start px-[8rem] pvmax:max-lg:px-[1rem]  py-[3rem]">
+                            <p className="text-start font-bold px-[8rem] pvmax:max-lg:px-[1rem]  py-[3rem]">
                                 {item.description}
                             </p>
                             <img src={item.img} className="w-full px-[30rem] pvmax:max-lg:px-0 "></img>
@@ -177,7 +177,7 @@ const Services = () => {
                             <p className="text-[2.5rem] text-[#170F58] font-bold font ">
                                 {item.title}
                             </p>
-                            <p className="text-start px-[8rem] pvmax:max-lg:px-[1rem]  py-[3rem]">
+                            <p className="text-start  font-bold px-[8rem] pvmax:max-lg:px-[1rem]  py-[3rem]">
                                 {item.description}
                             </p>
                             <img src={item.img} className="w-full px-[30rem] pvmax:max-lg:px-0 "></img>
