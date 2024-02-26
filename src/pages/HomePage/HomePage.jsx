@@ -33,7 +33,7 @@ const HomePage = () => {
     <>
     <div className=" h-[100vh] w-[100%]  top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:h-fit pvmax:max-lg:justify-center">
         <div className="  w-[70%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
-          <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[90%] md:max-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[3rem] font-mono bankname">
+          <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[90%] pvmax-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[3rem] font-mono bankname">
           Mdp vision is to universalise banking for community well-being and a greener world
           </p>
         </div>

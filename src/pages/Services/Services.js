@@ -37,10 +37,12 @@ const Services = () => {
                     className=""
                 >
                     <SwiperSlide>
-                        1 MDP is a premier provider of consulting services, offering expertise in a wide range of areas including Customer Experience (CX), Digital 
-        Transformation, Digital Bank use cases, Product and platform design, Enterprise platform, Project Management Office (PMO), and Engineering. 
-        Our comprehensive suite of services is designed to help businesses navigate the complexities of the digital landscape, drive innovation, and 
-        achieve sustainable growth.
+                        <div className="w-full flex flex-col">
+                            <p>sfsfdes</p>
+                            <p>sfsfdes</p>
+                            <img src=""></img>
+
+                        </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         2 MDP is a premier provider of consulting services, offering expertise in a wide range of areas including Customer Experience (CX), Digital 
