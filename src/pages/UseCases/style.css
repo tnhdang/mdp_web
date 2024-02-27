@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1600px) {
+    .h110{
+        height: 80vh!important;
+        margin: 5rem 0;
+        padding: 3rem 10rem;
+    }
+
+    .h100{
+        padding: 5rem 12rem;
+    }
+}

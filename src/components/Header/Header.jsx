@@ -125,16 +125,16 @@ const Header = () => {
             </Col>
             <Col span={3.4} className="partners-hover">
               <div className="dropdown dropdown-partners">
-                <h2 className="title dropbtn">
+                <a href="/partners" className="title dropbtn">
                   Partners
-                </h2>
+                </a>
               </div>
             </Col>
             <Col span={3.4} className="company-hover">
               <div className="dropdown dropdown-company">
-                <h2 className="title dropbtn">
+                <a href="/company" className="title dropbtn">
                   Company
-                </h2>
+                </a>
               </div>
             </Col>
             

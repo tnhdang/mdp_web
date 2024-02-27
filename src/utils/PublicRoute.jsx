@@ -7,7 +7,9 @@ import { HomePage,
   ProcessOrchesTrator,
   BusinessLending,
   Services,
-  UseCases
+  UseCases,
+  Partners,
+  Company
 } from "../pages";
 
 import { Deposits } from "../pages";
@@ -83,6 +85,18 @@ const routes = [
     exact: true,
     component: <UseCases />,
     main: () => <UseCases />,
+  },
+  {
+    path: path.PARTNERS,
+    exact: true,
+    component: <Partners />,
+    main: () => <Partners />,
+  },
+  {
+    path: path.COMPANY,
+    exact: true,
+    component: <Company />,
+    main: () => <Company />,
   },
 ];
 

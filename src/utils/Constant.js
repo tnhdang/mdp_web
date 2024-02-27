@@ -16,6 +16,8 @@ export const path = {
   PROCESS_ORCHESTRATOR: "process-orchestrator",
   SERVICES: "/services",
   USECASES: "/usecases",
+  PARTNERS: "/partners",
+  COMPANY: "/company"
 };
 
 export const ScrollToTop = () => {
