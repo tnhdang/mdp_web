@@ -15,6 +15,7 @@ export const path = {
   SOLUTION_BUSINESS_BANKING: "/solution/businessbanking",
   PROCESS_ORCHESTRATOR: "process-orchestrator",
   SERVICES: "/services",
+  USECASES: "/usecases",
 };
 
 export const ScrollToTop = () => {

@@ -111,9 +111,9 @@ const Header = () => {
             </Col>
             <Col span={3.4} className="solutions-hover">
               <div className="dropdown dropdown-solutions">
-                <h2 className="title dropbtn">
+                <a href="/usecases" className="title dropbtn">
                   Use Cases
-                </h2>
+                </a>
               </div>
             </Col>
             <Col span={3.4} className="customers-hover">
