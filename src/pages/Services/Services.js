@@ -198,7 +198,7 @@ const Services = () => {
                 })}
             </Swiper>
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-[1rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] pb-12 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance customer
                     experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card processing, eKYC
                     and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, we enable businesses

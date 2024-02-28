@@ -69,7 +69,7 @@ const Baas = () => {
             </div>
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem] pb-2 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-[1.1rem] font-bold text-start w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
-                    <a href="/services pvmax:max-lg:!inline">Service</a> 
+                    <a href="/services">Service</a> 
                     <RightOutlined className="px-4 pvmax:max-lg:inline" />
                     <a href="/baas" className="pvmax:max-lg:inline">Baas</a>
                 </p>
@@ -110,7 +110,7 @@ const Baas = () => {
             </Swiper>
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-            <p className="text-start text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 py-[3rem]">At MDP, we are committed to empowering businesses with cutting-edge 
+            <p className="text-start text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-[3rem]">At MDP, we are committed to empowering businesses with cutting-edge 
             banking-as-a-service solutions that drive innovation, enhance customer experiences, and accelerate digital transformation. With our 
             comprehensive suite of offerings, including Payment and Card processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital 
             Lending, Open Banking, and Business Ecosystem Integration, we enable businesses to thrive in the rapidly evolving digital landscape and deliver 
