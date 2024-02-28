@@ -51,7 +51,7 @@
     }
 
     .container{
-        background-color: #555555;
+        background-color: #415a95;
         color: white;
         font-family: inherit !important;
         padding: 3rem 2rem;
@@ -64,6 +64,7 @@
 @media only screen and (min-width: 1800px) {
     .container{
        min-width: 99vw;
+       background-color: #415a95;
     
     }
 }
