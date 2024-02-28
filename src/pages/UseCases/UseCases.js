@@ -24,9 +24,9 @@ const UseCases = () => {
                 </div>
             </div>
             {/* 1 */}
-            <div className="w-full h-fit pvmax:max-md:h-fit mt-20 h110 flex flex-col content-center justify-center items-center">
+            <div className="w-full h-fit pvmax:max-md:h-fit mt-20 pvmax:max-md:mt-8 h110 flex flex-col content-center justify-center items-center">
                 <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-12">
-                    <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-start">
+                    <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start pvmax:max-md:text-center flex flex-col items-start">
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2">Use Cases</p>
                         <p className=" w-[70%] text-start pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Digital Banking</p>
                     </div>
@@ -52,7 +52,7 @@ const UseCases = () => {
                 </div>
             </div>
             {/* 2 */}
-            <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center flex-row pvmax:max-md:flex-col py-20 my-20 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
+            <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:mt-8 flex-row pvmax:max-md:flex-col py-20 my-20 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
                 <div className="w-[66.67%] pvmax:max-md:w-[80%]  h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
@@ -73,10 +73,10 @@ const UseCases = () => {
 
             </div>
             {/* 3 */}
-            <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
+            <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center pvmax:max-md:mt-8">
                 <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-12">
                     <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-start">
-                        <p className="text-[1rem] w-full font-mono text-slate-300 py-2 ">Use Cases</p>
+                        <p className="text-[1rem] w-full font-mono text-slate-300 py-2 pvmax:max-md:text-center">Use Cases</p>
                         <p className=" w-[70%] pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Consumer Lending</p>
                     </div>
                     <div className="w-[50%] pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
@@ -102,12 +102,12 @@ const UseCases = () => {
                 </div>
             </div>
             {/* 4 */}
-            <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center flex-row pvmax:max-md:flex-col py-20 my-20 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
+            <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center  flex-row pvmax:max-md:flex-col py-20 my-20 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
                 <div className="w-[66.67%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
-                    <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-32 pr-20  pvmax:max-md:pr-0 flex justify-center content-center items-center">
+                    <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-32 pr-20 pvmax:max-md:hidden  pvmax:max-md:pr-0 flex justify-center content-center items-center">
                         <img className="w-full h-fit rounded-[1rem]" src="https://img.freepik.com/free-vector/online-banking-isometric-web-page_1284-29561.jpg?t=st=1709004607~exp=1709008207~hmac=a0ca102ecfc944cb0c7b9ac3db1f7986d752b0894dc8691d55562d4876597736&w=740"></img>
                     </div>
-                    <div className="w-[50%] pvmax:max-md:w-full h-[100%] flex flex-col justify-center align-middle">
+                    <div className="w-[50%] pvmax:max-md:w-full h-[100%] flex flex-col justify-center pvmax:max-md:mt-8 align-middle">
                         <p className="text-[1rem] pvmax:max-md:w-full font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
                         <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">SME Lending</p>
                         <p className="text-justify text-[1.1rem] pvmax:max-md:w-full">
@@ -118,10 +118,13 @@ const UseCases = () => {
                             Digital Loan Origination: Digital loan application and approval processes tailored to the needs of SMEs, with quick turnaround times and minimal paperwork requirements.
                         </p>
                     </div>
+                    <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-20 pr-20 pvmax:max-md:flex  pvmax:max-md:pr-0 hidden justify-center content-center items-center">
+                        <img className="w-full h-fit rounded-[1rem]" src="https://img.freepik.com/free-vector/online-banking-isometric-web-page_1284-29561.jpg?t=st=1709004607~exp=1709008207~hmac=a0ca102ecfc944cb0c7b9ac3db1f7986d752b0894dc8691d55562d4876597736&w=740"></img>
+                    </div>
                 </div>
             </div>
             {/* 5 */}
-            <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
+            <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center pvmax:max-md:mt-8 justify-center items-center">
                 <div className="w-[66.67%] h-[60%] flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-12">
 
                     <div className=" pvmax:max-md:w-full h-[60vh] pvmax:max-md:h-fit hidden  pvmax:max-md:flex  pvmax:max-md:flex-col items-center">
@@ -153,7 +156,7 @@ const UseCases = () => {
                 </div>
             </div>
             {/* 6 */}
-            <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center flex-row pvmax:max-md:flex-col py-20 my-20 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
+            <div className="w-full pvmax:max-md:mt-8 h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center flex-row pvmax:max-md:flex-col py-20 my-20 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
                 <div className="w-[66.67%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
@@ -166,7 +169,7 @@ const UseCases = () => {
                             Digital Onboarding: Seamless digital onboarding processes with real-time identity verification, enabling customers to open accounts and access banking services remotely.
                         </p>
                     </div>
-                    <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-32 pl-20  pvmax:max-md:pl-0 flex justify-center content-center items-center">
+                    <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-20 pl-20  pvmax:max-md:pl-0 flex justify-center content-center items-center">
                         <img className="w-full h-fit rounded-[1rem]" src="https://img.freepik.com/free-vector/online-banking-isometric-web-page_1284-29561.jpg?t=st=1709004607~exp=1709008207~hmac=a0ca102ecfc944cb0c7b9ac3db1f7986d752b0894dc8691d55562d4876597736&w=740"></img>
                     </div>
                 </div>
@@ -175,10 +178,10 @@ const UseCases = () => {
             </div>
 
             {/* 7 */}
-            <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
+            <div className="w-full pvmax:max-md:mt-8 h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
                 <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-12">
                     <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-center">
-                        <p className="text-[1rem] w-full font-mono text-slate-300 py-2 ">Use Cases</p>
+                        <p className="text-[1rem] w-full font-mono pvmax:max-md:text-center text-slate-300 py-2 ">Use Cases</p>
                         <p className=" w-full pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Open Banking</p>
                     </div>
                     <div className="w-[50%] pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
