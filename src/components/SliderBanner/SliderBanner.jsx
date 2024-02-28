@@ -27,7 +27,7 @@ const SliderBanner = () => {
     <div className="h-[70vh] slider-banner-container pvmax:max-lg:h-fit">
     
         {/* Section Card Tab */}
-      <div className="flex w-[75%] mx-auto gap-10  pvmax:max-xl:hidden">
+      <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
       <button
           className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${
             isTab1 ? "text-black border-b-[3px] border-black " : ""
@@ -70,7 +70,7 @@ const SliderBanner = () => {
       <CardTabsNoPics
         className={` ${
           isTab1 ? "grid" : "hidden"
-        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[75%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Business Transformation Consulting:"}
         description={
           "We partner with organizations to navigate digital disruption, optimize operations, and unlock new opportunities for growth. Our seasoned consultants work closely with clients to develop strategic roadmaps, streamline processes, and implement tailored solutions that drive tangible results."
@@ -79,7 +79,7 @@ const SliderBanner = () => {
       <CardTabsNoPics
         className={` ${
           isTab2 ? "grid" : "hidden"
-        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[75%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"System Integration:"}
         description={
           "Leveraging cutting-edge technology and industry best practices, we specialize in seamlessly integrating disparate systems and processes to enhance efficiency, collaboration, and agility. From legacy system modernization to cloud migration, our expert team ensures a smooth and successful transition, empowering businesses to harness the full potential of their IT infrastructure."
@@ -88,7 +88,7 @@ const SliderBanner = () => {
       <CardTabsNoPics
         className={`  ${
           isTab3 ? "grid" : "hidden"
-        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[75%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Banking as a Service (BaaS):"}
         description={
           "As pioneers in the fintech space, we offer innovative BaaS solutions that empower financial institutions and businesses to deliver seamless banking experiences to their customers. From API-driven banking platforms to white-label solutions, we enable our clients to accelerate innovation, reduce time to market, and stay ahead in an increasingly competitive landscape."

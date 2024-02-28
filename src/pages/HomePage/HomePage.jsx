@@ -71,15 +71,15 @@ const HomePage = () => {
 
 {/* Solutions */}
 <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
-        <div className="  w-[70%] mx-auto pvmax:max-lg:w-[90%] ">
+        <div className="  w-[66.67%] mx-auto pvmax:max-lg:w-[90%] ">
           <p className="text-white text-8xl  font-bold text-justify  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
           Solutions
           </p>
         </div>
       </div>
 
-      <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-        <p className="text-[1.1rem] font-bold text-justify w-[88%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+      <div className="w-[66.67%] mx-auto  pvmax:max-lg:pl-0 py-10 md:max-xl:w-[80%] pv:max-md:w-[70%] solution-intro">
+        <p className="text-[1.1rem] font-bold text-justify w-full py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
         MDP is proud to announce our strategic partnership with Mambu, a leading digital core banking platform, 
         to revolutionize the banking landscape and empower financial institutions (FIs) to thrive in the digital 
         age. Through this collaboration, we are harnessing the power of Mambu's cutting-edge technology to build 
@@ -88,8 +88,8 @@ const HomePage = () => {
         </p>
         </div>
 
-        <div className="w-[80%] mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%]">
-        <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
+        <div className="w-full mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
+        <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[66.67%] pv:max-md:w-[90%] ">
           <div className="text-justify pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
             <p className="w-[100%] leading-10 text-[1.1rem] pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
             Our solution integrates <span className="underline">Best-for-Purpose</span> solution partners, carefully selected for their expertise and 
@@ -105,9 +105,9 @@ const HomePage = () => {
             Key features of our Mambu-powered BaaS platform include:
             </p> */}
           </div>
-          <div className="md:max-xl:w-[90%] mx-auto pv:max-md:w-[90%] pvmax:max-lg:w-full pvmax:max-lg:pl-0 pl-[3rem]">
+          <div className="md:max-xl:w-[70%] mx-auto pv:max-md:w-[70%] pvmax:max-lg:w-[90%] pvmax:max-lg:pl-0 pl-[3rem]">
             <img
-              className=""
+              className="w-full"
               src={SolutionsImg}
             ></img>
           </div>
@@ -119,10 +119,12 @@ const HomePage = () => {
 
 
       {/* Section Card Tab */}
-      <p className="w-[100%] font-bold leading-5 pvmax:max-lg:leading-10 pvmax:max-lg:py-0 pvmax:max-lg:pl-[2rem] text-[1.5rem] py-16 pv:max-md:w-[100%] text-justify text-[2.2rem] text-[#4fb645] pl-[10rem] Keyfeatures">
+      <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-0 pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+      <p className="w-[66.67%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:py-0 pvmax:max-lg:pl-0  py-16 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-justify text-[2.2rem] text-[#4fb645]  Keyfeatures">
             Key features of our Mambu-powered BaaS platform include:
             </p>
-      <div className="flex w-[75%] mx-auto gap-10  pvmax:max-xl:hidden">
+          </div>
+      <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
       <button
           className={`text-[1.5rem] text-[#4fb645] font-bold focus:outline-none  focus:text-black focus:border-b-[3px] focus:border-black  ${
             isTab1 ? "text-black border-b-[3px] border-black " : ""
@@ -178,7 +180,7 @@ const HomePage = () => {
       <CardTabs
         className={` ${
           isTab1 ? "CardTabsSolutions grid" : "hidden"
-        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Accelerated Time to Market:"}
         description={
           "With pre-built integrations and modular architecture, our platform enables banks and FIs to launch new products and services in record time. By eliminating the need for lengthy development cycles and customizations, we empower our clients to stay ahead of the competition and capitalize on market opportunities swiftly."
@@ -189,7 +191,7 @@ const HomePage = () => {
       <CardTabs
         className={` ${
           isTab2 ? "CardTabsSolutions grid" : "hidden"
-        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Easy-to-Use Interface:"}
         description={
           "Our user-friendly interface and intuitive design make it easy for banks and FIs to onboard and manage customers, process transactions, and access valuable insights. Whether it's configuring products, managing workflows, or analyzing data, our platform streamlines every aspect of banking operations for maximum efficiency and convenience."
@@ -200,7 +202,7 @@ const HomePage = () => {
       <CardTabs
         className={`  ${
           isTab3 ? "CardTabsSolutions grid" : "hidden"
-        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Lower Total Cost of Ownership (TCO):"}
         description={
           "By adopting a cloud-native approach and leveraging Mambu's scalable infrastructure, our platform offers unparalleled cost savings and flexibility. Banks and FIs can scale their operations seamlessly to accommodate growth and fluctuations in demand, without incurring significant upfront investments or ongoing maintenance costs."
@@ -211,7 +213,7 @@ const HomePage = () => {
       <CardTabs
         className={` ${
           isTab4 ? "CardTabsSolutions grid" : "hidden"
-        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[85%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+        } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
         title={"Innovative Product Offerings: "}
         description={
           "Through our partnership with Best-for-Purpose solution partners, we empower banks and FIs to innovate their product offerings and deliver differentiated experiences to their customers. Whether it's launching digital lending solutions, personalized wealth management tools, or AI-powered analytics, our platform provides the flexibility and agility to adapt to changing market trends and customer preferences."

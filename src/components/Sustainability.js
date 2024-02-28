@@ -79,53 +79,53 @@ const Sustainability = () => {
     return (
         <div className="EndSolutionContainer w-[100%] h-fit ">
             <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
-                <div className="  w-[70%] mx-auto pvmax:max-lg:w-[90%] ">
+                <div className="  w-[66.67%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-8xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
                         Sustainability
                     </p>
                 </div>
             </div>
 
-            <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-start w-[88%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+            <div className="w-[66.67%] mx-auto  pvmax:max-lg:pl-0 py-10 md:max-xl:w-[70%] pv:max-md:w-[70%] solution-intro">
+        <p className="text-[1.1rem] font-bold text-justify w-full py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                     MDP's plan and commitments for sustainability should encompass a holistic approach that addresses environmental, social, and
                     economic dimensions. Here's a comprehensive plan outlining key initiatives and commitments:
 
                 </p>
             </div>
 
-            <div className="w-full h-[100vh] pvmax:max-lg:h-fit flex flex-col justify-center">
-                <div className="  w-full  mx-auto mb-10 py-10 ">
+            <div className="w-full h-fit pvmax:max-lg:h-fit flex flex-col justify-center">
+                <div className="  w-[66.67%] pvmax:max-md:w-[80%]  mx-auto mb-10 py-10 ">
                     <Carousel effect="fade" autoplay  className="sustain-carousel pvmax:max-lg:pb-20">
                         {dataSlider.map((item, index) => {
                             return (
-                                <div className="  w-full h-[40rem] pv:max-md:h-fit " key={item.key}>
+                                <div className="  w-full h-[50rem] pv:max-md:h-fit " key={item.key}>
                                     <p className="sustain-title text-[2.5rem] text-[#170F58] font-bold font ">{item.title}</p>
 
                                     <div className="w-full h-[90vh] mx-auto pt-10 pvmax:max-lg:pt-14  pb-20 grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 pv:max-md:h-fit">
 
 
                                         <div className="h-[60vh] w-full pvmax:max-lg:h-[30vh] flex justify-center  ">
-                                            <img className="w-[60%]" src={item.picture} alt=""/>
+                                            <img className="w-[80%]" src={item.picture} alt=""/>
                                         </div>
                                         <div className="h-[90vh] w-full pvmax:max-lg:px-8 sustain-seedoflife ">
-                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-justify w-full py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle1}</span>
                                                 {item.mindescription1}
                                             </p>
-                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-justify w-full py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle2}</span>
                                                 {item.mindescription2}
                                             </p>
-                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-justify w-full py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle3}</span>
                                                 {item.mindescription3}
                                             </p>
-                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-justify w-full py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle4}</span>
                                                 {item.mindescription4}
                                             </p>
-                                            <p className="sustain-des text-[1.1rem] text-start w-[90%] py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                                            <p className="sustain-des text-[1.1rem] text-justify w-full py-1 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                                                 <span className=" font-bold">{item.mintitle5}</span>
                                                 {item.mindescription5}
                                             </p>
