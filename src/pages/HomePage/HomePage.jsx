@@ -33,7 +33,7 @@ const HomePage = () => {
     <>
     <div className=" h-[100vh] w-[100%]  top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:h-fit pvmax:max-lg:justify-center">
         <div className="  w-[70%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
-          <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:pb-10  w-[90%] pvmax-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[3rem] font-mono bankname">
+          <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:py-10  w-[90%] pvmax-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[2.5rem] font-mono bankname">
           Mdp vision is to universalise banking for community well-being and a greener world
           </p>
         </div>
@@ -45,9 +45,6 @@ const HomePage = () => {
           A digital meet-up for agility, flexibility and Innovation
           </p>
           </div>
-          {/* <p className="text-white text-3xl  text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl font-mono">
-          A digital meet-up for agility, flexibility and Innovation
-          </p> */}
         </div>
         
       </div>
@@ -57,17 +54,6 @@ const HomePage = () => {
 
       <Banner />
       <SliderBanner></SliderBanner>
-      {/* <div className="pt-20 after-slider">
-        <CardText></CardText>
-      </div> */}
-
-      {/* <div className="w-[75%] mx-auto cursor-pointer pt-10 pb-20 md:max-xl:w-[90%] pvmax:max-md:w-[95%]">
-        <img
-          className="object-cover rounded-lg  translate-y-0  hover:-translate-y-2 duration-500"
-          style={{}}
-          src={ImgCampain}
-        ></img>
-      </div> */}
 
 {/* Solutions */}
 <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
