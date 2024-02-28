@@ -24,11 +24,11 @@ const UseCases = () => {
                 </div>
             </div>
             {/* 1 */}
-            <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
+            <div className="w-full h-fit pvmax:max-md:h-fit mt-20 h110 flex flex-col content-center justify-center items-center">
                 <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-12">
-                    <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-center">
+                    <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-start">
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2">Use Cases</p>
-                        <p className=" w-full pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-6xl text-[#4fb645]" >Digital Banking</p>
+                        <p className=" w-[70%] text-start pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Digital Banking</p>
                     </div>
                     <div className="w-[50%]  pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
                         MDP's Digital Banking solution revolutionizes traditional banking by offering customers a seamless and intuitive digital banking experience. Key features include:
@@ -56,7 +56,7 @@ const UseCases = () => {
                 <div className="w-[66.67%] pvmax:max-md:w-[80%]  h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
-                        <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-6xl text-[#4fb645] pb-8 font-semibold">Digital Payment</p>
+                        <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">Digital Payment</p>
                         <p className="text-justify text-[1.1rem]">
                             MDP's Digital Payment solution offers secure, convenient, and versatile payment options for businesses and consumers alike. Features include:
                             Card Payments: Acceptance of debit/credit card payments through POS terminals, e-commerce websites, and mobile apps, ensuring a seamless checkout experience.
@@ -75,9 +75,9 @@ const UseCases = () => {
             {/* 3 */}
             <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
                 <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-12">
-                    <div className="w-[50%] pvmax:max-md:w-full h-[60vh] pvmax:max-md:h-fit text-start flex flex-col items-center">
+                    <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-start">
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2 ">Use Cases</p>
-                        <p className=" w-full pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-6xl text-[#4fb645]" >Consumer Lending</p>
+                        <p className=" w-[70%] pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Consumer Lending</p>
                     </div>
                     <div className="w-[50%] pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
                         MDP's Consumer Lending solution empowers banks and financial institutions to offer a wide range of consumer loan products to individuals. Features include:
@@ -109,7 +109,7 @@ const UseCases = () => {
                     </div>
                     <div className="w-[50%] pvmax:max-md:w-full h-[100%] flex flex-col justify-center align-middle">
                         <p className="text-[1rem] pvmax:max-md:w-full font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
-                        <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-6xl text-[#4fb645] pb-8 font-semibold">SME Lending</p>
+                        <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">SME Lending</p>
                         <p className="text-justify text-[1.1rem] pvmax:max-md:w-full">
                             MDP's SME Lending solution enables banks and financial institutions to cater to the financing needs of small and medium-sized enterprises (SMEs). Features include:
                             Working Capital Loans: Flexible financing options to support SMEs' day-to-day operations, inventory management, and cash flow needs.
@@ -126,18 +126,18 @@ const UseCases = () => {
 
                     <div className=" pvmax:max-md:w-full h-[60vh] pvmax:max-md:h-fit hidden  pvmax:max-md:flex  pvmax:max-md:flex-col items-center">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-end">Use Cases</p>
-                        <p className="w-full text-end  pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-6xl text-[#4fb645]" >Merchant Lending</p>
+                        <p className="w-full text-end  pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Merchant Lending</p>
                     </div>
-                    <div className="w-[50%]  pvmax:max-md:w-full h-[60vh] text-justify text-[1.1rem] flex flex-col items-center">
+                    <div className="w-[50%]  pvmax:max-md:w-full h-fit text-justify text-[1.1rem] flex flex-col items-center">
                         MDP's Merchant Lending solution offers tailored financing solutions for merchants and businesses, enabling them to access capital for growth and expansion. Features include:
                         Merchant Cash Advances: Flexible financing options based on future credit card sales, providing merchants with immediate access to working capital.
                         POS Financing: Financing solutions integrated with point-of-sale systems, allowing merchants to offer installment plans and deferred payments to customers.
                         Inventory Financing: Financing options to help merchants purchase inventory and stock, enabling them to meet customer demand and grow their businesses.
                         Digital Application and Approval: Streamlined digital application processes with quick approvals and funding, ensuring merchants can access capital when they need it most.
                     </div>
-                    <div className="w-[50%] pvmax:max-md:w-full h-[60vh] pvmax:max-md:h-fit  pvmax:max-md:hidden text-start flex flex-col items-center">
+                    <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit  pvmax:max-md:hidden text-end flex flex-col items-end">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-end w-full">Use Cases</p>
-                        <p className=" w-full text-end pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-6xl text-[#4fb645]" >Merchant Lending</p>
+                        <p className=" w-[70%] text-end pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Merchant Lending</p>
                     </div>
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
@@ -157,7 +157,7 @@ const UseCases = () => {
                 <div className="w-[66.67%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
-                        <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-6xl text-[#4fb645] pb-8 font-semibold">eKYC Platform</p>
+                        <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">eKYC Platform</p>
                         <p className="text-justify text-[1.1rem]">
                             MDP's eKYC Platform offers advanced identity verification and authentication solutions to streamline customer onboarding processes and mitigate the risk of fraud. Features include:
                             Biometric Authentication: Facial recognition, fingerprint scanning, and voice recognition technologies for secure and convenient identity verification.
@@ -177,9 +177,9 @@ const UseCases = () => {
             {/* 7 */}
             <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
                 <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-12">
-                    <div className="w-[50%] pvmax:max-md:w-full h-[60vh] pvmax:max-md:h-fit text-start flex flex-col items-center">
+                    <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-center">
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2 ">Use Cases</p>
-                        <p className=" w-full pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-6xl text-[#4fb645]" >Open Banking</p>
+                        <p className=" w-full pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Open Banking</p>
                     </div>
                     <div className="w-[50%] pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
                         MDP's Open Banking solution empowers banks and financial institutions to embrace open banking principles and leverage APIs to enhance innovation, collaboration, and customer experience. Features include:
@@ -204,8 +204,8 @@ const UseCases = () => {
                 </div>
             </div>
 
-            <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-0 pvmax:max-md:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-justify w-[95%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+            <div className="w-[100%] mx-auto  pvmax:max-lg:pl-0 pvmax:max-md:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro flex items-center justify-center">
+                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     With MDP's comprehensive banking use cases, including Digital Banking, Digital Payment, Consumer Lending, SME Lending, Merchant Lending, eKYC Platform, and Open Banking, banks and financial institutions can unlock new opportunities, drive innovation, and deliver superior value to their customers in today's digital-first world.
                 </p>
             </div>
