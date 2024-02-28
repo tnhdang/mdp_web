@@ -105,7 +105,7 @@ const Sustainability = () => {
                                     <div className="w-full h-[90vh] mx-auto pt-10 pvmax:max-lg:pt-14  pb-20 grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 pv:max-md:h-fit">
 
 
-                                        <div className="h-full w-full  flex justify-center items-center ">
+                                        <div className="h-full w-full  flex justify-center items-center sustain-img-container ">
                                             <img className="w-[80%] h-[60vh] pvmax:max-lg:h-[30vh]" src={item.picture} alt=""/>
                                         </div>
                                         <div className="h-[90vh] w-full pvmax:max-lg:px-8 sustain-seedoflife ">
