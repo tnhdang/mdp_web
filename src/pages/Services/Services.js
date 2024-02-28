@@ -33,7 +33,7 @@ const Services = () => {
         {
             key: "4",
             title: "Product and Platform Design",
-            description: "n today's fast-paced digital economy, successful products and platforms are those that deliver seamless user experiences and tangible value to customers. Our product and platform design services combine human-centered design principles with technical expertise to create intuitive, scalable, and innovative solutions that meet the needs of modern businesses and their customers. From concept ideation to prototyping and testing, we help clients bring their ideas to life and accelerate time to market.",
+            description: "In today's fast-paced digital economy, successful products and platforms are those that deliver seamless user experiences and tangible value to customers. Our product and platform design services combine human-centered design principles with technical expertise to create intuitive, scalable, and innovative solutions that meet the needs of modern businesses and their customers. From concept ideation to prototyping and testing, we help clients bring their ideas to life and accelerate time to market.",
             img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
         },
         {

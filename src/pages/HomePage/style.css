@@ -73,7 +73,7 @@
 .slider-banner-container{
     background: url("../../assets/HomePage/triangleflip.png");
     background-repeat: no-repeat;
-    background-size: 20rem;
+    background-size: 19rem;
     background-position: left center;
 }
 
@@ -166,5 +166,12 @@
 
     .sustain-img-container img{
         height: 50vh;
+    }
+
+    .slider-banner-container{
+        background: url("../../assets/HomePage/triangleflip.png");
+        background-repeat: no-repeat;
+        background-size: 19rem;
+        background-position: left center;
     }
 }
