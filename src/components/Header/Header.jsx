@@ -118,9 +118,9 @@ const Header = () => {
             </Col>
             <Col span={3.4} className="customers-hover">
               <div className="dropdown dropdown-customers">
-                <h2 className="title dropbtn">
+                <a href="/baas" className="title dropbtn">
                 BaaS
-                </h2>
+                </a>
               </div>
             </Col>
             <Col span={3.4} className="partners-hover">
@@ -139,7 +139,9 @@ const Header = () => {
             </Col>
             
             <Col span={3.4}>
-              <button className="contact-btn">Contact us</button>
+              <button className="contact-btn">
+              <a  href="mailto: sales@mdpgroup.digital" className="">Contact us</a>
+              </button>
             </Col>
           </Row>
         </Col>
@@ -162,29 +164,33 @@ const Header = () => {
           onClick={() => onClickNavBar()}
         ></div>
         <div className="dropdown-mobile" style={{ display: visible }}>
-          <h2 className="title dropbtn" >
+          <a className="title dropbtn mobile-header" href="/services">
             Services
-          </h2>
+          </a>
          
-          <h2
-            className="title dropbtn"
+          <a
+            href="/usecases"
+            className="title dropbtn mobile-header"
           >
             Use Cases
-          </h2>
+          </a>
 
-          <h2
-            className="title dropbtn"
+          <a
+            href="/baas"
+            className="title dropbtn mobile-header"
           >
             BaaS
-          </h2>
-          <h2 className="title dropbtn">
+          </a>
+          <a className="title dropbtn mobile-header"
+          href="/partners">
             Partners
-          </h2>
+          </a>
 
 
-          <h2 className="title dropbtn">
+          <a className="title dropbtn mobile-header"
+          href="/company">
             Company
-          </h2>
+          </a>
         </div>
       </Row>
     </>

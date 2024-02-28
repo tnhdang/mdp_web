@@ -17,7 +17,8 @@ export const path = {
   SERVICES: "/services",
   USECASES: "/usecases",
   PARTNERS: "/partners",
-  COMPANY: "/company"
+  COMPANY: "/company",
+  BAAS: "/baas",
 };
 
 export const ScrollToTop = () => {

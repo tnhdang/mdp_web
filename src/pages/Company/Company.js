@@ -54,14 +54,14 @@ const Company = () => {
     return (
         <div className="">
             <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
-                <div className="  w-[70%] mx-auto pvmax:max-lg:w-[90%] ">
-                    <p className="text-white text-8xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
-                        Consulting
+                <div className="  w-full mx-auto pvmax:max-lg:w-[90%] flex content-center justify-center ">
+                    <p className="text-white text-8xl  font-bold text-start  w-[66.67%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
+                    Company Culture
                     </p>
                 </div>
             </div>
-            <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-start w-[90%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+            <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     MDP is a premier provider of consulting services, offering expertise in a wide range of areas including Customer Experience (CX), Digital
                     Transformation, Digital Bank use cases, Product and platform design, Enterprise platform, Project Management Office (PMO), and Engineering.
                     Our comprehensive suite of services is designed to help businesses navigate the complexities of the digital landscape, drive innovation, and
@@ -80,22 +80,32 @@ const Company = () => {
             >
 
                 {List.map((item, index) => {
-                    return (<SwiperSlide className="!pb-[5rem] pvmax:max-lg:!pb-0">
-                        <div className="w-full flex flex-col align-middle justify-center" key={item.key}>
-                            <p className="text-[2.5rem] text-[#170F58] font-bold font ">
-                                {item.title}
-                            </p>
-                            <p className="text-start text-[1.1rem] text-justify px-[8rem] pvmax:max-lg:px-[1rem]  py-[3rem]">
-                                {item.description}
-                            </p>
-                            <img src={item.img} className="w-full px-[30rem] pvmax:max-lg:px-0 "></img>
-
+                    return (<SwiperSlide className="!pb-[5rem] pvmax:max-lg:!pb-0 pvmax:max-lg:!w-full !flex content-center justify-center ">
+                    <div className=" flex flex-col align-middle justify-center w-[66.67%] pvmax:max-lg:!w-[80%]" key={item.key}>
+                        <p className="text-[2.5rem] text-[#170F58] font-bold font ">
+                            {item.title}
+                        </p>
+                        <p className="text-justify text-[1.1rem]   pvmax:max-lg:px-[1rem]  py-[3rem]">
+                            {item.description}
+                        </p>
+                        <div className="w-full h-fit flex content-center justify-center">
+                        <img src={item.img} className="w-[50%]  pvmax:max-lg:px-0 pvmax:max-lg:w-full "></img>
                         </div>
+                        
+
+                    </div>
                     </SwiperSlide>)
                 })}
             </Swiper>
 
-            <p className="text-start px-[8rem] pvmax:max-lg:px-[2rem] py-[3rem]">At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, we enable businesses to thrive in the rapidly evolving digital landscape and deliver exceptional value to their customers.</p>
+            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="text-start text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 py-[3rem]">
+                    At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance 
+                    customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card 
+                    processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, 
+                    we enable businesses to thrive in the rapidly evolving digital landscape and deliver exceptional value to their customers.
+                    </p>
+                </div>  
 
 
 
@@ -103,7 +113,7 @@ const Company = () => {
             <div className="h-fit slider-banner-container pvmax:max-lg:h-fit">
 
                 {/* Section Card Tab */}
-                <div className="flex w-[75%] mx-auto gap-10  pvmax:max-xl:hidden">
+                <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
                     <button
                         className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${isTab1 ? "text-black border-b-[3px] border-black " : ""
                             }`}
@@ -143,7 +153,7 @@ const Company = () => {
                 </div>
                 <CardTabsCompany
                     className={` ${isTab1 ? "grid" : "hidden"
-                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[75%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
                     title1={"Teamwork: "}
                     description1={
                         "Collaboration is valued and encouraged, with teams working together seamlessly to achieve shared objectives and solve complex challenges. Inclusive Environment: Diversity of perspectives, backgrounds, and ideas is celebrated, creating an inclusive environment where everyone feels valued and respected. Cross-Functional Partnerships: Collaboration extends beyond team boundaries, with employees collaborating across departments and disciplines to drive innovation and success."
@@ -159,7 +169,7 @@ const Company = () => {
                 ></CardTabsCompany>
                 <CardTabsCompany
                     className={` ${isTab2 ? "grid" : "hidden"
-                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[75%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
                     title1={"Creativity and Experimentation: "}
                     description1={
                         "Employees are encouraged to think creatively, challenge the status quo, and explore innovative solutions to problems."
@@ -175,7 +185,7 @@ const Company = () => {
                 ></CardTabsCompany>
                 <CardTabsCompany
                     className={`  ${isTab3 ? "grid" : "hidden"
-                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[75%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
                     title1={"Customer-Centric Focus: "}
                     description1={
                         "Quality is prioritized to meet and exceed customer expectations, with a relentless focus on delivering exceptional products and services."
@@ -192,8 +202,8 @@ const Company = () => {
 
             </div>
 
-            <div className="w-[100%] mx-auto pl-[8rem] pvmax:max-lg:pl-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-start w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-[2rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                 Overall, the culture at MDP is one of collaboration, innovation, and excellence, where employees are empowered to make a positive impact, uphold the 
                 company's values, and drive success. It is a culture that fosters continuous learning, growth, and a shared commitment to building a better future for 
                 all stakeholders.
@@ -201,7 +211,7 @@ const Company = () => {
             </div>
 
             <div className="w-full h-fit flex content-center justify-center align-middle">
-            <p className="text-[#4fb645] text-5xl py-12  font-bold text-start  w-[66.67%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
+            <p className="text-[#4fb645] text-5xl py-12  font-bold text-start  w-[66.67%] md:max-lg:text-5xl pvmax:max-lg:w-full pvmax:max-lg:px-[3.25rem]   pvmax:max-md:text-2xl">
                         10 elements that define MDP's culture
             </p>
             </div>

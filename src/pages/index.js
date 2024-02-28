@@ -12,4 +12,6 @@ export {default as Services} from "./Services/Services";
 export {default as UseCases} from "./UseCases/UseCases";
 export {default as Partners} from "./Partners/Partners";
 export {default as Company} from "./Company/Company";
+export {default as Baas} from "./Baas/Baas";
+
 

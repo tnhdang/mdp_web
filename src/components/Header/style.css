@@ -260,8 +260,6 @@ h2,a{
 
   .title{
     text-align: right;
-    font-family: futura-regular;
-    src: local(futura-regular), url(../../font/FUTURA/SFUFuturaRegular.TTF);
   }
 
   .subtittle {
@@ -270,8 +268,10 @@ h2,a{
     padding: 0;
   }
 
-  h2{
+  .mobile-header{
     font-weight: 700;
+    display: block;
+    font-family: inherit !important;
   }
 
 

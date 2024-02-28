@@ -9,7 +9,8 @@ import { HomePage,
   Services,
   UseCases,
   Partners,
-  Company
+  Company,
+  Baas
 } from "../pages";
 
 import { Deposits } from "../pages";
@@ -97,6 +98,12 @@ const routes = [
     exact: true,
     component: <Company />,
     main: () => <Company />,
+  },
+  {
+    path: path.BAAS,
+    exact: true,
+    component: <Baas />,
+    main: () => <Baas />,
   },
 ];
 
