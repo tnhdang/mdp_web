@@ -2,6 +2,9 @@ import React from "react";
 import { Col, Row, Carousel } from "antd";
 import img1 from "../assets/HomePage/sustain.png";
 import img2 from "../assets/HomePage/sustain2.png";
+import img3 from "../assets/HomePage/sustaincontent1.png";
+import img4 from "../assets/HomePage/sustaincontent2.png";
+
 
 
 
@@ -10,7 +13,7 @@ const Sustainability = () => {
     const dataSlider = [
         {
             key: "1",
-            picture: img1,
+            picture: img4,
             title: "Environmental Sustainability ",
             mintitle1: "Carbon Neutrality: ",
             mindescription1: "Commit to achieving carbon neutrality by reducing greenhouse gas emissions from operations and offsetting remaining emissions through renewable energy projects or carbon offset programs.",
@@ -42,7 +45,7 @@ const Sustainability = () => {
         },
         {
             key: "3",
-            picture: img1,
+            picture: img4,
             title: "Economic Sustainability",
             mintitle1: "Responsible Investment: ",
             mindescription1: "Evaluate investment decisions based on environmental, social, and governance (ESG) criteria, and prioritize investments in sustainable and socially responsible projects or initiatives.",

@@ -27,25 +27,25 @@ const Company = () => {
             key: "1",
             title: "Transparency",
             description: "Open Communication: Employees at all levels are encouraged to communicate openly and transparently, sharing information, ideas, and feedback freely. Accessible Leadership: Leadership fosters a culture of approachability, making themselves accessible to employees and actively soliciting input and feedback. Visibility of Decision-Making: Decision-making processes are transparent, with clear explanations provided for the rationale behind decisions and their implications. ",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/internet-online-banking-service-isometric-symbolic-composition-with-clerks-credit-deposit-counters-mobile-application_1284-29197.jpg?t=st=1709192657~exp=1709196257~hmac=f92d7d71f1fbacbf45d06db41ed8657d061bb34c8f4e6aceb7862c4d1f575c4b&w=826"
         },
         {
             key: "2",
             title: "Integrity",
             description: "Ethical Conduct: Integrity is non-negotiable at MDP, with employees expected to uphold the highest ethical standards in all interactions and decisions. Trustworthiness: Employees demonstrate honesty, fairness, and reliability in their actions, building trust with colleagues, clients, and stakeholders.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/e-wallet-concept-illustration_114360-7711.jpg?t=st=1709193001~exp=1709196601~hmac=9afa666e7ee06952078a5f0ba6e4ea35fcb91013dcee8674199a383ebdf76d83&w=826"
         },
         {
             key: "3",
             title: "Accountability",
             description: "Individuals take ownership of their actions and responsibilities, holding themselves and others accountable for delivering results with integrity.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/internet-online-banking-service-isometric-symbolic-composition-with-clerks-credit-deposit-counters-mobile-application_1284-29197.jpg?t=st=1709192657~exp=1709196257~hmac=f92d7d71f1fbacbf45d06db41ed8657d061bb34c8f4e6aceb7862c4d1f575c4b&w=82"
         },
         {
             key: "4",
             title: "Ownership Mentality",
             description: "Employees take pride in their work and take ownership of their responsibilities, proactively seeking solutions and delivering results. Performance Metrics: Clear performance metrics are established, and employees are held accountable for achieving their goals, with regular feedback provided to support their growth. Learning from Setbacks: Mistakes are viewed as opportunities for learning and growth, and employees are encouraged to take responsibility for addressing and learning from failures.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/e-wallet-concept-illustration_114360-7711.jpg?t=st=1709193001~exp=1709196601~hmac=9afa666e7ee06952078a5f0ba6e4ea35fcb91013dcee8674199a383ebdf76d83&w=826"
         },
 
     ];
@@ -99,7 +99,7 @@ const Company = () => {
             </Swiper>
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-start text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-[3rem]">
+                <p className="text-justify text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-[3rem]">
                     At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance 
                     customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card 
                     processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, 
@@ -110,7 +110,7 @@ const Company = () => {
 
 
 
-            <div className="h-fit slider-banner-container pvmax:max-lg:h-fit">
+            <div className="h-fit slider-company-container pvmax:max-lg:h-fit">
 
                 {/* Section Card Tab */}
                 <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">

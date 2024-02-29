@@ -3,6 +3,7 @@
 import React from "react";
 // import imageBanner from "../../assets/images/banner.png";
 // import baasimg from "../../assets/HomePage/baas.mp4";
+import BannerImg from "../../assets/HomePage/banner.png"
 import "./style.css";
 const Banner = () => {
   return (
@@ -11,7 +12,7 @@ const Banner = () => {
       
 
       <div className="flex flex-col w-[50%] h-[100%] justify-center  pvmax:max-lg:w-[100%] pvmax:max-lg:pr-[1rem] pvmax:max-lg:h-[50%] ">
-        <img src="https://img.freepik.com/premium-photo/finance-banking-concept-financial-services-atm-money-turnover-investment-storage-funds-cash-vaults-bank-successful-investment-productivity-busines_771426-9240.jpg?size=626&ext=jpg&ga=GA1.1.1847015774.1708397240&semt=sph" className="h-[60%] rounded-[3rem] "/>
+        <img src={BannerImg} className="h-[60%] rounded-[3rem] "/>
       </div>
 
       

@@ -17,43 +17,43 @@ const Baas = () => {
             key: "1",
             title: "Payment and Card Processing",
             description: "Our Payment and Card processing solution enables businesses to securely process payments, manage transactions, and issue cards with ease. Leveraging advanced technology and industry best practices, we provide end-to-end payment processing solutions that support multiple payment methods, currencies, and channels, ensuring fast, reliable, and secure payment processing for businesses of all sizes.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/online-banking-isometric-round-composition_1284-29555.jpg?t=st=1709192254~exp=1709195854~hmac=7f308b3d8919c84d0eeb54d4aead4c639b9b4043c91fab34be3d47060560f6f9&w=826"
         },
         {
             key: "2",
             title: "eKYC and Fraud Prevention",
             description: "With our eKYC (electronic Know Your Customer) and Fraud Prevention solution, businesses can streamline customer onboarding processes, verify identities, and mitigate the risk of fraud. Our advanced identity verification technology leverages biometric authentication, document verification, and machine learning algorithms to ensure compliance with regulatory requirements and enhance security while providing a seamless customer experience.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/accounting-isometric-round-composition-with-online-banking-income-payment_1284-33329.jpg?t=st=1709192548~exp=1709196148~hmac=fee3eeab7ded8b95e74fb9023372f4bd05cc40c174f76eef16f9a4151f98f94d&w=826"
         },
         {
             key: "3",
             title: "Digital Banking",
             description: "MDP's Digital Banking solution empowers banks and financial institutions to offer a full range of digital banking services to their customers, including account management, payments, transfers, and more. Our user-friendly interface, personalized features, and omnichannel capabilities enable customers to manage their finances anytime, anywhere, on any device, delivering convenience and flexibility while driving customer engagement and loyalty.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/online-banking-isometric-round-composition_1284-29555.jpg?t=st=1709192254~exp=1709195854~hmac=7f308b3d8919c84d0eeb54d4aead4c639b9b4043c91fab34be3d47060560f6f9&w=826"
         },
         {
             key: "4",
             title: "Digital Bank",
             description: "Our Digital Bank solution enables businesses to launch fully digital banking services quickly and cost-effectively, without the need for extensive infrastructure or IT investment. With our white-label platform, businesses can customize the branding, features, and functionality of their digital bank, offering a seamless and intuitive banking experience that meets the unique needs of their customers.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/accounting-isometric-round-composition-with-online-banking-income-payment_1284-33329.jpg?t=st=1709192548~exp=1709196148~hmac=fee3eeab7ded8b95e74fb9023372f4bd05cc40c174f76eef16f9a4151f98f94d&w=826"
         },
         {
             key: "5",
             title: "Digital Lending",
             description: "MDP's Digital Lending solution revolutionizes the lending process, enabling banks and financial institutions to offer a wide range of loan products online, from personal loans to mortgages and small business loans. Our end-to-end digital lending platform streamlines the entire loan lifecycle, from application and underwriting to funding and servicing, providing borrowers with fast approvals, competitive rates, and a seamless borrowing experience.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/online-banking-isometric-round-composition_1284-29555.jpg?t=st=1709192254~exp=1709195854~hmac=7f308b3d8919c84d0eeb54d4aead4c639b9b4043c91fab34be3d47060560f6f9&w=826"
         },
         {
             key: "6",
             title: "Open Banking",
             description: "Our Open Banking solution enables banks and financial institutions to unlock the value of their data and APIs, enabling them to securely share customer data and services with third-party providers. By embracing open banking principles, businesses can foster innovation, expand their product offerings, and create new revenue streams while delivering greater value and choice to their customers.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/accounting-isometric-round-composition-with-online-banking-income-payment_1284-33329.jpg?t=st=1709192548~exp=1709196148~hmac=fee3eeab7ded8b95e74fb9023372f4bd05cc40c174f76eef16f9a4151f98f94d&w=826"
         },
         {
             key: "7",
             title: "Business Ecosystem Integration",
             description: "MDP's Business Ecosystem Integration solution enables businesses to seamlessly integrate with third-party providers, partners, and suppliers to create a connected ecosystem of services and offerings. Our flexible integration platform supports API-based connectivity, data exchange, and workflow automation, enabling businesses to streamline processes, drive innovation, and deliver added value to their customers and stakeholders.",
-            img: "https://mdp-web.vercel.app/static/media/sustain.5552c4f8bdb2fc39ccd9.png"
+            img: "https://img.freepik.com/free-vector/online-banking-isometric-round-composition_1284-29555.jpg?t=st=1709192254~exp=1709195854~hmac=7f308b3d8919c84d0eeb54d4aead4c639b9b4043c91fab34be3d47060560f6f9&w=826"
         },
 
     ];

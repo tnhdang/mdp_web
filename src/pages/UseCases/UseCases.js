@@ -41,11 +41,11 @@ const UseCases = () => {
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col">
                     <div className="w-[66.67%]  h-fit flex flex-row pvmax:max-md:flex-col">
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6">
-                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
+                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
                         </div>
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8">
-                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
+                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
                         </div>
                     </div>
 
@@ -91,11 +91,11 @@ const UseCases = () => {
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
                     <div className="w-[66.67%] h-fit flex flex-row pvmax:max-md:flex-col">
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6">
-                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
+                        <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
                         </div>
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8">
-                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
+                        <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
                         </div>
                     </div>
 
@@ -145,11 +145,11 @@ const UseCases = () => {
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
                     <div className="w-[66.67%] h-fit flex flex-row pvmax:max-md:flex-col">
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6">
-                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
+                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
                         </div>
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8">
-                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
+                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
                         </div>
                     </div>
 
@@ -196,11 +196,11 @@ const UseCases = () => {
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
                     <div className="w-[66.67%] h-fit flex flex-row pvmax:max-md:flex-col">
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6">
-                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
+                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
                         </div>
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8">
-                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-icon-electron-payment-pay-receipt-with-credit-card-online-bank-security_39422-990.jpg?t=st=1709004701~exp=1709008301~hmac=be5132939559691e35129a06415bc4e6bc4d67fe2fd1c5e49465248d7ce64579&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
+                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
                         </div>
                     </div>
 
