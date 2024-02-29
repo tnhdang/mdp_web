@@ -91,7 +91,7 @@ const Header = () => {
 
   return (
     <>
-      <Row justify="center" align="middle" className="header-container-pc">
+      {/* <Row justify="center" align="middle" className="header-container-pc">
         <Col span={5} className="logo-col">
           <img
             className="logo"
@@ -192,7 +192,122 @@ const Header = () => {
             Company
           </a>
         </div>
+      </Row> */}
+
+      <div className="w-fll h-fit flex flex-row items-center content-center justify-center">
+
+        <Row gutter={[24, 48]} justify="center" align="middle" className="header-content">
+          <Col span={3} className="logo-col">
+            <img
+              className="logo"
+              src={logo}
+              alt="logo"
+              onClick={() => navigate("/")}
+            />
+          </Col>
+
+          <Col span={3} className="whatwedo-hover">
+
+          </Col>
+
+          <Col span={3} className="whatwedo-hover">
+            <div className="dropdown dropdown-whatwedo">
+              <a href="/services" className="title dropbtn">
+                Services
+              </a>
+            </div>
+          </Col>
+
+          <Col span={3} className="solutions-hover">
+            <div className="dropdown dropdown-solutions">
+              <a href="/usecases" className="title dropbtn">
+                Use Cases
+              </a>
+            </div>
+          </Col>
+
+          <Col span={3} className="customers-hover">
+            <div className="dropdown dropdown-customers">
+              <a href="/baas" className="title dropbtn">
+                BaaS
+              </a>
+            </div>
+          </Col>
+
+          <Col span={3} className="partners-hover">
+            <div className="dropdown dropdown-partners">
+              <a href="/partners" className="title dropbtn">
+                Partners
+              </a>
+            </div>
+          </Col>
+
+          <Col span={3} className="company-hover">
+            <div className="dropdown dropdown-company">
+              <a href="/company" className="title dropbtn">
+                Company
+              </a>
+            </div>
+          </Col>
+
+          <Col span={3} >
+            <button className="contact-btn">
+              <a href="mailto: sales@mdpgroup.digital" className="">Contact us</a>
+            </button>
+          </Col>
+
+        </Row>
+
+        <Row justify="center" align="middle" className="header-container-mobile">
+        <Col span={16} className="logo-col-mobile">
+          <img
+            className="logo-mobile"
+            src={logo}
+            alt="logo"
+            onClick={() => navigate("/")}
+          />
+        </Col>
+        <Col span={8} className="navbar-mobile">
+          <MenuOutlined onClick={() => onClickNavBar()} />
+        </Col>
+        <div
+          className="dropdown-mobile-container"
+          style={{ display: visible }}
+          onClick={() => onClickNavBar()}
+        ></div>
+        <div className="dropdown-mobile" style={{ display: visible }}>
+          <a className="title dropbtn mobile-header" href="/services">
+            Services
+          </a>
+         
+          <a
+            href="/usecases"
+            className="title dropbtn mobile-header"
+          >
+            Use Cases
+          </a>
+
+          <a
+            href="/baas"
+            className="title dropbtn mobile-header"
+          >
+            BaaS
+          </a>
+          <a className="title dropbtn mobile-header"
+          href="/partners">
+            Partners
+          </a>
+
+
+          <a className="title dropbtn mobile-header"
+          href="/company">
+            Company
+          </a>
+        </div>
       </Row>
+
+      </div>
+
     </>
   );
 };

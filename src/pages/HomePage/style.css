@@ -84,16 +84,16 @@
     background-position: right center;
 }
 .bankname{
-    font-size: 2rem;
+    font-size: 1.35rem;
 }
 
 @media only screen and (min-width: 1600px) {
     .bankname{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .bankdescription{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .banner-content{
@@ -174,4 +174,5 @@
         background-size: 19rem;
         background-position: left center;
     }
+    
 }
