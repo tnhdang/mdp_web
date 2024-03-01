@@ -39,7 +39,7 @@ const Company = () => {
             key: "3",
             title: "Accountability",
             description: "Individuals take ownership of their actions and responsibilities, holding themselves and others accountable for delivering results with integrity.",
-            img: "https://img.freepik.com/free-vector/internet-online-banking-service-isometric-symbolic-composition-with-clerks-credit-deposit-counters-mobile-application_1284-29197.jpg?t=st=1709192657~exp=1709196257~hmac=f92d7d71f1fbacbf45d06db41ed8657d061bb34c8f4e6aceb7862c4d1f575c4b&w=82"
+            img: "https://img.freepik.com/free-vector/internet-online-banking-service-isometric-symbolic-composition-with-clerks-credit-deposit-counters-mobile-application_1284-29197.jpg?t=st=1709192657~exp=1709196257~hmac=f92d7d71f1fbacbf45d06db41ed8657d061bb34c8f4e6aceb7862c4d1f575c4b&w=826"
         },
         {
             key: "4",
@@ -61,7 +61,7 @@ const Company = () => {
                 </div>
             </div>
             <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     MDP is a premier provider of consulting services, offering expertise in a wide range of areas including Customer Experience (CX), Digital
                     Transformation, Digital Bank use cases, Product and platform design, Enterprise platform, Project Management Office (PMO), and Engineering.
                     Our comprehensive suite of services is designed to help businesses navigate the complexities of the digital landscape, drive innovation, and
@@ -99,7 +99,7 @@ const Company = () => {
             </Swiper>
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-justify text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-[3rem]">
+                <p className="text-justify text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-20">
                     At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance 
                     customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card 
                     processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, 
@@ -115,7 +115,7 @@ const Company = () => {
                 {/* Section Card Tab */}
                 <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
                     <button
-                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${isTab1 ? "text-black border-b-[3px] border-black " : ""
+                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
                             }`}
                         onClick={() => {
                             setIsTab1(true);
@@ -127,7 +127,7 @@ const Company = () => {
                     </button>
 
                     <button
-                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black  ${isTab2 ? "text-black border-b-[3px] border-black " : ""
+                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab2 ? "text-black border-b-[3px] border-black " : ""
                             }`}
                         onClick={() => {
                             setIsTab1(false);
@@ -139,7 +139,7 @@ const Company = () => {
                     </button>
 
                     <button
-                        className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-black "
+                        className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645] "
                         onClick={() => {
                             setIsTab1(false);
                             setIsTab2(false);
@@ -211,14 +211,14 @@ const Company = () => {
             </div>
 
             <div className="w-full h-fit flex content-center justify-center align-middle">
-            <p className="text-[#4fb645] text-5xl py-12  font-bold text-start  w-[66.67%] md:max-lg:text-5xl pvmax:max-lg:w-full pvmax:max-lg:px-[3.25rem]   pvmax:max-md:text-2xl">
+            <p className="text-[#4fb645] text-[2.5rem] py-12  font-bold text-start  w-[66.67%] md:max-lg:text-5xl pvmax:max-lg:w-full pvmax:max-lg:px-[3.25rem]   pvmax:max-md:text-2xl">
                         10 elements that define MDP's culture
             </p>
             </div>
 
             
 
-            <div className="w-full h-fit flex content-center justify-center align-middle pb-20">
+            <div className="w-full h-fit flex content-center justify-center align-middle pb-20 mb-10">
                 <img className="w-[66.67%]" src={tenelement}></img>
             </div>
 

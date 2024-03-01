@@ -38,16 +38,16 @@ const EndSolutions = () => {
 
   return (
     <div className="w-full h-fit flex items-center justify-center content-center">
-      <div className="EndSolutionContainer w-[66.67%] pv:max-md:w-[70%]  h-[80vh] pvmax:max-lg:h-[100vh] content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
-        <div className="w-full h-[100vh] pvmax:max-lg:h-fit flex flex-col justify-center">
-          <p className="text-[1.1rem] text-justify pr-[4rem] pv:max-md:pr-0 font-bold">
+      <div className="EndSolutionContainer mb-12 w-[66.67%] pv:max-md:w-[70%]  h-[36rem] pvmax:max-lg:h-[100vh] content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
+        <div className="w-full h-full pvmax:max-lg:h-fit flex flex-col justify-center">
+          <p className="text-[1.1rem] leading-7 text-justify pr-[4rem] pv:max-md:pr-0 font-bold">
             At MDP, we are committed to driving digital transformation in the banking industry and empowering our clients
             to succeed in the digital economy. With our Mambu-powered BaaS platform, banks and FIs can unlock new possibilities,
             accelerate innovation, and deliver unparalleled value to their customers, all while reducing time to market, enhancing
             usability, and lowering total cost of ownership.
           </p>
         </div>
-        <div className="w-full h-[100vh] pvmax:max-lg:h-fit flex flex-col justify-center slider-endsolutions">
+        <div className="w-full h-fit pvmax:max-lg:h-fit flex flex-col justify-center slider-endsolutions">
           <div className="  w-[100%] bg-[#4fb645] mx-auto rounded-lg my-10 py-10 ">
             <Carousel effect="fade" autoplay>
               {dataSlider.map((item, index) => {

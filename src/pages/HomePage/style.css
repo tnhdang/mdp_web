@@ -71,44 +71,37 @@
     background-position: center;
 }
 
-/* .slider-banner-container{
-    background: url("../../assets/HomePage/triangleflip.png");
-    background-repeat: no-repeat;
-    background-size: 19rem;
-    background-position: left center;
-} */
-
-/* .slider-endsolutions{
-    background: url("../../assets/HomePage/triangleflip.png");
+.part1-home{
+    background: url("../../assets/HomePage/floweroflife.png");
     background-repeat: no-repeat;
     background-size: 25rem;
-    background-position: right center;
-} */
-.bankname{
-    font-size: 2rem;
+    background-position-x: 70rem;
 }
+
+
+.bankname{
+    font-size: 2.3rem;
+}
+
+
 
 @media only screen and (min-width: 1600px) {
     .bankname{
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .bankdescription{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .banner-content{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     .slider-banner-container{
-        height: 55vh;
+        height: 31rem;
     }
    
-
-    .Keyfeatures{
-        padding-left: 15rem;
-    }
 
     .solution-card-img{
         width: 70%;
@@ -136,8 +129,8 @@
     .MetatronsCube{
         background: url("../../assets/HomePage/seedoflife.png");
         background-repeat: no-repeat;
-        background-size: 15rem;
-        background-position: left;
+        background-size: 20rem;
+        background-position: center;
     }
 
     .sustain-des{
@@ -169,11 +162,12 @@
         height: 50vh;
     }
 
-    .slider-banner-container{
-        background: url("../../assets/HomePage/triangleflip.png");
+    .part1-home {
+        background: url("../../assets/HomePage/floweroflife.png");
         background-repeat: no-repeat;
-        background-size: 19rem;
-        background-position: left center;
+        background-size: 33rem;
+        background-position-x: 102rem;
+        background-position-y: 2rem;
     }
     
 }

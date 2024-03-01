@@ -2,9 +2,16 @@
     background-color: #415a95;
     color: white;
     font-family: inherit !important;
-    padding: 3rem 5rem;
+    padding: 3rem 0;
     min-width: 100vw;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
 
+}
+
+.footer{
+    width: 66.67%;
 }
 
 .footer-group{
@@ -33,6 +40,9 @@
     display: block;
     color: white;
     line-height: 2rem;
+}
+.logo-footer{
+    width: 10rem;
 }
 
 @media only screen and (max-width: 600px) {

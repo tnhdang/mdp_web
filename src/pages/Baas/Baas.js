@@ -67,7 +67,7 @@ const Baas = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem] pb-2 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem]  md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-[1.1rem] font-bold text-start w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     <a href="/services">Service</a> 
                     <RightOutlined className="px-4 pvmax:max-lg:inline" />
@@ -75,7 +75,7 @@ const Baas = () => {
                 </p>
             </div>
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-[1rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] pt-10 pb-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     MDP's Banking-as-a-Service (BaaS) offering is a comprehensive suite of solutions designed to empower banks, financial institutions, and businesses to innovate, streamline operations, and deliver seamless digital experiences to their customers. Our BaaS platform encompasses a range of capabilities, including:
                 </p>
             </div>
@@ -91,9 +91,9 @@ const Baas = () => {
             >
 
                 {Baas.map((item, index) => {
-                    return (<SwiperSlide className="!pb-[5rem] pvmax:max-lg:!pb-0 pvmax:max-lg:!w-full !flex content-center justify-center ">
+                    return (<SwiperSlide className=" pvmax:max-lg:!pb-0 pvmax:max-lg:!w-full !flex content-center justify-center ">
                         <div className=" flex flex-col align-middle justify-center w-[66.67%] pvmax:max-lg:!w-[80%]" key={item.key}>
-                            <p className="text-[2.5rem] text-[#170F58] font-bold font ">
+                            <p className="text-[2.5rem] text-[#4fb645] font-bold font ">
                                 {item.title}
                             </p>
                             <p className="text-justify text-[1.1rem]    py-[3rem]">
@@ -109,8 +109,8 @@ const Baas = () => {
                 })}
             </Swiper>
 
-            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-            <p className="text-start text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-[3rem]">At MDP, we are committed to empowering businesses with cutting-edge 
+            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem] pb-20 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+            <p className="text-start text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 py-10">At MDP, we are committed to empowering businesses with cutting-edge 
             banking-as-a-service solutions that drive innovation, enhance customer experiences, and accelerate digital transformation. With our 
             comprehensive suite of offerings, including Payment and Card processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital 
             Lending, Open Banking, and Business Ecosystem Integration, we enable businesses to thrive in the rapidly evolving digital landscape and deliver 
