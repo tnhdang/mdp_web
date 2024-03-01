@@ -71,11 +71,20 @@
     background-position: center;
 }
 
-.part1-home{
+.solution-intro-container{
     background: url("../../assets/HomePage/floweroflife.png");
     background-repeat: no-repeat;
-    background-size: 25rem;
-    background-position-x: 70rem;
+    background-position-x: 66rem;
+    background-size: 35rem;
+    background-position-y: -17rem;
+}
+
+.endsolutions{
+    background: url("../../assets/HomePage/floweroflife.png");
+    background-repeat: no-repeat;
+    background-position-x: -17rem;
+    background-size: 35rem;
+    background-position-y: 22rem;
 }
 
 
@@ -161,13 +170,29 @@
     .sustain-img-container img{
         height: 50vh;
     }
-
+/* 
     .part1-home {
         background: url("../../assets/HomePage/floweroflife.png");
         background-repeat: no-repeat;
         background-size: 33rem;
         background-position-x: 102rem;
         background-position-y: 2rem;
+    } */
+
+    .solution-intro-container{
+        background: url("../../assets/HomePage/floweroflife.png");
+        background-repeat: no-repeat;
+        background-position-x: 101rem;
+        background-size: 35rem;
+        background-position-y: -17rem;
+    }
+
+    .endsolutions{
+        background: url("../../assets/HomePage/floweroflife.png");
+        background-repeat: no-repeat;
+        background-position-x: -20rem;
+        background-size: 40rem;
+        background-position-y: 20rem;
     }
     
 }

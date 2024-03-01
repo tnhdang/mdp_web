@@ -66,8 +66,8 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-
-      <div className="w-[66.67%] mx-auto  pvmax:max-lg:pl-0 py-20 md:max-xl:w-[80%] pv:max-md:w-[70%] solution-intro">
+      <div className="w-full mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center solution-intro-container">
+        <div className="w-[66.67%]   pvmax:max-lg:pl-0 py-20 md:max-xl:w-[80%] pv:max-md:w-[70%] solution-intro">
         <p className="text-[1.1rem] font-bold text-justify w-full py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
           MDP is proud to announce our strategic partnership with Mambu, a leading digital core banking platform,
           to revolutionize the banking landscape and empower financial institutions (FIs) to thrive in the digital
@@ -76,6 +76,8 @@ const HomePage = () => {
           their banking products and offerings with unprecedented speed, ease, and cost-effectiveness.
         </p>
       </div>
+      </div>
+      
 
       <div className="w-full mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
         <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[66.67%] pv:max-md:w-[90%] ">
@@ -113,7 +115,8 @@ const HomePage = () => {
           Key features of our Mambu-powered BaaS platform include:
         </p>
       </div>
-      <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
+      <div className="w-full mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex flex-col content-center items-center justify-center">
+        <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
         <button
           className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
             }`}
@@ -204,6 +207,8 @@ const HomePage = () => {
         image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
         titleButton={"Discover deposits"}
       ></CardTabs>
+      </div>
+      
       {/* End Section Card Tab */}
 
       <EndSolutions />

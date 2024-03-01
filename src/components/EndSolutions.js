@@ -37,7 +37,7 @@ const EndSolutions = () => {
   ];
 
   return (
-    <div className="w-full h-fit flex items-center justify-center content-center">
+    <div className="w-full h-fit flex items-center justify-center content-center endsolutions">
       <div className="EndSolutionContainer mb-12 w-[66.67%] pv:max-md:w-[70%]  h-[36rem] pvmax:max-lg:h-[100vh] content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
         <div className="w-full h-full pvmax:max-lg:h-fit flex flex-col justify-center">
           <p className="text-[1.1rem] leading-7 text-justify pr-[4rem] pv:max-md:pr-0 font-bold">
