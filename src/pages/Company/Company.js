@@ -82,7 +82,7 @@ const Company = () => {
                 {List.map((item, index) => {
                     return (<SwiperSlide className="!pb-[5rem] pvmax:max-lg:!pb-0 pvmax:max-lg:!w-full !flex content-center justify-center ">
                     <div className=" flex flex-col align-middle justify-center w-[66.67%] pvmax:max-lg:!w-[80%]" key={item.key}>
-                        <p className="text-[2.5rem] text-[#170F58] font-bold font ">
+                        <p className="text-[2.5rem] text-[#4fb645] font-bold font ">
                             {item.title}
                         </p>
                         <p className="text-justify text-[1.1rem]   pvmax:max-lg:px-[1rem]  py-[3rem]">
