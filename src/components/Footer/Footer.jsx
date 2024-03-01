@@ -15,13 +15,16 @@ const Footer = () => {
 
             <Row justify="start" align="top" className="py-6">
                 <Col xs={24} sm={24} md={24} lg={8} xl={8}>
-                    <p className="text-start pr-2 leading-9 text-[1.1rem]"> <span className="hidden pvmax:max-lg:inline">* </span> <span className="font-bold text-[1.2rem]">Headquarter: </span> 100 Đ. Lê Lai, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</p>
+                <p className="text-start pr-2  leading-9 font-bold text-[1.2rem]"> Headquarter</p>
+                    <p className="text-start pr-3 leading-9 text-[1.1rem]"> <span className="hidden pvmax:max-lg:inline">* </span> 100 Đ. Lê Lai, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, Việt Nam</p>
                 </Col>
                 <Col xs={24} sm={24} md={24} lg={8} xl={8}>
-                    <p className="text-start px-2 leading-9 text-[1.1rem]"><span className="hidden pvmax:max-lg:inline">* </span><span className="font-bold text-[1.2rem]">Development centre: </span>  39 Bạch Đằng, Phường 2, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</p>
+                <p className="text-start pr-2 pl-2 leading-9 font-bold text-[1.2rem]"> Development centre:</p>
+                    <p className="text-start px-2 leading-9 text-[1.1rem]"><span className="hidden pvmax:max-lg:inline">* </span> 39 Bạch Đằng, Phường 2, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</p>
                 </Col>
                 <Col xs={24} sm={24} md={24} lg={8} xl={8}>
-                    <p className="text-start px-2 leading-9 text-[1.1rem]"><span className="hidden pvmax:max-lg:inline">* </span><span className="font-bold text-[1.2rem]">Ha Noi branch: </span> 24 P. Tôn Đức Thắng, Cát Linh, Đống Đa, Hà Nội, Việt Nam</p>
+                <p className="text-start pr-2 pl-2 leading-9 font-bold text-[1.2rem]"> Ha Noi branch</p>
+                    <p className="text-start px-2 leading-9 text-[1.1rem]"><span className="hidden pvmax:max-lg:inline">* </span> 24 P. Tôn Đức Thắng, Cát Linh, Đống Đa, Hà Nội, Việt Nam</p>
                 </Col>
             </Row>
 
