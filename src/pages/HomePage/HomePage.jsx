@@ -31,10 +31,10 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="w-full h-fit flex justify-center items-center content-center part1-home">
+      <div className="w-full h-fit flex justify-center items-center content-center my-[3.5rem] part1-home">
         <div className=" h-[60vh] w-[66.67%] px-[5rem] top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:h-fit pvmax:max-lg:justify-center">
           <div className="  w-[70%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
-            <p className="text-white text-[3rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:py-10  w-full pvmax-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[2.5rem] font-mono bankname">
+            <p className="text-white text-[2.5rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:py-10  w-full pvmax-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[2.5rem] font-mono bankname">
               Our vision "universalise banking for community well-being and a greener world"
             </p>
           </div>
@@ -66,8 +66,8 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="w-full mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center solution-intro-container">
-        <div className="w-[66.67%]   pvmax:max-lg:pl-0 py-20 md:max-xl:w-[80%] pv:max-md:w-[70%] solution-intro">
+      <div className="w-full mx-auto md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center solution-intro-container">
+        <div className="w-[66.67%]   pvmax:max-lg:pl-0 py-9 md:max-xl:w-[80%] pv:max-md:w-[70%] solution-intro">
         <p className="text-[1.1rem] font-bold text-justify w-full py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
           MDP is proud to announce our strategic partnership with Mambu, a leading digital core banking platform,
           to revolutionize the banking landscape and empower financial institutions (FIs) to thrive in the digital
@@ -79,7 +79,7 @@ const HomePage = () => {
       </div>
       
 
-      <div className="w-full mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
+      <div className="w-full mx-auto pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
         <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[66.67%] pv:max-md:w-[90%] ">
           <div className="text-justify pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
             <p className="w-[100%] leading-7 text-[1.1rem] pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
@@ -110,8 +110,8 @@ const HomePage = () => {
 
 
       {/* Section Card Tab */}
-      <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-0 pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-        <p className="w-[66.67%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:pt-0 pvmax:max-lg:pl-0  pt-32 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-justify text-[2.2rem] text-[#4fb645]  Keyfeatures">
+      <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-0 pb-0 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+        <p className="w-[66.67%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:pt-0 pvmax:max-lg:pl-0  pt-10 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-justify text-[2.2rem] text-[#4fb645]  Keyfeatures">
           Key features of our Mambu-powered BaaS platform include:
         </p>
       </div>

@@ -24,7 +24,7 @@ const SliderBanner = () => {
 
   
   return (
-    <div className="h-[70vh] slider-banner-container pvmax:max-lg:h-fit">
+    <div className="h-fit pb-16 slider-banner-container pvmax:max-lg:h-fit">
     
         {/* Section Card Tab */}
       <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">

@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import {
 
     CardTabsCompany,
+    Sustainability,
 
 } from "../../components";
 
@@ -222,7 +223,7 @@ const Company = () => {
                 <img className="w-[66.67%]" src={tenelement}></img>
             </div>
 
-
+            <Sustainability/>
 
 
 

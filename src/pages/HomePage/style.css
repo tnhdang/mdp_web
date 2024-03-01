@@ -72,31 +72,32 @@
 }
 
 .solution-intro-container {
-    background: url("../../assets/SeedoflifeCanva3.png");
+    background: url("../../assets/Artboard\ 1.png");
     background-repeat: no-repeat;
     background-position-x: 66rem;
     background-size: 35rem;
-    background-position-y: -17rem;
+    background-position-y: -18rem;
 }
 
 .endsolutions {
-    background: url("../../assets/SeedoflifeCanva3.png");
+    background: url("../../assets/Artboard\ 1.png");
     background-repeat: no-repeat;
     background-position-x: -17rem;
     background-size: 35rem;
-    background-position-y: 22rem;
+    background-position-y: 10rem;
 }
 
 
 .bankname {
-    font-size: 2.3rem;
+    font-size: 2rem;
+    padding-right: 1rem;
 }
 
 
 
 @media only screen and (min-width: 1600px) {
     .bankname {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .bankdescription {
@@ -181,19 +182,19 @@
     } */
 
     .solution-intro-container {
-        background: url("../../assets/SeedoflifeCanva3.png");
+        background: url("../../assets/Artboard\ 1.png");
         background-repeat: no-repeat;
-        background-position-x: 96rem;
-        background-size: 45rem;
-        background-position-y: -23rem;
+        background-position-x: 100rem;
+        background-size: 35rem;
+        background-position-y: -19rem;
     }
 
     .endsolutions {
-        background: url("../../assets/SeedoflifeCanva3.png");
+        background: url("../../assets/Artboard\ 1.png");
         background-repeat: no-repeat;
         background-position-x: -20rem;
         background-size: 40rem;
-        background-position-y: 20rem;
+        background-position-y: 6rem;
     }
 
 }
