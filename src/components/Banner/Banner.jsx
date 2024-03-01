@@ -12,7 +12,7 @@ const Banner = () => {
       
 
       <div className="flex flex-col w-[50%] h-[100%] justify-center  pvmax:max-lg:w-[100%] pvmax:max-lg:pr-[1rem] pvmax:max-lg:h-[50%] ">
-        <img src={BannerImg} className="h-[60%] rounded-[3rem] "/>
+        <img src={BannerImg} className="h-[60%] rounded-[1rem] "/>
       </div>
 
       

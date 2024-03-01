@@ -26,6 +26,7 @@
 .top-home{
     /* background: linear-gradient(to right,#7926F0, #03BD66), url(https://grainy-gradients.vercel.app/noise.svg); */
     background: #170F58;
+    border-radius: 1rem;
 }
 
 .top-home-img{
@@ -35,21 +36,21 @@
 }
 
 .banner-content{
-    background: url("../../assets/floweroflife.png");
+    background: url("../../assets/HomePage/seedoflife.png");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
 }
 
 .floweroflife-cardtabs{
-    background: url("../../assets/floweroflife.png");
+    background: url("../../assets/HomePage/seedoflife.png");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
 }
 
 .MetatronsCube{
-    background: url("../../assets/floweroflife.png");
+    background: url("../../assets/HomePage/seedoflife.png");
     background-repeat: no-repeat;
     background-size: 15rem;
     background-position: center;
@@ -64,32 +65,32 @@
 }
 
 .sustain-seedoflife{
-    background: url("../../assets/floweroflife.png");
+    background: url("../../assets/HomePage/seedoflife.png");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
 }
 
-.slider-banner-container{
+/* .slider-banner-container{
     background: url("../../assets/HomePage/triangleflip.png");
     background-repeat: no-repeat;
     background-size: 19rem;
     background-position: left center;
-}
+} */
 
-.slider-endsolutions{
+/* .slider-endsolutions{
     background: url("../../assets/HomePage/triangleflip.png");
     background-repeat: no-repeat;
     background-size: 25rem;
     background-position: right center;
-}
+} */
 .bankname{
-    font-size: 1.35rem;
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 1600px) {
     .bankname{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .bankdescription{
@@ -119,21 +120,21 @@
     }
 
     .banner-content{
-        background: url("../../assets/floweroflife.png");
+        background: url("../../assets/HomePage/seedoflife.png");
         background-repeat: no-repeat;
         background-size: 25rem;
         background-position: center;
     }
 
     .floweroflife-cardtabs{
-        background: url("../../assets/floweroflife.png");
+        background: url("../../assets/HomePage/seedoflife.png");
         background-repeat: no-repeat;
         background-size: 25rem;
         background-position: center;
     }
 
     .MetatronsCube{
-        background: url("../../assets/floweroflife.png");
+        background: url("../../assets/HomePage/seedoflife.png");
         background-repeat: no-repeat;
         background-size: 15rem;
         background-position: left;
@@ -148,18 +149,18 @@
     }
 
     .sustain-seedoflife{
-        background: url("../../assets/floweroflife.png");
+        background: url("../../assets/HomePage/seedoflife.png");
         background-repeat: no-repeat;
         background-size: 30rem;
         background-position: top;
     }
 
-    .slider-endsolutions{
+    /* .slider-endsolutions{
         background: url("../../assets/HomePage/triangleflip.png");
         background-repeat: no-repeat;
         background-size: 30rem;
         background-position: right center;
-    }
+    } */
     .sustain-img-container{
         height: fit-content;
     }

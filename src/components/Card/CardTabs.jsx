@@ -14,7 +14,7 @@ const CardTabs = ({ title, description, image, titleButton, className }) => {
       </div>
       <div className=" mx-auto flex flex-col justify-center h-fit">
         <img
-          className="object-cover  h-[60%] w-[70%] pvmax:max-xl:w-[80%] rounded-[3rem] pvmax:max-xl:h-[80%] mx-auto solution-card-img"
+          className="object-cover  h-[60%] w-[70%] pvmax:max-xl:w-[80%] rounded-[1rem] pvmax:max-xl:h-[80%] mx-auto solution-card-img"
           src={image}
         ></img>
       </div>
