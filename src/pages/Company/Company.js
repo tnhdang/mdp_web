@@ -61,7 +61,7 @@ const Company = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+            <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     MDP is a premier provider of consulting services, offering expertise in a wide range of areas including Customer Experience (CX), Digital
                     Transformation, Digital Bank use cases, Product and platform design, Enterprise platform, Project Management Office (PMO), and Engineering.
@@ -81,7 +81,7 @@ const Company = () => {
             >
 
                 {List.map((item, index) => {
-                    return (<SwiperSlide className="!pb-[5rem] pvmax:max-lg:!pb-0 pvmax:max-lg:!w-full !flex content-center justify-center ">
+                    return (<SwiperSlide className="!pb-[2rem] pvmax:max-lg:!pb-0 pvmax:max-lg:!w-full !flex content-center justify-center ">
                     <div className=" flex flex-col align-middle justify-center w-[66.67%] pvmax:max-lg:!w-[80%]" key={item.key}>
                         <p className="text-[2.5rem] text-[#4fb645] font-bold font ">
                             {item.title}
@@ -100,7 +100,7 @@ const Company = () => {
             </Swiper>
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-justify text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-20">
+                <p className="text-justify text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-10">
                     At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance 
                     customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card 
                     processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, 
@@ -204,7 +204,7 @@ const Company = () => {
             </div>
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-[2rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] pt-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                 Overall, the culture at MDP is one of collaboration, innovation, and excellence, where employees are empowered to make a positive impact, uphold the 
                 company's values, and drive success. It is a culture that fosters continuous learning, growth, and a shared commitment to building a better future for 
                 all stakeholders.
