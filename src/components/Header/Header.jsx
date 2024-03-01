@@ -196,7 +196,7 @@ const Header = () => {
 
       <div className="w-fll h-fit flex flex-row items-center content-center justify-center">
 
-        <Row gutter={[24, 48]} justify="center" align="middle" className="header-content">
+        <Row gutter={[0, 24]} justify="center" align="middle" className="header-content">
           <Col span={3} className="logo-col">
             <img
               className="logo"
@@ -206,7 +206,7 @@ const Header = () => {
             />
           </Col>
 
-          <Col span={3} className="whatwedo-hover">
+          <Col span={2} className="whatwedo-hover">
 
           </Col>
 
@@ -250,7 +250,7 @@ const Header = () => {
             </div>
           </Col>
 
-          <Col span={3} >
+          <Col span={4} className="button-contact" >
             <button className="contact-btn">
               <a href="mailto: sales@mdpgroup.digital" className="">Contact us</a>
             </button>

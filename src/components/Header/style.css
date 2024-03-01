@@ -9,10 +9,11 @@ h2,a{
 
 .dropbtn {
   border: none;
-  font-size: 10px;
+  font-size: 15px;
   padding: 10px;
   /* font-family: inherit !important; */
 }
+
 
 .drobdown {
   position: relative !important;
@@ -94,7 +95,7 @@ h2,a{
 }
 
 .logo-col{
-  padding-left: 5rem;
+  padding-left: 0 !important;
 }
 
 .dropdown-content a:hover {
@@ -128,12 +129,19 @@ h2,a{
 .contact-btn {
   background: #04aa6d;
   border: none;
-  width: 8rem;
+  width: 100%;
   font-size: 15px;
   padding: 17px 0;
   color: #fff;
   border-radius: 10rem;
 }
+
+
+.button-contact{
+  padding-right: 0 !important;
+  padding-left: 2rem !important;
+}
+
 
 .upicon {
   display: none;
@@ -357,7 +365,7 @@ h2,a{
   }
   
   .logo {
-    width: 9rem !important;
+    width: 100% !important;
   }
   
   .dropdown-content-partners {
@@ -401,7 +409,7 @@ h2,a{
   }
   
   .logo-col{
-    padding-left: 5rem;
+    padding-left: 0 !important;
   }
   
   .dropdown-content a:hover {

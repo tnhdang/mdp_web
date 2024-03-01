@@ -83,7 +83,7 @@ const Sustainability = () => {
         <div className="EndSolutionContainer w-[100%] h-fit ">
             <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
                 <div className="  w-[66.67%] mx-auto pvmax:max-lg:w-[90%] ">
-                    <p className="text-white text-8xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
+                    <p className="text-white text-[3rem]  font-bold text-justify  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-2xl">
                         Sustainability
                     </p>
                 </div>
@@ -103,7 +103,7 @@ const Sustainability = () => {
                         {dataSlider.map((item, index) => {
                             return (
                                 <div className="  w-full h-[50rem] pv:max-md:h-fit " key={item.key}>
-                                    <p className="sustain-title text-[2.5rem] text-[#170F58] font-bold font ">{item.title}</p>
+                                    <p className="sustain-title text-[2.5rem] text-[#4fb645] font-bold font ">{item.title}</p>
 
                                     <div className="w-full h-[90vh] mx-auto pt-10 pvmax:max-lg:pt-14  pb-20 grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 pv:max-md:h-fit">
 

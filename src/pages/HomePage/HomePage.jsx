@@ -42,7 +42,7 @@ const HomePage = () => {
           <div className="w-[100%] h-[35%] top-home-img pvmax:max-lg:w-[100%] pvmax:max-lg:h-[100%]">
           </div>
           <div className="w-[100%]">
-          <p className="text-white text-[0.7rem]  text-justify  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-[1rem] font-mono uppercase bankdescription">
+          <p className="text-white text-[0.7rem]  text-justify  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-[1rem] font-mono bankdescription">
           A digital meet-up for agility, flexibility and Innovation
           </p>
           </div>
@@ -109,7 +109,7 @@ const HomePage = () => {
 
       {/* Section Card Tab */}
       <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-0 pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-      <p className="w-[66.67%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:py-0 pvmax:max-lg:pl-0  py-16 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-justify text-[2.2rem] text-[#4fb645]  Keyfeatures">
+      <p className="w-[66.67%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:pt-0 pvmax:max-lg:pl-0  pt-16 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-justify text-[2.2rem] text-[#4fb645]  Keyfeatures">
             Key features of our Mambu-powered BaaS platform include:
             </p>
           </div>
@@ -214,7 +214,7 @@ const HomePage = () => {
 
         <EndSolutions/>
 
-      <Sustainability/>
+      
 
       
       {/* <div className="py-10">

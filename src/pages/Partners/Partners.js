@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Navigation, Pagination } from 'swiper/modules';
+import { Sustainability } from "../../components";
 
 const Partners = () => {
     const List1 = [
@@ -188,6 +189,8 @@ const Partners = () => {
                     </p>
                 </div>
             </div>
+
+            <Sustainability/>
 
         </>
 
