@@ -19,7 +19,7 @@ import ImgTab2 from "../../assets/images/imageTab2.webp";
 import ImgTab3 from "../../assets/images/imageTab3.webp";
 import Img4 from "../../assets/HomePage/808.jpg"
 import draftsolutioncontent from "../../assets/HomePage/solution.jpg"
-import SolutionsImg from "../../assets/HomePage/Solution.png"
+import SolutionsImg from "../../assets/HomePage/solutionscontent.svg"
 import { dataFeatured, dataFriends } from "../../utils/Mockdata";
 const HomePage = () => {
   const [isTab1, setIsTab1] = useState(true);
@@ -31,7 +31,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="w-full h-fit flex justify-center items-center content-center my-[3.5rem] part1-home">
+      <div className="w-full h-fit flex justify-center items-center content-center mt-[2.5rem] mb-6 part1-home">
         <div className=" h-[60vh] w-[66.67%] px-[5rem] top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:h-fit pvmax:max-lg:justify-center">
           <div className="  w-[70%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
             <p className="text-white text-[2.5rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:py-10  w-full pvmax-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[2.5rem] font-mono bankname">
@@ -115,7 +115,7 @@ const HomePage = () => {
           Key features of our Mambu-powered BaaS platform include:
         </p>
       </div>
-      <div className="w-full mx-auto py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex flex-col content-center items-center justify-center">
+      <div className="w-full mx-auto pt-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex flex-col content-center items-center justify-center">
         <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
         <button
           className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""

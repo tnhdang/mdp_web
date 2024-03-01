@@ -97,7 +97,7 @@
 
 @media only screen and (min-width: 1600px) {
     .bankname {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
     .bankdescription {
@@ -109,7 +109,7 @@
     }
 
     .slider-banner-container {
-        height: 31rem;
+        height: fit-content;
     }
 
 
