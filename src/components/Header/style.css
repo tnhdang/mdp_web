@@ -443,7 +443,7 @@ h2,a{
   .contact-btn {
     background: #04aa6d;
     border: none;
-    width: 9rem;
+    width: 100%;
     font-size: 15px;
     padding: 17px 0;
     color: #fff;
