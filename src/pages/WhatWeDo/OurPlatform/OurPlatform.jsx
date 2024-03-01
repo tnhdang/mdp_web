@@ -6,12 +6,12 @@ import {
   CardStatic,
   CardArticle,
   CardWhoTransform,
-} from "../../components";
+} from "../../../components";
 import {
   dataDisrupt,
   dataArticle,
   dataWhoTransform,
-} from "../../utils/Mockdata";
+} from "../../../utils/Mockdata";
 import { Icon } from "@iconify/react";
 import { Dropdown } from "antd";
 const OurPlatform = () => {

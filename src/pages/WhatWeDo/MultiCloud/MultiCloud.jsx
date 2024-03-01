@@ -5,14 +5,14 @@ import {
   dataCore,
   dataCustomerstories_2,
   dataKeepReading,
-} from "../../utils/Mockdata";
+} from "../../../utils/Mockdata";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination } from "swiper/modules";
-import { CardCusStories, CardFeatured, CardDisrupt } from "../../components";
-import CardStatic from "./../../components/Card/CardStatic";
+import { CardCusStories, CardFeatured, CardDisrupt } from "../../../components";
+import CardStatic from "../../../components/Card/CardStatic";
 const MultiCloud = () => {
   return (
     <div>

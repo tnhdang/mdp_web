@@ -12,13 +12,13 @@ import {
   CardDisrupt,
   CardRAG,
   CardFeatured,
-} from "../../components";
+} from "../../../components";
 import {
   dataCornerStone,
   dataCustomerstories,
   dataRAG,
   dataInsights,
-} from "../../utils/Mockdata";
+} from "../../../utils/Mockdata";
 const Composable = () => {
   return (
     <div>

@@ -1,8 +1,8 @@
 /** @format */
 
 import React, { useState, useEffect } from "react";
-import { CardDisrupt, CardArticle } from "../../components";
-import { datanstantconnection, dataArticle_2 } from "../../utils/Mockdata";
+import { CardDisrupt, CardArticle } from "../../../components";
+import { datanstantconnection, dataArticle_2 } from "../../../utils/Mockdata";
 import { Icon } from "@iconify/react";
 import { Dropdown } from "antd";
 const ProcessOrchesTrator = () => {

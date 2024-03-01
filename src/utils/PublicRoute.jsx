@@ -1,11 +1,14 @@
 /** @format */
 
-import { HomePage,
+import {
+  HomePage,
   OurPlatform,
   Composable,
   MultiCloud,
   ProcessOrchesTrator,
-  BusinessLending
+  BusinessLending,
+  ConfigurationAsCode,
+  SecurityAndCompliance,
 } from "../pages";
 
 import { Deposits } from "../pages";
@@ -70,7 +73,18 @@ const routes = [
     component: <ProcessOrchesTrator />,
     main: () => <ProcessOrchesTrator />,
   },
-
+  {
+    path: path.CONGIGURATIONASCODE,
+    exact: true,
+    component: <ConfigurationAsCode />,
+    main: () => <ConfigurationAsCode />,
+  },
+  {
+    path: path.SECURITYANDCOMPLICANCE,
+    exact: true,
+    component: <SecurityAndCompliance />,
+    main: () => <SecurityAndCompliance />,
+  },
 ];
 
 export default routes;

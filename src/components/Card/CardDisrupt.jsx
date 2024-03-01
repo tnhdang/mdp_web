@@ -6,7 +6,7 @@ const CardDisrupt = ({ title, img, description, linkprefix }) => {
   return (
     <div className="bg-white shadow-2xl shadow-gray-400 p-6 rounded-xl">
       <div className="">
-        <img className="object-cover" src={img}></img>
+        <img className="object-cover h-[80px] w-[80px]" src={img}></img>
       </div>
       <div className="py-8">
         <p className="text-3xl font-bold text-start">{title}</p>

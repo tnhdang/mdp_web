@@ -433,3 +433,161 @@ export const dataArticle_2 = [
       "A single view helps quickly debug, monitor, report, and handle errors and retry mechanisms as your business processes expand.",
   },
 ];
+
+export const dataBenefitConfig = [
+  {
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/b5a8e6ab3b741a1ba60d1cfb5383a82ea806677f-200x200.png?rect=17,22,172,167&w=140&h=136&q=75&fit=max&auto=format",
+    title: "Easy to configure and reconfigure",
+    desc: "Synchronise environments by taking the configuration from one environment and applying it to another within seconds.",
+  },
+  {
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/5b5b7280f440bd042aecd76abfc9d5ef86ee9925-200x200.png?rect=36,34,132,134&w=140&h=142&q=75&fit=max&auto=format",
+    title: "Manageability",
+    desc: "Build and deploy processes - such as validations, approvals, testing and more - specific to your unique configurations.",
+  },
+  {
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/24447fb4920eae706b492766267ca342502c8891-1401x1401.png?rect=481,478,443,421&w=140&h=133&q=75&fit=max&auto=format",
+    title: "Increased reliability",
+    desc: "Improve system uptimes and consistent output with each action.",
+  },
+  {
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/6a168c0569aabb7de9a0887b994ffddd745b4b58-200x200.png?rect=31,33,141,117&w=140&h=116&q=75&fit=max&auto=format",
+    title: "Security",
+    desc: "Promote least-privilege permissions and higher levels of access auditability with user access separation controls..",
+  },
+  {
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/f8a2eb3c043307e3043809f9686e1bbf6f3f95ef-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    title: "Traceability",
+    desc: "Trace changes and updates with a separate version control repository for each configuration..",
+  },
+  {
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/e56b920a207ffe8e83d5cc291149ee6ac5d15299-200x200.png?rect=31,31,143,140&w=140&h=137&q=75&fit=max&auto=format",
+    title: "Reduced costs",
+    desc: "Reduce capital, time, and human-related errors tenfold.",
+  },
+];
+export const dataSecurity = [
+  {
+    title: "External pentests",
+    desc: "We perform continuous internal security tests. These tests are further backed by external penetration tests from security researchers – multiple times per year. Penetration tests cover network security aspects as well as common web application vulnerabilities as referenced in the OWASP Top 10.",
+  },
+  {
+    title: "Openness & transparency",
+    desc: "Our APIs and Data Dictionary are publicly available. Furthermore customers can automate backup retrieval at any time. If you’re interested in detailed security assurance and compliance information, please contact us.",
+  },
+  {
+    title: "Data security",
+    desc: "We apply principles like security-in-depth, need-to-know and least-privilege to reduce the chance of data leakage or loss by internal or external threats using different preventive, detective and mitigative controls.",
+  },
+  {
+    title: "Incident response",
+    desc: "In the case of a (security) incident, we’re prepared with regularly-tested incident response plans and 24/7 on-call staff to react immediately and appropriately.",
+  },
+];
+
+export const dataInfrastructure = [
+  {
+    key: "1",
+    title: "Certified practices",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/e4ab863f6ffd2bd111e17977e8e42d8254983b87-200x201.png?w=140&h=141&q=75&fit=max&auto=format",
+    description: (
+      <div className="flex flex-col">
+        <p className="">
+          Mambu maintains an Information Security Management System (ISMS)
+          according to ISO/IEC 27001 to proactively manage information security
+          risks and review the effectiveness of our technical and organisational
+          controls via internal and external audits.
+        </p>
+        <p className="">
+          Mambu maintains Independent Service Auditor Reports SOC 1 and SOC 2 to
+          provide assurance on the design, implementation, and operating
+          effectiveness of the internal controls that are relevant to our
+          customers’ financial statements (SOC 1) and internal controls that
+          meet the AICPA Trust Services Security, Availability, and
+          Confidentiality Principles and Criteria (SOC 2).
+        </p>
+        <p className="">
+          Audit reports can be obtained through Customer Portal or upon request
+          under a non-disclosure agreement.
+        </p>
+      </div>
+    ),
+    linkprefix: "Download ISO certificate",
+  },
+  {
+    key: "2",
+    title: "AWS partner",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/2536884addf94e4532b31210d286dfdfeb9cfa5a-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description:
+      "We are member of the AWS Partner Network in the Financial Services Competency program. Mambu was audited in the AWS Well Architected Program to ensure we deploy security best practices: encryption in transit and at rest, identity and access management, and many others available on the AWS platform.",
+  },
+  {
+    key: "3",
+    title: "Secure infrastructure",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/2536884addf94e4532b31210d286dfdfeb9cfa5a-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description: (
+      <p className="">
+        Customer data is processed in AWS' state-of-the-art data centres,
+        assured by a vast amount of related certifications, providing confidence
+        to run regulated workloads. Learn more about{" "}
+        <a className="text-green-500 underline">AWS Certifications</a>.
+      </p>
+    ),
+  },
+  {
+    key: "4",
+    title: "Approved by regulators",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/6a168c0569aabb7de9a0887b994ffddd745b4b58-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description: (
+      <p className="">
+        Financial regulators across many regions approved outsourcing of
+        regulated financial workloads to Mambu.
+      </p>
+    ),
+  },
+];
+
+export const dataSecurityfeatures = [
+  {
+    key: "1",
+    title: "We respect data privacy",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/6a168c0569aabb7de9a0887b994ffddd745b4b58-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description:
+      "Our customers are GDPR compliant by providing relevant features to comply with data subject rights. We ensure personal data doesn't leave the customer's jurisdiction or, if it does, we provide assurances of adequate data protection outside of customer jurisdiction.",
+  },
+  {
+    key: "2",
+    title: "Complete audit rights",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/5b5b7280f440bd042aecd76abfc9d5ef86ee9925-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description:
+      "We always ensure our customers and regulators can execute their supervisory function and have effective audit rights to Mambu’s business premises, processes and supply chain.",
+  },
+  {
+    key: "3",
+    title: "Isolation & control",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/cf567f60c619f8fa47269ffdfb9d2a1662dd25e5-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description:
+      "Our customers can choose to have a dedicated Mambu deployment that is not shared with other Mambu customers, giving them further control over the environment and increase the isolation required by financial regulators.",
+  },
+  {
+    key: "4",
+    title: "SLAs and business continuity",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/2536884addf94e4532b31210d286dfdfeb9cfa5a-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description:
+      "We offer SLAs for uptime and resolution times on customer inquiries. Our disaster recovery procedures and business continuity plans are regularly tested. And our SaaS solution is cloud-agnostic and has no vendor lock-in with any specific cloud vendor.",
+  },
+  {
+    key: "5",
+    title: "Open banking platform",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/02844e447a6eaa9266d4e94fe263a1087d1580db-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description:
+      "The Mambu platform provides APIs to implement the PSD2 regulation, allowing financial institutions to give third-party vendors access to end-customer data.",
+  },
+  {
+    key: "6",
+    title: "Built-in security",
+    img: "https://cdn.sanity.io/images/0k2k2bbv/production/f8a2eb3c043307e3043809f9686e1bbf6f3f95ef-200x200.png?w=140&h=140&q=75&fit=max&auto=format",
+    description:
+      "Security is embedded in all stages of the software development lifecycle (SDLC) at Mambu – from requirements engineering, programming and QA to deployment, monitoring, alerting and incident management.",
+  },
+];
