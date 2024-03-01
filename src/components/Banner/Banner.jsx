@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="banner items-center w-[66.67%] h-fit pt-20 pb-16 pvmax:max-lg:h-fit flex pvmax:max-lg:flex-col pvmax:max-lg:align-middle justify-center  ">
       
 
-      <div className="flex flex-col w-[50%] h-[100%] justify-center  pvmax:max-lg:w-[100%] pvmax:max-lg:pr-[1rem] pvmax:max-lg:h-[50%] ">
+      <div className="flex flex-col p-4 w-[50%] h-[100%] justify-center  pvmax:max-lg:w-[100%] pvmax:max-lg:pr-[1rem] pvmax:max-lg:h-[50%] ">
         <img src={BannerImg} className="h-[60%] rounded-[1rem] "/>
       </div>
 

@@ -66,44 +66,47 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="w-full mx-auto md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center solution-intro-container">
-        <div className="w-[66.67%]   pvmax:max-lg:pl-0 py-9 md:max-xl:w-[80%] pv:max-md:w-[70%] solution-intro">
-        <p className="text-[1.1rem] font-bold text-justify w-full py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
-          MDP is proud to announce our strategic partnership with Mambu, a leading digital core banking platform,
-          to revolutionize the banking landscape and empower financial institutions (FIs) to thrive in the digital
-          age. Through this collaboration, we are harnessing the power of Mambu's cutting-edge technology to build
-          a comprehensive tech stack and Banking-as-a-Service (BaaS) platform that enables banks and FIs to innovate
-          their banking products and offerings with unprecedented speed, ease, and cost-effectiveness.
-        </p>
-      </div>
-      </div>
-      
-
-      <div className="w-full mx-auto pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
-        <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[66.67%] pv:max-md:w-[90%] ">
-          <div className="text-justify pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
-            <p className="w-[100%] leading-7 text-[1.1rem] pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
-              Our solution integrates <span className="underline">Best-for-Purpose</span> solution partners, carefully selected for their expertise and
-              innovation, to create a robust ecosystem that caters to the diverse needs of banks and FIs. By leveraging
-              the strengths of these partners, we provide a holistic suite of solutions that cover every aspect of banking
-              operations, from customer experience to back-office processes.
+      <div className="w-full h-full solution-intro-container">
+        <div className="w-full mx-auto md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center ">
+          <div className="w-[66.67%]   pvmax:max-lg:pl-0 py-9 md:max-xl:w-[80%] pv:max-md:w-[70%] solution-intro">
+            <p className="text-[1.1rem] font-bold text-justify w-full py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+              MDP is proud to announce our strategic partnership with Mambu, a leading digital core banking platform,
+              to revolutionize the banking landscape and empower financial institutions (FIs) to thrive in the digital
+              age. Through this collaboration, we are harnessing the power of Mambu's cutting-edge technology to build
+              a comprehensive tech stack and Banking-as-a-Service (BaaS) platform that enables banks and FIs to innovate
+              their banking products and offerings with unprecedented speed, ease, and cost-effectiveness.
             </p>
+          </div>
+        </div>
 
-            <button className="px-4 py-2 pvmax:max-lg:my-[3rem] rounded-xl bg-secondary1 hover:bg-black w-fit">
-              <p className="text-white font-bold">Get in touch</p>
-            </button>
-            {/* <p className="w-[70%] font-bold leading-5 text-[1.5rem] pb-10 pt-10 pv:max-md:w-[100%]">
+
+        <div className="w-full mx-auto pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
+          <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[66.67%] pv:max-md:w-[90%] ">
+            <div className="text-justify pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
+              <p className="w-[100%] leading-7 text-[1.1rem] pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
+                Our solution integrates <span className="underline">Best-for-Purpose</span> solution partners, carefully selected for their expertise and
+                innovation, to create a robust ecosystem that caters to the diverse needs of banks and FIs. By leveraging
+                the strengths of these partners, we provide a holistic suite of solutions that cover every aspect of banking
+                operations, from customer experience to back-office processes.
+              </p>
+
+              <button className="px-4 py-2 pvmax:max-lg:my-[3rem] rounded-xl bg-secondary1 hover:bg-black w-fit">
+                <p className="text-white font-bold">Get in touch</p>
+              </button>
+              {/* <p className="w-[70%] font-bold leading-5 text-[1.5rem] pb-10 pt-10 pv:max-md:w-[100%]">
             Key features of our Mambu-powered BaaS platform include:
             </p> */}
-          </div>
-          <div className="md:max-xl:w-[70%] mx-auto pv:max-md:w-[70%] pvmax:max-lg:w-[90%] pvmax:max-lg:pl-0 pl-[3rem]">
-            <img
-              className="w-full"
-              src={SolutionsImg}
-            ></img>
+            </div>
+            <div className="md:max-xl:w-[70%] mx-auto pv:max-md:w-[70%] pvmax:max-lg:w-[90%] pvmax:max-lg:pl-0 pl-[3rem]">
+              <img
+                className="w-full"
+                src={SolutionsImg}
+              ></img>
+            </div>
           </div>
         </div>
       </div>
+
 
 
 
@@ -117,98 +120,98 @@ const HomePage = () => {
       </div>
       <div className="w-full mx-auto pt-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex flex-col content-center items-center justify-center">
         <div className="flex w-[66.67%] mx-auto gap-10  pvmax:max-xl:hidden">
-        <button
-          className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
-            }`}
-          onClick={() => {
-            setIsTab1(true);
-            setIsTab2(false);
-            setIsTab3(false);
-            setIsTab4(false);
-          }}
-        >
-          <p className="">Accelerated Time</p>
-        </button>
+          <button
+            className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
+              }`}
+            onClick={() => {
+              setIsTab1(true);
+              setIsTab2(false);
+              setIsTab3(false);
+              setIsTab4(false);
+            }}
+          >
+            <p className="">Accelerated Time</p>
+          </button>
 
-        <button
-          className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab2 ? "text-[#170F58] border-b-[3px] border-black " : ""
-            }`}
-          onClick={() => {
-            setIsTab1(false);
-            setIsTab2(true);
-            setIsTab3(false);
-            setIsTab4(false);
-          }}
-        >
-          <p className="">Interface</p>
-        </button>
+          <button
+            className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab2 ? "text-[#170F58] border-b-[3px] border-black " : ""
+              }`}
+            onClick={() => {
+              setIsTab1(false);
+              setIsTab2(true);
+              setIsTab3(false);
+              setIsTab4(false);
+            }}
+          >
+            <p className="">Interface</p>
+          </button>
 
-        <button
-          className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645] "
-          onClick={() => {
-            setIsTab1(false);
-            setIsTab2(false);
-            setIsTab3(true);
-            setIsTab4(false);
-          }}
-        >
-          <p className="">TCO</p>
-        </button>
+          <button
+            className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645] "
+            onClick={() => {
+              setIsTab1(false);
+              setIsTab2(false);
+              setIsTab3(true);
+              setIsTab4(false);
+            }}
+          >
+            <p className="">TCO</p>
+          </button>
 
-        <button
-          className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645] "
-          onClick={() => {
-            setIsTab1(false);
-            setIsTab2(false);
-            setIsTab3(false);
-            setIsTab4(true);
-          }}
-        >
-          <p className="">Innovative Product</p>
-        </button>
+          <button
+            className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645] "
+            onClick={() => {
+              setIsTab1(false);
+              setIsTab2(false);
+              setIsTab3(false);
+              setIsTab4(true);
+            }}
+          >
+            <p className="">Innovative Product</p>
+          </button>
+        </div>
+        <CardTabs
+          className={` ${isTab1 ? "CardTabsSolutions grid" : "hidden"
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+          title={"Accelerated Time to Market:"}
+          description={
+            "With pre-built integrations and modular architecture, our platform enables banks and FIs to launch new products and services in record time. By eliminating the need for lengthy development cycles and customizations, we empower our clients to stay ahead of the competition and capitalize on market opportunities swiftly."
+          }
+          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          titleButton={"Learn More"}
+        ></CardTabs>
+        <CardTabs
+          className={` ${isTab2 ? "CardTabsSolutions grid" : "hidden"
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+          title={"Easy-to-Use Interface:"}
+          description={
+            "Our user-friendly interface and intuitive design make it easy for banks and FIs to onboard and manage customers, process transactions, and access valuable insights. Whether it's configuring products, managing workflows, or analyzing data, our platform streamlines every aspect of banking operations for maximum efficiency and convenience."
+          }
+          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          titleButton={"Learn More"}
+        ></CardTabs>
+        <CardTabs
+          className={`  ${isTab3 ? "CardTabsSolutions grid" : "hidden"
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+          title={"Lower Total Cost of Ownership (TCO):"}
+          description={
+            "By adopting a cloud-native approach and leveraging Mambu's scalable infrastructure, our platform offers unparalleled cost savings and flexibility. Banks and FIs can scale their operations seamlessly to accommodate growth and fluctuations in demand, without incurring significant upfront investments or ongoing maintenance costs."
+          }
+          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          titleButton={"Explore lending"}
+        ></CardTabs>
+        <CardTabs
+          className={` ${isTab4 ? "CardTabsSolutions grid" : "hidden"
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+          title={"Innovative Product Offerings: "}
+          description={
+            "Through our partnership with Best-for-Purpose solution partners, we empower banks and FIs to innovate their product offerings and deliver differentiated experiences to their customers. Whether it's launching digital lending solutions, personalized wealth management tools, or AI-powered analytics, our platform provides the flexibility and agility to adapt to changing market trends and customer preferences."
+          }
+          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          titleButton={"Discover deposits"}
+        ></CardTabs>
       </div>
-      <CardTabs
-        className={` ${isTab1 ? "CardTabsSolutions grid" : "hidden"
-          } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
-        title={"Accelerated Time to Market:"}
-        description={
-          "With pre-built integrations and modular architecture, our platform enables banks and FIs to launch new products and services in record time. By eliminating the need for lengthy development cycles and customizations, we empower our clients to stay ahead of the competition and capitalize on market opportunities swiftly."
-        }
-        image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
-        titleButton={"Learn More"}
-      ></CardTabs>
-      <CardTabs
-        className={` ${isTab2 ? "CardTabsSolutions grid" : "hidden"
-          } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
-        title={"Easy-to-Use Interface:"}
-        description={
-          "Our user-friendly interface and intuitive design make it easy for banks and FIs to onboard and manage customers, process transactions, and access valuable insights. Whether it's configuring products, managing workflows, or analyzing data, our platform streamlines every aspect of banking operations for maximum efficiency and convenience."
-        }
-        image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
-        titleButton={"Learn More"}
-      ></CardTabs>
-      <CardTabs
-        className={`  ${isTab3 ? "CardTabsSolutions grid" : "hidden"
-          } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
-        title={"Lower Total Cost of Ownership (TCO):"}
-        description={
-          "By adopting a cloud-native approach and leveraging Mambu's scalable infrastructure, our platform offers unparalleled cost savings and flexibility. Banks and FIs can scale their operations seamlessly to accommodate growth and fluctuations in demand, without incurring significant upfront investments or ongoing maintenance costs."
-        }
-        image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
-        titleButton={"Explore lending"}
-      ></CardTabs>
-      <CardTabs
-        className={` ${isTab4 ? "CardTabsSolutions grid" : "hidden"
-          } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[66.67%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
-        title={"Innovative Product Offerings: "}
-        description={
-          "Through our partnership with Best-for-Purpose solution partners, we empower banks and FIs to innovate their product offerings and deliver differentiated experiences to their customers. Whether it's launching digital lending solutions, personalized wealth management tools, or AI-powered analytics, our platform provides the flexibility and agility to adapt to changing market trends and customer preferences."
-        }
-        image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
-        titleButton={"Discover deposits"}
-      ></CardTabs>
-      </div>
-      
+
       {/* End Section Card Tab */}
 
       <EndSolutions />
