@@ -161,14 +161,11 @@
         height: 50vh;
     }
 
-    /* 
+    
     .part1-home {
-        background: url("../../assets/HomePage/floweroflife.png");
-        background-repeat: no-repeat;
-        background-size: 33rem;
-        background-position-x: 102rem;
-        background-position-y: 2rem;
-    } */
+        margin-top: 5.5rem;   
+        margin-bottom: 6.5rem;
+    }
 
     .solution-intro-container {
         background: url("../../assets/Artboard\ 1.svg");
