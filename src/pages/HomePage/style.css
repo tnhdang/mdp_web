@@ -183,4 +183,10 @@
         background-position-y: 6rem;
     }
 
+    .banner-content {
+        background: url("../../assets/HomePage/seedoflife.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
 }
