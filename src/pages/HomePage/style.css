@@ -186,7 +186,7 @@
     .solution-intro-container {
         background: url("../../assets/Artboard\ 1.svg");
         background-repeat: no-repeat;
-        background-position-x: 100rem;
+        background-position-x: 99rem;
         background-size: 40rem;
         background-position-y: -19rem;
     }
@@ -196,7 +196,7 @@
         background-repeat: no-repeat;
         background-position-x: -20rem;
         background-size: 40rem;
-        background-position-y: 6rem;
+        background-position-y: 14rem;
     }
 
     .banner-content {
