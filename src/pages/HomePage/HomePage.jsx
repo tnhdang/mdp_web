@@ -21,6 +21,7 @@ import Img4 from "../../assets/HomePage/808.jpg"
 import draftsolutioncontent from "../../assets/HomePage/solution.jpg"
 import SolutionsImg from "../../assets/HomePage/solutionscontent.svg"
 import { dataFeatured, dataFriends } from "../../utils/Mockdata";
+import {AnimatedOnScroll} from "react-animated-css-onscroll";
 const HomePage = () => {
   const [isTab1, setIsTab1] = useState(true);
   const [isTab2, setIsTab2] = useState(false);
@@ -57,7 +58,11 @@ const HomePage = () => {
 
       <Banner />
 
-    
+      <div className="w-full h-[100vh] bg-slate-900">
+      <AnimatedOnScroll animationIn="rollIn" animationInDuration={600}>
+    <img src="https://digital-flowers.github.io/public/images/demo.jpg"/>
+</AnimatedOnScroll>
+      </div>
 
       <SliderBanner></SliderBanner>
 
