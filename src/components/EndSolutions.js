@@ -69,9 +69,7 @@ const EndSolutions = () => {
           </div>
         </div>
       </div>
-      <div className=" w-[67.37%] h-fit">
-      <button className="bg-[#4fb645] text-white py-4 px-8 text-xl font-bold font-sans rounded-[2rem] mb-20">Contact us</button>
-      </div>
+      
     </div>
   );
 }

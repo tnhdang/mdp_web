@@ -2,7 +2,7 @@
     background-color: #415a95;
     color: white;
     font-family: inherit !important;
-    padding: 3rem 0;
+    padding-bottom: 2rem;
     min-width: 100vw;
     display: flex;
     justify-items: center;
@@ -64,7 +64,7 @@
         background-color: #415a95;
         color: white;
         font-family: inherit !important;
-        padding: 3rem 2rem;
+        padding: 0 2rem 3rem 0;
         min-width: 100vw;
     
     }
@@ -75,6 +75,6 @@
     .container{
        min-width: 99vw;
        background-color: #415a95;
-    
+        padding-bottom: 3rem;
     }
 }
