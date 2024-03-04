@@ -15,7 +15,7 @@ import {
 } from "../../components";
 
 import { Navigation, Pagination } from 'swiper/modules';
-import tenelement from "../../assets/tenelements.png"
+import tenelement from "../../assets/tenelements.svg"
 
 const Company = () => {
     const [isTab1, setIsTab1] = useState(true);
