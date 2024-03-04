@@ -36,14 +36,14 @@
 }
 
 .banner-content {
-    background: url("../../assets/HomePage/seedoflife.png");
+    background: url("../../assets/Artboard\ 1.svg");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
 }
 
 .floweroflife-cardtabs {
-    background: url("../../assets/HomePage/seedoflife.png");
+    background: url("../../assets/Artboard\ 1.svg");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
@@ -87,6 +87,14 @@
     padding-right: 1rem;
 }
 
+.part1-home {
+    background: url("../../assets/Artboard\ 1.svg");
+    background-repeat: no-repeat;
+    background-position-x: 71rem;
+    background-size: 25rem;
+    background-position-y: 0rem;
+}
+
 
 
 @media only screen and (min-width: 1600px) {
@@ -124,7 +132,7 @@
     }
 
     .floweroflife-cardtabs {
-        background: url("../../assets/HomePage/seedoflife.png");
+        background: url("../../assets/Artboard\ 2.svg");
         background-repeat: no-repeat;
         background-size: 25rem;
         background-position: center;
@@ -167,6 +175,14 @@
         margin-bottom: 6.5rem;
     } */
 
+    .part1-home {
+        background: url("../../assets/Artboard\ 1.svg");
+        background-repeat: no-repeat;
+        background-position-x: 102rem;
+        background-size: 35rem;
+        background-position-y: 0rem;
+    }
+
     .solution-intro-container {
         background: url("../../assets/Artboard\ 1.svg");
         background-repeat: no-repeat;
@@ -184,7 +200,7 @@
     }
 
     .banner-content {
-        background: url("../../assets/HomePage/seedoflife.png");
+        background: url("../../assets/Artboard\ 1.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

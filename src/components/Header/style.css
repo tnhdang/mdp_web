@@ -4,7 +4,8 @@
 }
 
 h2,a{
-  cursor: grab;
+  cursor: grab; 
+  font-family: sans-serif;
 }
 
 .dropbtn {

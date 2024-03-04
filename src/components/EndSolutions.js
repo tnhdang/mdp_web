@@ -16,7 +16,7 @@ const EndSolutions = () => {
     {
       key: "2",
       picture: "",
-      title: "Mambu API first, cloud native ",
+      title: "MDP API first, cloud native ",
       description:
         "architecture makes integration to ecosystem partners simple and helps our customers achieve ",
       highlight: "Business Strategy ",
