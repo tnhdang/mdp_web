@@ -37,7 +37,7 @@ const EndSolutions = () => {
   ];
 
   return (
-    <div className="w-full h-fit flex items-center justify-center content-center endsolutions">
+    <div className="w-full h-fit flex flex-col items-center justify-center content-center endsolutions">
       <div className="EndSolutionContainer mb-12 w-[67.37%] pv:max-md:w-[70%]  h-fit pvmax:max-lg:h-[100vh] content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
         <div className="w-full h-full pvmax:max-lg:h-fit flex flex-col justify-center">
           <p className="text-[1.1rem] leading-7 text-justify pr-[4rem] pv:max-md:pr-0 ">
@@ -68,6 +68,9 @@ const EndSolutions = () => {
             </Carousel>
           </div>
         </div>
+      </div>
+      <div className=" w-[67.37%] h-fit">
+      <button className="bg-[#4fb645] text-white py-4 px-8 text-xl font-bold font-sans rounded-[2rem] mb-20">Contact us</button>
       </div>
     </div>
   );
