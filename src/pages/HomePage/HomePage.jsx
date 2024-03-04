@@ -56,6 +56,9 @@ const HomePage = () => {
 
 
       <Banner />
+
+    
+
       <SliderBanner></SliderBanner>
 
       {/* Solutions */}
@@ -155,7 +158,7 @@ const HomePage = () => {
               setIsTab4(false);
             }}
           >
-            <p className="">TCO</p>
+            <p className="">Lower Total Cost of Ownership</p>
           </button>
 
           <button

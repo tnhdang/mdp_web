@@ -17,7 +17,7 @@ const UseCases = () => {
         <>
 
             <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
-                <div className="  w-[66.67%] mx-auto pvmax:max-lg:w-[90%] ">
+                <div className="  w-[67.37%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-8xl  font-bold text-start  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
                         Use cases
                     </p>
@@ -25,7 +25,7 @@ const UseCases = () => {
             </div>
             {/* 1 */}
             <div className="w-full h-fit pvmax:max-md:h-fit mt-[7.5rem] pvmax:max-md:mt-8 h110 flex flex-col content-center justify-center items-center">
-                <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
+                <div className="w-[67.37%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
                     <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start pvmax:max-md:text-center flex flex-col items-start">
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2">Use Cases</p>
                         <p className=" w-[70%] text-start pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Digital Banking</p>
@@ -40,7 +40,7 @@ const UseCases = () => {
                     </div>
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col">
-                    <div className="w-[66.67%]  h-fit flex flex-row pvmax:max-md:flex-col">
+                    <div className="w-[67.37%]  h-fit flex flex-row pvmax:max-md:flex-col">
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
                             <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
                         </div>
@@ -53,7 +53,7 @@ const UseCases = () => {
             </div>
             {/* 2 */}
             <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:mt-8 flex-row pvmax:max-md:flex-col py-20 mt-20 mb-10 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
-                <div className="w-[66.67%] pvmax:max-md:w-[80%]  h-fit flex flex-row pvmax:max-md:flex-col">
+                <div className="w-[67.37%] pvmax:max-md:w-[80%]  h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
                         <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">Digital Payment</p>
@@ -74,7 +74,7 @@ const UseCases = () => {
             </div>
             {/* 3 */}
             <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center pvmax:max-md:mt-8">
-                <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
+                <div className="w-[67.37%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
                     <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-start">
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2 pvmax:max-md:text-center">Use Cases</p>
                         <p className=" w-[70%] pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Consumer Lending</p>
@@ -90,7 +90,7 @@ const UseCases = () => {
                     </div>
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
-                    <div className="w-[66.67%] h-fit flex flex-row pvmax:max-md:flex-col">
+                    <div className="w-[67.37%] h-fit flex flex-row pvmax:max-md:flex-col">
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
                         <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
                         </div>
@@ -103,7 +103,7 @@ const UseCases = () => {
             </div>
             {/* 4 */}
             <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center  flex-row pvmax:max-md:flex-col py-20 my-10 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
-                <div className="w-[66.67%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
+                <div className="w-[67.37%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-32 pr-8 pvmax:max-md:hidden  pvmax:max-md:pr-0 flex justify-center content-center items-center">
                         <img className="w-full h-fit rounded-[1rem]" src="https://img.freepik.com/free-vector/online-banking-isometric-web-page_1284-29561.jpg?t=st=1709004607~exp=1709008207~hmac=a0ca102ecfc944cb0c7b9ac3db1f7986d752b0894dc8691d55562d4876597736&w=740"></img>
                     </div>
@@ -125,7 +125,7 @@ const UseCases = () => {
             </div>
             {/* 5 */}
             <div className="w-full h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center pvmax:max-md:mt-8 justify-center items-center">
-                <div className="w-[66.67%] h-[60%] flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
+                <div className="w-[67.37%] h-[60%] flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
 
                     <div className=" pvmax:max-md:w-full h-[60vh] pvmax:max-md:h-fit hidden  pvmax:max-md:flex  pvmax:max-md:flex-col items-center">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-end">Use Cases</p>
@@ -144,7 +144,7 @@ const UseCases = () => {
                     </div>
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
-                    <div className="w-[66.67%] h-fit flex flex-row pvmax:max-md:flex-col">
+                    <div className="w-[67.37%] h-fit flex flex-row pvmax:max-md:flex-col">
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
                             <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
                         </div>
@@ -157,7 +157,7 @@ const UseCases = () => {
             </div>
             {/* 6 */}
             <div className="w-full pvmax:max-md:mt-8 h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center flex-row pvmax:max-md:flex-col py-20 my-10 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
-                <div className="w-[66.67%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
+                <div className="w-[67.37%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pr-[2rem] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
                         <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">eKYC Platform</p>
@@ -179,7 +179,7 @@ const UseCases = () => {
 
             {/* 7 */}
             <div className="w-full pvmax:max-md:mt-8 h-fit pvmax:max-md:h-fit  h110 flex flex-col content-center justify-center items-center">
-                <div className="w-[66.67%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
+                <div className="w-[67.37%] h-fit flex pvmax:max-md:flex-col  pvmax:max-md:px-0 pb-16">
                     <div className="w-[50%] pvmax:max-md:w-full h-fit pvmax:max-md:h-fit text-start flex flex-col items-center">
                         <p className="text-[1rem] w-full font-mono pvmax:max-md:text-center text-slate-300 py-2 ">Use Cases</p>
                         <p className=" w-full pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Open Banking</p>
@@ -195,7 +195,7 @@ const UseCases = () => {
                     </div>
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
-                    <div className="w-[66.67%] h-fit flex flex-row pvmax:max-md:flex-col">
+                    <div className="w-[67.37%] h-fit flex flex-row pvmax:max-md:flex-col">
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
                             <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
                         </div>
@@ -208,7 +208,7 @@ const UseCases = () => {
             </div>
 
             <div className="w-[100%]  mx-auto  pvmax:max-lg:pl-0 pvmax:max-md:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro flex items-center justify-center">
-                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+                <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     With MDP's comprehensive banking use cases, including Digital Banking, Digital Payment, Consumer Lending, SME Lending, Merchant Lending, eKYC Platform, and Open Banking, banks and financial institutions can unlock new opportunities, drive innovation, and deliver superior value to their customers in today's digital-first world.
                 </p>
             </div>

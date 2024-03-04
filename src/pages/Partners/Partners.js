@@ -115,7 +115,7 @@ const Partners = () => {
     return (
         <>
             <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
-                <div className="  w-[66.67%] mx-auto pvmax:max-lg:w-[90%] ">
+                <div className="  w-[67.37%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-[6rem] leading-[7rem] font-bold text-start  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-2xl">
                         Technology Ecosystem partners
                     </p>
@@ -123,7 +123,7 @@ const Partners = () => {
             </div>
 
             <div className="w-[100%] mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex align-middle content-center justify-center">
-                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                     MDP collaborates with a curated selection of best-for-purpose technology solution partners to build end-to-end banking technology
                     stacks that empower banks and financial institutions to innovate, streamline operations, and deliver exceptional customer experiences.
                     Our partners are carefully chosen for their expertise, innovation, and commitment to excellence, ensuring that our clients have access
@@ -132,7 +132,7 @@ const Partners = () => {
             </div>
 
             <div className="w-full h-fit flex items-center justify-center align-middle">
-                <div className="w-[66.67%] h-fit text-start ">
+                <div className="w-[67.37%] h-fit text-start ">
 
                     {List1.map((item, index) => {
                         return (
@@ -153,7 +153,7 @@ const Partners = () => {
 
 
             <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
-                <div className="  w-[66.67%] mx-auto pvmax:max-lg:w-[90%] ">
+                <div className="  w-[67.37%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-[6rem] leading-[7rem] font-bold text-start  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-2xl">
                     Business Ecosystem partners 
                     </p>
@@ -161,7 +161,7 @@ const Partners = () => {
             </div>
 
             <div className="w-[100%] mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex align-middle content-center justify-center">
-                <p className="text-[1.1rem] font-bold text-justify w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
+                <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                 MDP's business ecosystem partners play a crucial role in helping banks and financial institutions (FIs) access their target customer segments 
                 and stimulate deposit and credit growth by leveraging the existing user base and transaction volume of these partners' platforms. Through strategic 
                 partnerships with a diverse range of business ecosystem partners, MDP facilitates seamless integration and collaboration, enabling banks and FIs to 
@@ -171,7 +171,7 @@ const Partners = () => {
             </div>
 
             <div className="w-full h-fit flex items-center justify-center align-middle">
-                <div className="w-[66.67%] h-fit text-start ">
+                <div className="w-[67.37%] h-fit text-start ">
 
                     {List1.map((item, index) => {
                         return (
