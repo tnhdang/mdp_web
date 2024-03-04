@@ -58,11 +58,6 @@ const HomePage = () => {
 
       <Banner />
 
-      <div className="w-full h-[100vh] bg-slate-900">
-      <AnimatedOnScroll animationIn="rollIn" animationInDuration={600}>
-    <img src="https://digital-flowers.github.io/public/images/demo.jpg"/>
-</AnimatedOnScroll>
-      </div>
 
       <SliderBanner></SliderBanner>
 
