@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import "./style.css";
+import { Col, Row, Carousel } from "antd";
 import {
   SliderBanner,
   CardText,
@@ -21,12 +22,46 @@ import Img4 from "../../assets/HomePage/808.jpg"
 import draftsolutioncontent from "../../assets/HomePage/solution.jpg"
 import SolutionsImg from "../../assets/HomePage/solutionscontent.svg"
 import { dataFeatured, dataFriends } from "../../utils/Mockdata";
-import {AnimatedOnScroll} from "react-animated-css-onscroll";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 const HomePage = () => {
   const [isTab1, setIsTab1] = useState(true);
   const [isTab2, setIsTab2] = useState(false);
   const [isTab3, setIsTab3] = useState(false);
   const [isTab4, setIsTab4] = useState(false);
+
+  const dataSlider = [
+    {
+      key: "1",
+      picture: "",
+      title: "Sustainable banking – A new model that banks must focus on.",
+      link: "https://www.linkedin.com/pulse/sustainable-banking-new-model-banks-must-focus-pham-quang-minh-5chec?trackingId=Y0p2AW9aTdqzaHwJ4GizGw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BUV65NL6GT%2FC9lKycUeazxg%3D%3D",
+    },
+    {
+      key: "2",
+      picture: "",
+      title: "Effective business model for banks in the digital landscape.",
+      link: "https://www.linkedin.com/pulse/effective-business-model-banks-digital-landscape-pham-quang-minh?trackingId=Y0p2AW9aTdqzaHwJ4GizGw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BUV65NL6GT%2FC9lKycUeazxg%3D%3D",
+    },
+    {
+      key: "3",
+      picture: "",
+      title: "Filling the SME lending gap – An opportunity for Vietnam banks",
+      link: "https://www.linkedin.com/pulse/filling-sme-lending-gap-opportunity-vietnam-banks-pham-quang-minh?trackingId=Y0p2AW9aTdqzaHwJ4GizGw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BUV65NL6GT%2FC9lKycUeazxg%3D%3D",
+    },
+    {
+      key: "4",
+      picture: "",
+      title: "Vietnam Banks in digital race – Gear up for success",
+      link: "https://www.linkedin.com/pulse/vietnam-banks-digital-race-gear-up-success-pham-quang-minh?trackingId=Y0p2AW9aTdqzaHwJ4GizGw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BUV65NL6GT%2FC9lKycUeazxg%3D%3D",
+    },
+    {
+      key: "5",
+      picture: "",
+      title: "Simplify core banking transformation",
+      link: "https://www.linkedin.com/pulse/simplify-core-banking-transformation-pham-quang-minh?trackingId=Y0p2AW9aTdqzaHwJ4GizGw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BUV65NL6GT%2FC9lKycUeazxg%3D%3D",
+    },
+
+  ];
 
 
 
@@ -43,7 +78,7 @@ const HomePage = () => {
             <div className="w-[100%] h-[35%] top-home-img pvmax:max-lg:w-[100%] pvmax:max-lg:h-[100%]">
             </div>
             <div className="w-[100%]">
-              <p className="text-white text-[1.1rem]  text-justify  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-[1rem] font-sans bankdescription">
+              <p className="text-white text-[1.1rem]  text-start  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-[1rem] font-sans bankdescription">
                 A digital meet-up for agility, flexibility and Innovation
               </p>
             </div>
@@ -186,7 +221,7 @@ const HomePage = () => {
         <CardTabs
           className={` ${isTab2 ? "CardTabsSolutions grid" : "hidden"
             } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
-          title={"Easy-to-Use Interface:"}
+          title={"Easy-to-Use:"}
           description={
             "Our user-friendly interface and intuitive design make it easy for banks and FIs to onboard and manage customers, process transactions, and access valuable insights. Whether it's configuring products, managing workflows, or analyzing data, our platform streamlines every aspect of banking operations for maximum efficiency and convenience."
           }
@@ -222,81 +257,87 @@ const HomePage = () => {
 
 
 
-      {/* <div className="py-10">
-        <p className="text-5xl font-bold">Featured insights</p>
-      </div>
-
-      <div className="w-[70%] mx-auto  grid grid-cols-3 gap-16 mb-10 sm:max-xl:grid-cols-2 sm:max-xl:w-[95%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[80%]">
-        {dataFeatured.map((item, index) => {
-          return (
-            <CardFeatured
-              key={item.key}
-              img={item.img}
-              tags={item.tags}
-              desTime={item.desTime}
-              title={item.title}
-              descrption={item.descrption}
-            />
-          );
-        })}
-      </div>
-      
 
 
-      <div className="py-10">
-        <p className="text-5xl font-bold text-center">Mambu by the numbers</p>
-      </div>
-      <div className="Mambubythenumbers grid grid-cols-3 gap-x-16 gap-y-28 pl-20 w-[90%] mx-auto sm:max-lg:grid-cols-2 sm:max-lg:w-[100%] pvmax:max-sm:grid-cols-1 pvmax:max-sm:w-[100%] pvmax:max-sm:pl-10">
-        <CardStatic title={"Global customers"} Prefix={"+"} number={260} />
-        <CardStatic title={"End users"} Prefix={"m"} number={101} />
-        <CardStatic title={"API calls per day"} Prefix={"m"} number={200} />
-        <CardStatic
-          title={"Reduction in carbon footprint vs on-prem"}
-          Prefix={"%"}
-          number={40}
-        />
-        <CardStatic title={"Countries"} Prefix={""} number={65} />
-        <CardStatic
-          title={"Higher NPS score than other providers"}
-          Prefix={"X"}
-          number={4}
-        />
-      </div>
-      
 
-      
-      <div className="py-36">
-        <p className="text-5xl font-bold">Friends with everyone you know</p>
-      </div>
-      <div className="w-[75%] mx-auto grid grid-cols-4 pl-20 gap-20 pvmax:max-md:grid-cols-2 pvmax:max-md:w-[90%] pvmax:max-md:pl-0 md:max-xl:grid-cols-3 md:max-xl:w-[100%] md:max-xl:pl-0">
-        {dataFriends.map((item, index) => {
-          return (
-            <div className="">
-              <img className="" src={item.img}></img>
+      <div className="w-full h-fit flex items-center justify-center">
+        <div className="w-full mx-auto pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
+          <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[67.37%] pv:max-md:w-[90%] ">
+
+            <div className="md:max-xl:w-[70%] flex justify-start pvmax:max-lg:justify-center items-center mx-auto pv:max-md:w-[70%] pvmax:max-lg:w-[90%]  pvmax:max-lg:pl-0 ">
+              <img
+                className="w-[90%]"
+                src="https://trigger.red/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftnbe-main-image.ef8f8f52.png&w=1920&q=75"
+              ></img>
             </div>
-          );
-        })}
-      </div>
-      <div className="flex justify-center py-20">
-        <button className="flex justify-center items-center px-8 py-4 bg-secondary1 rounded-3xl hover:bg-black">
-          <p className="text-white ">Find out more</p>
-        </button>
-      </div>
+            <div className="text-start pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
+              <p className="w-[100%] text-[#4fb645] leading-7 pvmax:max-lg:leading-10 pvmax:max-lg:text-center text-[2.2rem] font-bold pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] ">
+                Trigger partner
+              </p>
+              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
+              MDP is in a strategic partnership with Trigger Software which is a young, fast-growing software development and product company focusing on fintech and retail domains. Trigger provides a wide range of enterprise-grade solutions: neo banks, payment and integration gateways, communication engines, automated CRMs, and automated billings,… Using low-code development tools, MDP and Trigger are confident to deliver superior services on time and budget focused on achieving company’ business and technology goals
+              </p>
+              {/* <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
+                Our competitive advantages are deep industry expertise, proactivity, and innovation-oriented thinking. Our development teams are deeply involved in the clients’ processes and products to ensure that we understand the business and technology goals.
+              </p>
+              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
+                Our team comprises professionals with at least Middle or higher level and 5+ years of experience.
+              </p>
+              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
+                We love challenging and innovative projects that improve us and make the client’s business more sustainable and profitable.
+              </p>
+              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
+                Since our team has a fintech and banking background, we provide a wide range of enterprise- grade solutions: neobanks, payment and integration gateways, communication engines, automated CRMs, automated billings, etc.
+              </p>
+              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
+                At the same time, we work with startups and retail companies.
+              </p> */}
 
-     
+            </div>
 
-     
-      <div className="bg-[#f5ebe1] py-32">
-        <div className="grid grid-cols-2  mx-auto w-[75%] pvmax:max-md:grid-cols-1 pvmax:max-md:w-[90%]">
-          <div className="flex flex-col justify-center py-2">
-            <p className="text-6xl font-bold">Stay in the know</p>
-            <br></br>
-            <p className="text-xl">Sign up for our Mambu+ newsletter</p>
           </div>
-          <FormSubcribe></FormSubcribe>
         </div>
       </div>
-       */}
+
+
+
+
+      <div className="w-full h-fit endpage">
+        <div className="w-full h-fit pvmax:max-lg:h-fit flex flex-col justify-center slider-endsolutions">
+          <div className="  w-[67.37%] bg-[#4fb645] shadow-lg shadow-gray-300 mx-auto rounded-lg my-10 py-10 ">
+            <h1 className="font-bold font-sans text-[2rem]  text-[#170F58]">Sharing from CEO</h1>
+            <Carousel effect="fade" autoplay>
+              {dataSlider.map((item, index) => {
+                return (
+                  <div className="  w-full rounded-lg " key={item.key}>
+
+                    <div className="w-[80%] mx-auto pt-10 text-white pvmax:max-lg:pt-14 pb-20">
+                      <p className="text-[1.5rem] pb-4 ">
+                        "{item.title}"
+                      </p>
+                      <a className="text-[1.1rem] italic underline" href={item.link}>link blog </a>
+                    </div>
+                  </div>
+                );
+              })}
+            </Carousel>
+          </div>
+        </div>
+
+
+
+
+        <div className="w-full mt-10 pb-20 h-fit flex items-center justify-center">
+
+          <div className="w-[67.67%] h-fit">
+            <p className="w-[100%] text-[#170F58] leading-7 text-[2.2rem] pvmax:max-lg:text-[1.2rem] font-bold pb-5 pvmax:max-lg:pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">Want to work with  <span className="text-[#4fb645]">MDP</span> ?</p>
+            <p className="w-[100%] text-[#170F58] leading-7 pvmax:max-lg:leading-5 text-[2.2rem] pvmax:max-lg:text-[1.2rem] font-bold pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem]">Let us be part of your <span className="text-[#4fb645]">transformative innovation</span> .</p>
+            <button className="bg-[#4fb645] text-white mt-8 pvmax:max-lg:mt-0 py-4 px-8 text-xl font-bold font-sans rounded-[2rem]">Contact us</button>
+          </div>
+
+        </div>
+      </div>
+
     </>
   );
 };

@@ -10,17 +10,17 @@ const EndSolutions = () => {
       title: "MDP builds composable banking architecture ",
       description:
         "to design and delivery of banking services that prioritizes the ",
-      highlight: "agility, flexibility and Innovation.",
+      highlight: "Agility, Flexibility and Innovation.",
       bgImage: "bg-[#64aa99]",
     },
     {
       key: "2",
       picture: "",
-      title: "MDP API first, cloud native ",
+      title: "MDP API first, cloud native architecture ",
       description:
-        "architecture makes integration to ecosystem partners simple and helps our customers achieve ",
-      highlight: "Business Strategy ",
-      description2: "goals.",
+        " simplifies integration to ecosystem partners and helps our customers achieve  ",
+      highlight: "Business Strategy goals.",
+      description2: "",
       bgImage: "bg-white",
     },
     {
@@ -38,7 +38,7 @@ const EndSolutions = () => {
 
   return (
     <div className="w-full h-fit flex flex-col items-center justify-center content-center endsolutions">
-      <div className="EndSolutionContainer mb-12 w-[67.37%] pv:max-md:w-[70%]  h-fit pvmax:max-lg:h-[100vh] content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
+      <div className="EndSolutionContainer mb-12 w-[67.37%] pv:max-md:w-[70%]  h-fit content-center grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1">
         <div className="w-full h-full pvmax:max-lg:h-fit flex flex-col justify-center">
           <p className="text-[1.1rem] leading-7 text-justify pr-[4rem] pv:max-md:pr-0 ">
             At MDP, we are committed to driving digital transformation in the banking industry and empowering our clients
@@ -57,8 +57,8 @@ const EndSolutions = () => {
                     <div className="w-[80%] mx-auto pt-10 pvmax:max-lg:pt-14 pb-20">
                       <p className="text-[1.1rem]  text-white">
                         <span className="text-[1.1rem]  text-white font-bold">{item.title}</span>
-                        "{item.description}"
-                        <span className="text-[1.1rem]  text-[#170F58] font-bold">{item.highlight}</span>
+                        {item.description}
+                        <span className="text-[1.1rem]  text-[#170F58] font-bold">"{item.highlight}"</span>
                         <span className="text-[1.1rem]  text-white ">{item.description2}</span>
                       </p>
                     </div>

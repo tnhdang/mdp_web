@@ -190,7 +190,7 @@ const Partners = () => {
                 </div>
             </div>
 
-            <Sustainability/>
+
 
         </>
 

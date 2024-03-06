@@ -211,13 +211,6 @@ const Company = () => {
                 </p>
             </div>
 
-            <div className="w-full h-fit flex content-center justify-center align-middle">
-            <p className="text-[#4fb645] text-[2.5rem] py-12  font-bold text-start  w-[67.37%] md:max-lg:text-5xl pvmax:max-lg:w-full pvmax:max-lg:px-[3.25rem]   pvmax:max-md:text-2xl">
-                        10 elements that define MDP's culture
-            </p>
-            </div>
-
-            
 
             <div className="w-full h-fit flex content-center justify-center align-middle pb-20 mb-10">
                 <img className="w-[67.37%]" src={tenelement}></img>

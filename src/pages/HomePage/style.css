@@ -35,19 +35,19 @@
     background-size: contain;
 }
 
-.banner-content {
+/* .banner-content {
     background: url("../../assets/Artboard\ 1.svg");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
-}
+} */
 
-.floweroflife-cardtabs {
+/* .floweroflife-cardtabs {
     background: url("../../assets/Artboard\ 1.svg");
     background-repeat: no-repeat;
     background-size: 20rem;
     background-position: center;
-}
+} */
 
 
 .sustain-carousel .slick-dots-bottom li {
@@ -66,20 +66,18 @@
 }
 
 .solution-intro-container {
-    background: url("../../assets/Artboard\ 1.svg");
-    background-repeat: no-repeat;
-    background-position-x: 66rem;
-    background-size: 35rem;
-    background-position-y: -18rem;
+    background: url("../../assets/seedoflife142.svg");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 25%;
 }
 
-.endsolutions {
-    background: url("../../assets/Artboard\ 1.svg");
-    background-repeat: no-repeat;
-    background-position-x: -17rem;
-    background-size: 35rem;
-    background-position-y: 10rem;
-}
+/* .endsolutions {
+    background: url("../../assets/seedoflife141.svg");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 25%;
+} */
 
 
 .bankname {
@@ -88,13 +86,60 @@
 }
 
 .part1-home {
-    background: url("../../assets/Artboard\ 1.svg");
-    background-repeat: no-repeat;
-    background-position-x: 71rem;
-    background-size: 25rem;
-    background-position-y: 0rem;
+    background: url("../../assets/seedoflife121.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
 }
 
+.banner-fitimg{
+    background: url("../../assets/Artboard\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.trigger-img {
+    background: url("../../assets/Artboard\ 1.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center ;
+}
+
+.endpage{
+    background: url("../../assets/seedoflife141.svg");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 20%;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .trigger-img {
+        background: url("../../assets/Artboard\ 1.png");
+        background-repeat: no-repeat;
+        background-size:90%;
+        background-position: center left;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .trigger-img {
+        background: url("../../assets/Artboard\ 1.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center ;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1800px) {
+    .trigger-img {
+        background: url("../../assets/Artboard\ 1.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: center left ;
+    }
+}
 
 
 @media only screen and (min-width: 1600px) {
@@ -131,12 +176,14 @@
         background-position: center;
     }
 
+    
+/* 
     .floweroflife-cardtabs {
         background: url("../../assets/Artboard\ 2.svg");
         background-repeat: no-repeat;
         background-size: 25rem;
         background-position: center;
-    }
+    } */
 
 
 
@@ -176,33 +223,31 @@
     } */
 
     .part1-home {
-        background: url("../../assets/Artboard\ 1.svg");
+        background: url("../../assets/seedoflife121.svg");
         background-repeat: no-repeat;
-        background-position-x: 102rem;
-        background-size: 35rem;
-        background-position-y: 0rem;
+        background-position: right;
+        background-size: contain;
     }
 
     .solution-intro-container {
-        background: url("../../assets/Artboard\ 1.svg");
+        background: url("../../assets/seedoflife142.svg");
         background-repeat: no-repeat;
-        background-position-x: 99rem;
-        background-size: 40rem;
-        background-position-y: -19rem;
+        background-position: top right;
+        background-size: 20%;
     }
 
-    .endsolutions {
-        background: url("../../assets/Artboard\ 1.svg");
+    /* .endsolutions {
+        background: url("../../assets/seedoflife141.svg");
         background-repeat: no-repeat;
-        background-position-x: -20rem;
-        background-size: 40rem;
-        background-position-y: 14rem;
-    }
-
-    .banner-content {
-        background: url("../../assets/Artboard\ 1.svg");
-        background-repeat: no-repeat;
+        background-position: bottom left;
         background-size: contain;
+    } */
+
+    .banner-fitimg{
+        background: url("../../assets/Artboard\ 1.svg");
+        background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
     }
+
 }
