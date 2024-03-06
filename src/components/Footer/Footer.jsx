@@ -23,7 +23,7 @@ const Footer = () => {
                     </Col>
                     <Col xs={24} sm={24} md={24} lg={8} xl={8}>
                         <p className="text-start pr-2 pl-2 pv:max-md:pl-0 leading-9 font-bold text-[1.1rem]"> Development centre:</p>
-                        <p className="text-start px-2 pv:max-md:pl-0 leading-6 text-[1rem]">39 Bach Dang street</p>
+                        <p className="text-start px-2 pv:max-md:pl-0 leading-6 text-[1rem]">87-95 Bach Dang street</p>
                         <p className="text-start px-2 pv:max-md:pl-0 leading-6 text-[1rem]">Ward 2, Tan Binh District</p>
                         <p className="text-start px-2 pv:max-md:pl-0 leading-6 text-[1rem]"> Ho Chi Minh city, VietNam</p>
                     </Col>

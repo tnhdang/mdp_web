@@ -275,21 +275,6 @@ const HomePage = () => {
               <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
               MDP is in a strategic partnership with Trigger Software which is a young, fast-growing software development and product company focusing on fintech and retail domains. Trigger provides a wide range of enterprise-grade solutions: neo banks, payment and integration gateways, communication engines, automated CRMs, and automated billings,… Using low-code development tools, MDP and Trigger are confident to deliver superior services on time and budget focused on achieving company’ business and technology goals
               </p>
-              {/* <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
-                Our competitive advantages are deep industry expertise, proactivity, and innovation-oriented thinking. Our development teams are deeply involved in the clients’ processes and products to ensure that we understand the business and technology goals.
-              </p>
-              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
-                Our team comprises professionals with at least Middle or higher level and 5+ years of experience.
-              </p>
-              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
-                We love challenging and innovative projects that improve us and make the client’s business more sustainable and profitable.
-              </p>
-              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
-                Since our team has a fintech and banking background, we provide a wide range of enterprise- grade solutions: neobanks, payment and integration gateways, communication engines, automated CRMs, automated billings, etc.
-              </p>
-              <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
-                At the same time, we work with startups and retail companies.
-              </p> */}
 
             </div>
 
