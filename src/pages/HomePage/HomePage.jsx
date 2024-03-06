@@ -270,7 +270,7 @@ const HomePage = () => {
                 src="https://trigger.red/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftnbe-main-image.ef8f8f52.png&w=1920&q=75"
               ></img>
             </div>
-            <div className="text-start pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
+            <div className="text-start pv:max-md:w-[100%] flex flex-col justify-center align-middle MetatronsCube">
               <p className="w-[100%] text-[#4fb645] leading-7 pvmax:max-lg:leading-10 pvmax:max-lg:text-center text-[2.2rem] font-bold pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] ">
                 Trigger partner
               </p>
