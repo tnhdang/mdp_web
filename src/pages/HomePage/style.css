@@ -23,10 +23,24 @@
 
 }
 
-.top-home {
+.top-home,.gradient-bar {
     /* background: linear-gradient(to right,#7926F0, #03BD66), url(https://grainy-gradients.vercel.app/noise.svg); */
-    background: #170F58;
+    /* background: #170F58; */
+    background: rgb(79,182,69);
+background: linear-gradient(45deg, rgba(23,15,88,1) 5%, rgba(79,182,69,1) 50%);
     border-radius: 1rem;
+}
+
+@media (min-width: 360px) {
+    @media not all and (min-width: 768px) {
+        .top-home {
+            /* background: linear-gradient(to right,#7926F0, #03BD66), url(https://grainy-gradients.vercel.app/noise.svg); */
+            /* background: #170F58; */
+            background: rgb(79,182,69);
+        background: linear-gradient(45deg, rgba(23,15,88,1) 2%, rgba(79,182,69,1) 30%);
+            border-radius: 1rem;
+        }
+    }
 }
 
 .top-home-img {
@@ -80,24 +94,23 @@
 } */
 
 
-.bankname {
-    font-size: 1.8rem;
-    padding-right: 1rem;
+.part1-home {
+   
 }
 
-.part1-home {
-    background: url("../../assets/seedoflife121.svg");
+.slider-company-container{
+     background: url("../../assets/seedoflife122.svg");
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: left;
         background-size: contain;
 }
 
-.banner-fitimg{
+/* .banner-fitimg{
     background: url("../../assets/Artboard\ 1.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+} */
 
 .trigger-img {
     background: url("../../assets/Artboard\ 1.png");
@@ -243,11 +256,11 @@
         background-size: contain;
     } */
 
-    .banner-fitimg{
+    /* .banner-fitimg{
         background: url("../../assets/Artboard\ 1.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-    }
+    } */
 
 }

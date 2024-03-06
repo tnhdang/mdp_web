@@ -114,7 +114,7 @@ const Partners = () => {
 
     return (
         <>
-            <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
+            <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
                 <div className="  w-[67.37%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-[6rem] leading-[7rem] font-bold text-start  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-2xl">
                         Technology Ecosystem partners
@@ -152,7 +152,7 @@ const Partners = () => {
             </div>
 
 
-            <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
+            <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
                 <div className="  w-[67.37%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-[6rem] leading-[7rem] font-bold text-start  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-2xl">
                     Business Ecosystem partners 
@@ -173,7 +173,7 @@ const Partners = () => {
             <div className="w-full h-fit flex items-center justify-center align-middle">
                 <div className="w-[67.37%] h-fit text-start ">
 
-                    {List1.map((item, index) => {
+                    {List2.map((item, index) => {
                         return (
                             <div key={item.key}>
                                 <h2 className="font-semibold text-3xl text-[#4fb645]">{item.title}</h2>

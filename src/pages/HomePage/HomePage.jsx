@@ -68,17 +68,17 @@ const HomePage = () => {
   return (
     <>
       <div className="w-full h-fit flex justify-center items-center content-center mt-[2.5rem] mb-6 part1-home">
-        <div className=" h-[60vh] w-[67.37%] px-[5rem] top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:h-fit pvmax:max-lg:justify-center">
-          <div className="  w-[70%] mx-auto pvmax:max-lg:w-[100%] flex justify-end pvmax:max-lg:justify-center ">
-            <p className="text-white text-[2.5rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:py-10  w-full pvmax-lg:text-5xl pvmax:max-lg:w-[70%] pvmax:max-md:text-[2.5rem] font-sans bankname">
+        <div className=" h-[60vh]  w-[67.37%]  pv:max-md:w-[90%]  px-[5rem] pvmax:max-lg:px-8 top-home flex items-center pvmax:max-lg:flex-col pvmax:max-lg:h-fit pvmax:max-lg:justify-center">
+          <div className="  w-[70%] pvmax:max-lg:w-full mx-auto  flex justify-end pvmax:max-lg:justify-center ">
+            <p className="text-white text-[1.8rem] pr-4 pvmax:max-lg:text-[1.1rem]  text-start pvmax:max-lg:text-center pvmax:max-lg:py-10  w-full pvmax-lg:text-5xl pvmax:max-lg:w-full pvmax:max-md:text-[1.1rem] pvmax:max-md:font-bold pvmax:max-md:w-full pvmax:max-md:pr-0 font-sans bankname">
               Our vision "universalise banking for community well-being and a greener world"
             </p>
           </div>
-          <div className="  w-[50%]  h-[100vh] mx-auto pvmax:max-lg:w-[60%] pvmax:max-lg:h-[30vh] pvmax:max-lg:mb-[5rem] pvmax:max-lg:pl-0  flex flex-col  justify-center align-middle ">
-            <div className="w-[100%] h-[35%] top-home-img pvmax:max-lg:w-[100%] pvmax:max-lg:h-[100%]">
+          <div className="  w-[50%]  h-[100vh] mx-auto pvmax:max-md:mx-0 pvmax:max-lg:w-[90%] pvmax:max-lg:h-[30vh] pvmax:max-lg:mb-[5rem] pvmax:max-lg:pl-0  flex flex-col  justify-center align-middle items-center ">
+            <div className="w-[100%] h-[35%] top-home-img pvmax:max-lg:w-[80%]  pvmax:max-lg:h-[100%]">
             </div>
             <div className="w-[100%]">
-              <p className="text-white text-[1.1rem]  text-start  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-[1rem] font-sans bankdescription">
+              <p className="text-white text-[1.1rem]  text-start  w-[100%]  md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-[1rem] font-sans bankdescription">
                 A digital meet-up for agility, flexibility and Innovation
               </p>
             </div>
@@ -97,7 +97,7 @@ const HomePage = () => {
       <SliderBanner></SliderBanner>
 
       {/* Solutions */}
-      <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
+      <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-tr from-[#170F58] to-[#4fb645] flex items-center solution gradient-bar">
         <div className="  w-[67.37%] mx-auto pvmax:max-lg:w-[90%] ">
           <p className="text-white text-8xl  font-bold text-justify  w-[60%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
             Solutions
@@ -119,7 +119,7 @@ const HomePage = () => {
 
 
         <div className="w-full mx-auto pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
-          <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[67.37%] pv:max-md:w-[90%] ">
+          <div className=" grid grid-cols-1 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[67.37%] pv:max-md:w-[90%] ">
             <div className="text-justify pv:max-md:w-[100%] flex flex-col justify-center MetatronsCube">
               <p className="w-[100%] leading-7 text-[1.1rem] pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
                 Our solution integrates <span className="underline">Best-for-Purpose</span> solution partners, carefully selected for their expertise and
@@ -128,14 +128,12 @@ const HomePage = () => {
                 operations, from customer experience to back-office processes.
               </p>
 
-              <button className="px-4 py-2 pvmax:max-lg:my-[3rem] rounded-xl bg-secondary1 hover:bg-black w-fit">
-                <p className="text-white font-bold">Get in touch</p>
-              </button>
+              
               {/* <p className="w-[70%] font-bold leading-5 text-[1.5rem] pb-10 pt-10 pv:max-md:w-[100%]">
             Key features of our Mambu-powered BaaS platform include:
             </p> */}
             </div>
-            <div className="md:max-xl:w-[70%] mx-auto pv:max-md:w-[70%] pvmax:max-lg:w-[90%] pvmax:max-lg:pl-0 pl-[3rem]">
+            <div className="md:max-xl:w-[100%] mx-auto pv:max-md:w-[100%] pvmax:max-lg:w-[90%] pvmax:max-lg:pl-0 pt-10">
               <img
                 className="w-full"
                 src={SolutionsImg}
@@ -271,7 +269,7 @@ const HomePage = () => {
               ></img>
             </div>
             <div className="text-start pv:max-md:w-[100%] flex flex-col justify-center align-middle MetatronsCube">
-              <p className="w-[100%] text-[#4fb645] leading-7 pvmax:max-lg:leading-10 pvmax:max-lg:text-center text-[2.2rem] font-bold pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] ">
+              <p className="w-[100%] text-[#4fb645] leading-7 pvmax:max-lg:leading-10 pvmax:max-md:mt-6 pvmax:max-lg:text-center text-[2.2rem] font-bold pb-5 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] ">
                 Trigger partner
               </p>
               <p className="w-[100%] leading-7 text-[1.1rem] pb-3 pv:max-md:w-[100%] pvmax:max-lg:px-[1rem] pvmax:max-lg:leading-8">
@@ -305,7 +303,7 @@ const HomePage = () => {
       <div className="w-full h-fit endpage">
         <div className="w-full h-fit pvmax:max-lg:h-fit flex flex-col justify-center slider-endsolutions">
           <div className="  w-[67.37%] bg-[#4fb645] shadow-lg shadow-gray-300 mx-auto rounded-lg my-10 py-10 ">
-            <h1 className="font-bold font-sans text-[2rem]  text-[#170F58]">Sharing from CEO</h1>
+            <h1 className="font-bold font-sans text-[2rem]  text-[#170F58]">Sharing from our leaders</h1>
             <Carousel effect="fade" autoplay>
               {dataSlider.map((item, index) => {
                 return (

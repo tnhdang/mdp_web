@@ -1,5 +1,6 @@
 .container{
-    background-color: #415a95;
+    background: rgb(79,182,69);
+        background: linear-gradient(45deg, rgba(79,182,69,1) 50%, rgba(23,15,88,1)90%);
     color: white;
     font-family: inherit !important;
     padding-bottom: 1rem;

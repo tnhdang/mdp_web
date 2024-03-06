@@ -1,10 +1,6 @@
 @media only screen and (min-width: 1600px){
 .slider-company-container {
-    background: url(http://localhost:3000/static/media/triangleflip.18fbc82….png);
-    background-repeat: no-repeat;
-    background-size: 19rem;
-    background-position: left center;
-    height: fit-content;
+    
 
 }
 }

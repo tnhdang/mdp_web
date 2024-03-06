@@ -81,7 +81,7 @@ const Sustainability = () => {
 
     return (
         <div className="EndSolutionContainer w-[100%] h-fit ">
-             <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
+             <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
                 <div className="  w-[66.67%] mx-auto pvmax:max-lg:w-[90%] ">
                     <p className="text-white text-[6rem] leading-[7rem] font-bold text-start  w-[100%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-2xl">
                         Sustainability

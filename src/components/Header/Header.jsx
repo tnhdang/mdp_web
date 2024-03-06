@@ -194,9 +194,9 @@ const Header = () => {
         </div>
       </Row> */}
 
-      <div className="w-fll h-fit flex flex-row items-center content-center justify-center">
+      <div className="w-full h-fit flex flex-row items-center content-center justify-center">
 
-        <Row gutter={[0, 24]} justify="center" align="middle" className="header-content">
+        <Row gutter={[0, 24]} justify="center" align="middle" className="header-content header-container-pc">
           <Col span={3} className="logo-col">
             <img
               className="logo"
@@ -258,7 +258,7 @@ const Header = () => {
 
         </Row>
 
-        <Row justify="center" align="middle" className="header-container-mobile">
+        <Row justify="center" align="middle" className="header-container-mobile !w-full">
         <Col span={16} className="logo-col-mobile">
           <img
             className="logo-mobile"

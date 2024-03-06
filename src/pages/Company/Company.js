@@ -54,19 +54,18 @@ const Company = () => {
 
     return (
         <div className="">
-            <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution">
+            <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
                 <div className="  w-full mx-auto pvmax:max-lg:w-[90%] flex content-center justify-center ">
                     <p className="text-white text-8xl  font-bold text-start  w-[67.37%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
-                    Company Culture
+                        Company Culture
                     </p>
                 </div>
             </div>
             <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
-                    MDP is a premier provider of consulting services, offering expertise in a wide range of areas including Customer Experience (CX), Digital
-                    Transformation, Digital Bank use cases, Product and platform design, Enterprise platform, Project Management Office (PMO), and Engineering.
-                    Our comprehensive suite of services is designed to help businesses navigate the complexities of the digital landscape, drive innovation, and
-                    achieve sustainable growth.
+                    The culture at MDP is characterized by a strong emphasis on transparency, integrity, accountability, collaboration, innovation, and quality. It is a culture
+                    where employees feel empowered, valued, and inspired to contribute their best work towards achieving the company's mission and vision. Here's a closer look
+                    at what the MDP culture entails:
                 </p>
             </div>
 
@@ -82,31 +81,31 @@ const Company = () => {
 
                 {List.map((item, index) => {
                     return (<SwiperSlide className="!pb-[2rem] pvmax:max-lg:!pb-0 pvmax:max-lg:!w-full !flex content-center justify-center ">
-                    <div className=" flex flex-col align-middle justify-center w-[67.37%] pvmax:max-lg:!w-[80%]" key={item.key}>
-                        <p className="text-[2.5rem] text-[#4fb645] font-bold font ">
-                            {item.title}
-                        </p>
-                        <p className="text-justify text-[1.1rem]   pvmax:max-lg:px-[1rem]  py-[3rem]">
-                            {item.description}
-                        </p>
-                        <div className="w-full h-fit flex content-center justify-center">
-                        <img src={item.img} className="w-[50%]  pvmax:max-lg:px-0 pvmax:max-lg:w-full "></img>
-                        </div>
-                        
+                        <div className=" flex flex-col align-middle justify-center w-[67.37%] pvmax:max-lg:!w-[80%]" key={item.key}>
+                            <p className="text-[2.5rem] text-[#4fb645] font-bold font ">
+                                {item.title}
+                            </p>
+                            <p className="text-justify text-[1.1rem]   pvmax:max-lg:px-[1rem]  py-[3rem]">
+                                {item.description}
+                            </p>
+                            <div className="w-full h-fit flex content-center justify-center">
+                                <img src={item.img} className="w-[50%]  pvmax:max-lg:px-0 pvmax:max-lg:w-full "></img>
+                            </div>
 
-                    </div>
+
+                        </div>
                     </SwiperSlide>)
                 })}
             </Swiper>
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-justify text-[1.1rem] w-[67.37%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-10">
-                    At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance 
-                    customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card 
-                    processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, 
+                    At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance
+                    customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card
+                    processing, eKYC and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration,
                     we enable businesses to thrive in the rapidly evolving digital landscape and deliver exceptional value to their customers.
-                    </p>
-                </div>  
+                </p>
+            </div>
 
 
 
@@ -205,18 +204,22 @@ const Company = () => {
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-[2rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-[1.1rem] font-bold text-justify w-[67.37%] pt-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
-                Overall, the culture at MDP is one of collaboration, innovation, and excellence, where employees are empowered to make a positive impact, uphold the 
-                company's values, and drive success. It is a culture that fosters continuous learning, growth, and a shared commitment to building a better future for 
-                all stakeholders.
+                    Overall, the culture at MDP is one of collaboration, innovation, and excellence, where employees are empowered to make a positive impact, uphold the
+                    company's values, and drive success. It is a culture that fosters continuous learning, growth, and a shared commitment to building a better future for
+                    all stakeholders.
                 </p>
             </div>
 
-
+            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-0 pb-0 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="w-[67.37%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:pt-0 pvmax:max-lg:pl-0  pt-10 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-justify text-[2.2rem] text-[#4fb645]  Keyfeatures">
+                    10 elements that defind MDP's culture
+                </p>
+            </div>
             <div className="w-full h-fit flex content-center justify-center align-middle pb-20 mb-10">
                 <img className="w-[67.37%]" src={tenelement}></img>
             </div>
 
-            <Sustainability/>
+            <Sustainability />
 
 
 
