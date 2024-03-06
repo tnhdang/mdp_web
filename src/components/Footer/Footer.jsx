@@ -49,6 +49,8 @@ const Footer = () => {
                     
                 </Row>
 
+                <p className="text-start  leading-9 text-[1rem] ">© 2024 MDP. All rights reserved.</p>
+
             </div>
 
 
