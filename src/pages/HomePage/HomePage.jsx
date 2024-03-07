@@ -133,7 +133,7 @@ const HomePage = () => {
             Key features of our Mambu-powered BaaS platform include:
             </p> */}
             </div>
-            <div className="md:max-xl:w-[100%] mx-auto pv:max-md:w-[100%] pvmax:max-lg:w-[90%] pvmax:max-lg:pl-0 pt-10">
+            <div className="w-full md:max-xl:w-[100%] mx-auto pv:max-md:w-[100%] pvmax:max-lg:w-[90%] pvmax:max-lg:pl-0 pt-10">
               <img
                 className="w-full"
                 src={SolutionsImg}
@@ -150,12 +150,12 @@ const HomePage = () => {
 
       {/* Section Card Tab */}
       <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:px-0 pb-0 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
-        <p className="w-[67.37%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:pt-0 pvmax:max-lg:pl-0  pt-10 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-justify text-[2.2rem] text-[#4fb645]  Keyfeatures">
+        <p className="w-[67.37%] leading-10 font-bold pvmax:max-lg:leading-10 pvmax:max-lg:pt-0 pvmax:max-lg:pl-0  pt-10 pv:max-md:w-[80%] pv:max-md:text-[2rem] pv:max-md:text-start text-start text-[2.2rem] text-[#4fb645]  Keyfeatures">
           Key features of our Mambu-powered BaaS platform include:
         </p>
       </div>
       <div className="w-full mx-auto pt-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex flex-col content-center items-center justify-center">
-        <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+        <div className="flex w-[67.37%] items-start mx-auto gap-10  pvmax:max-xl:hidden">
           <button
             className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
               }`}

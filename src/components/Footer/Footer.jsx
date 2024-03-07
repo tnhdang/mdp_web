@@ -7,7 +7,7 @@ import logowhite from "../../assets/logowhite.png"
 
 const Footer = () => {
     return (
-        <div className="container ">
+        <div className="container gradient-bar">
             <div className="footer">
                 <Row justify="start" align="middle">
                     <img className="logo-footer" src={logowhite} alt="logo" />

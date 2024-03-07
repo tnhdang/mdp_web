@@ -27,7 +27,7 @@
     /* background: linear-gradient(to right,#7926F0, #03BD66), url(https://grainy-gradients.vercel.app/noise.svg); */
     /* background: #170F58; */
     background: rgb(79,182,69);
-background: linear-gradient(45deg, rgba(23,15,88,1) 5%, rgba(79,182,69,1) 50%);
+background: linear-gradient(90deg, rgba(8,56,99) 5%, rgba(79,182,69,1) 50%);
     border-radius: 1rem;
 }
 
