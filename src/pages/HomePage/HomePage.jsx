@@ -208,7 +208,7 @@ const HomePage = () => {
         </div>
         <CardTabs
           className={` ${isTab1 ? "CardTabsSolutions grid" : "hidden"
-            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex  `}
           title={"Accelerated Time to Market:"}
           description={
             "With pre-built integrations and modular architecture, our platform enables banks and FIs to launch new products and services in record time. By eliminating the need for lengthy development cycles and customizations, we empower our clients to stay ahead of the competition and capitalize on market opportunities swiftly."
@@ -218,7 +218,7 @@ const HomePage = () => {
         ></CardTabs>
         <CardTabs
           className={` ${isTab2 ? "CardTabsSolutions grid" : "hidden"
-            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col `}
           title={"Easy-to-Use:"}
           description={
             "Our user-friendly interface and intuitive design make it easy for banks and FIs to onboard and manage customers, process transactions, and access valuable insights. Whether it's configuring products, managing workflows, or analyzing data, our platform streamlines every aspect of banking operations for maximum efficiency and convenience."
@@ -228,7 +228,7 @@ const HomePage = () => {
         ></CardTabs>
         <CardTabs
           className={`  ${isTab3 ? "CardTabsSolutions grid" : "hidden"
-            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col `}
           title={"Lower Total Cost of Ownership (TCO):"}
           description={
             "By adopting a cloud-native approach and leveraging Mambu's scalable infrastructure, our platform offers unparalleled cost savings and flexibility. Banks and FIs can scale their operations seamlessly to accommodate growth and fluctuations in demand, without incurring significant upfront investments or ongoing maintenance costs."
@@ -238,7 +238,7 @@ const HomePage = () => {
         ></CardTabs>
         <CardTabs
           className={` ${isTab4 ? "CardTabsSolutions grid" : "hidden"
-            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+            } grid-cols-2 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col`}
           title={"Innovative Product Offerings: "}
           description={
             "Through our partnership with Best-for-Purpose solution partners, we empower banks and FIs to innovate their product offerings and deliver differentiated experiences to their customers. Whether it's launching digital lending solutions, personalized wealth management tools, or AI-powered analytics, our platform provides the flexibility and agility to adapt to changing market trends and customer preferences."
