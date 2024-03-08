@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Row, Carousel } from "antd";
 import img1 from "../assets/HomePage/sustain.png";
 import img2 from "../assets/HomePage/sustain2.png";
 import img3 from "../assets/HomePage/sustaincontent1.png";
 import img4 from "../assets/HomePage/sustaincontent2.png";
+import CardTabsNoPics from "./Card/CardTabsNoPics";
+import CardTabsSustain from "./Card/CardTabsSustain";
 
 
 
 
 const Sustainability = () => {
+
+    
+    const [isTab11, setIsTab11] = useState(true);
+    const [isTab21, setIsTab21] = useState(false);
+    const [isTab31, setIsTab31] = useState(false);
+    const [isTab41, setIsTab41] = useState(false);
 
     const dataSlider = [
         {
@@ -97,7 +105,7 @@ const Sustainability = () => {
                 </p>
             </div>
 
-            <div className="w-full h-fit pvmax:max-lg:h-fit flex flex-col justify-center">
+            {/* <div className="w-full h-fit pvmax:max-lg:h-fit flex flex-col justify-center">
                 <div className="  w-[66.67%] pvmax:max-md:w-[80%]  mx-auto mb-10 py-10 ">
                     <Carousel effect="fade" autoplay  className="sustain-carousel pvmax:max-lg:pb-20">
                         {dataSlider.map((item, index) => {
@@ -144,7 +152,135 @@ const Sustainability = () => {
                     </Carousel>
                 </div>
 
+            </div> */}
+
+
+            {/* Section Card Tab */}
+            <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+            <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab11 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab11(true);
+                        setIsTab21(false);
+                        setIsTab31(false);
+                        setIsTab41(false);
+
+                    }}
+                >
+                    <p className="">Environmental Sustainability</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab21 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab11(false);
+                        setIsTab21(true);
+                        setIsTab31(false);
+                        setIsTab41(false);
+
+                    }}
+                >
+                    <p className="">Social Responsibility</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab31 ? "text-black border-b-[3px] border-black " : ""
+                }`}
+                    onClick={() => {
+                        setIsTab11(false);
+                        setIsTab21(false);
+                        setIsTab31(true);
+                        setIsTab41(false);
+
+                    }}
+                >
+                    <p className="">Economic Sustainability</p>
+                </button>
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab41 ? "text-black border-b-[3px] border-black " : ""
+                }`}
+                    onClick={() => {
+                        setIsTab11(false);
+                        setIsTab21(false);
+                        setIsTab31(false);
+                        setIsTab41(true);
+
+                    }}
+                >
+                    <p className="">Continuous Improvement</p>
+                </button>
+
+
             </div>
+            {dataSlider.map((item, index) => {
+                if (index === 0) {
+                    return (
+                        <CardTabsSustain
+                        className={` ${isTab11 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title1={item.mintitle1}
+                        description1={item.mindescription1}
+                        title2={item.mintitle2}
+                        description2={item.mindescription2}
+                        title3={item.mintitle3}
+                        description3={item.mindescription3}
+                        title4={item.mintitle4}
+                        description4={item.mindescription4}
+                    ></CardTabsSustain>
+                    )
+                }
+                else if (index === 1) {
+                    return (
+                        <CardTabsSustain
+                        className={` ${isTab21 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title1={item.mintitle1}
+                            description1={item.mindescription1}
+                            title2={item.mintitle2}
+                            description2={item.mindescription2}
+                            title3={item.mintitle3}
+                            description3={item.mindescription3}
+                            title4={item.mintitle4}
+                            description4={item.mindescription4}
+                    ></CardTabsSustain>
+                    )
+                }
+                else if (index === 2) {
+                    return (
+                        <CardTabsSustain
+                        className={` ${isTab31 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title1={item.mintitle1}
+                            description1={item.mindescription1}
+                            title2={item.mintitle2}
+                            description2={item.mindescription2}
+                            title3={item.mintitle3}
+                            description3={item.mindescription3}
+                            title4={item.mintitle4}
+                            description4={item.mindescription4}
+                    ></CardTabsSustain>
+                    )
+                }
+                else if (index === 3) {
+                    return (
+                        <CardTabsSustain
+                        className={` ${isTab41 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title1={item.mintitle1}
+                            description1={item.mindescription1}
+                            title2={item.mintitle2}
+                            description2={item.mindescription2}
+                            title3={item.mintitle3}
+                            description3={item.mindescription3}
+                            title4={item.mintitle4}
+                            description4={item.mindescription4}
+                    ></CardTabsSustain>
+                    )
+
+                }
+            })}
         </div>
     );
 }

@@ -6,6 +6,7 @@ export { default as CardText } from "./Card/CardText";
 export { default as CardTabs } from "./Card/CardTabs";
 export { default as CardTabsNoPics } from "./Card/CardTabsNoPics";
 export { default as CardTabsCompany } from "./Card/CardTabsCompany";
+export { default as CardTabsSustain } from "./Card/CardTabsSustain";
 export { default as CardFeatured } from "./Card/CardFeatured";
 export { default as CardStatic } from "./Card/CardStatic";
 export { default as FormSubcribe } from "./Form/FormSubcribe";

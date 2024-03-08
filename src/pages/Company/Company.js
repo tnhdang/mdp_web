@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import {
 
     CardTabsCompany,
+    CardTabsNoPics,
     Sustainability,
 
 } from "../../components";
@@ -21,6 +22,12 @@ const Company = () => {
     const [isTab1, setIsTab1] = useState(true);
     const [isTab2, setIsTab2] = useState(false);
     const [isTab3, setIsTab3] = useState(false);
+
+    const [isTab11, setIsTab11] = useState(true);
+    const [isTab21, setIsTab21] = useState(false);
+    const [isTab31, setIsTab31] = useState(false);
+    const [isTab41, setIsTab41] = useState(false);
+
 
 
     const List = [
@@ -69,7 +76,7 @@ const Company = () => {
                 </p>
             </div>
 
-            <Swiper
+            {/* <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
                 navigation
@@ -96,7 +103,114 @@ const Company = () => {
                         </div>
                     </SwiperSlide>)
                 })}
-            </Swiper>
+            </Swiper> */}
+
+
+            {/* Section Card Tab */}
+            <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+            <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab11 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab11(true);
+                        setIsTab21(false);
+                        setIsTab31(false);
+                        setIsTab41(false);
+
+                    }}
+                >
+                    <p className="">Transparency</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab21 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab11(false);
+                        setIsTab21(true);
+                        setIsTab31(false);
+                        setIsTab41(false);
+
+                    }}
+                >
+                    <p className="">Integrity</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab31 ? "text-black border-b-[3px] border-black " : ""
+                }`}
+                    onClick={() => {
+                        setIsTab11(false);
+                        setIsTab21(false);
+                        setIsTab31(true);
+                        setIsTab41(false);
+
+                    }}
+                >
+                    <p className="">Accountability</p>
+                </button>
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab41 ? "text-black border-b-[3px] border-black " : ""
+                }`}
+                    onClick={() => {
+                        setIsTab11(false);
+                        setIsTab21(false);
+                        setIsTab31(false);
+                        setIsTab41(true);
+
+                    }}
+                >
+                    <p className="">Ownership Mentality</p>
+                </button>
+
+
+            </div>
+            {List.map((item, index) => {
+                if (index === 0) {
+                    return (
+                        <CardTabsNoPics
+                        className={` ${isTab11 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title=""
+                        description={item.description}
+                    ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 1) {
+                    return (
+                        <CardTabsNoPics
+                        className={` ${isTab21 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title=""
+                        description={item.description}
+                    ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 2) {
+                    return (
+                        <CardTabsNoPics
+                        className={` ${isTab31 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title=""
+                        description={item.description}
+                    ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 3) {
+                    return (
+                        <CardTabsNoPics
+                        className={` ${isTab41 ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title=""
+                        description={item.description}
+                    ></CardTabsNoPics>
+                    )
+
+                }
+            })}
+
+
+
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-justify text-[1.1rem] w-[67.37%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-10">
