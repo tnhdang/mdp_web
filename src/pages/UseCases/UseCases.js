@@ -7,6 +7,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import Img1 from "../../assets/mdpcanva1.png";
+import Img2 from "../../assets/mdpcanva2.png";
+import Img3 from "../../assets/mdpcanva3.png";
+
 import { Navigation, Pagination } from 'swiper/modules';
 
 const UseCases = () => {
@@ -30,7 +34,7 @@ const UseCases = () => {
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2">Use Cases</p>
                         <p className=" w-[70%] text-start pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Digital Banking</p>
                     </div>
-                    <div className="w-[50%] pl-[2rem] pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
+                    <div className="w-[50%] pl-[2rem] pvmax:max-md:pl-0 pvmax:max-md:pl-0 pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
                         MDP's Digital Banking solution revolutionizes traditional banking by offering customers a seamless and intuitive digital banking experience. Key features include:
                         Account Management: Customers can view account balances, transaction history, and manage account preferences online or through mobile apps.
                         Payments and Transfers: Secure and convenient fund transfers, bill payments, and peer-to-peer payments are facilitated, enhancing convenience for customers.
@@ -41,11 +45,11 @@ const UseCases = () => {
                 </div>
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col">
                     <div className="w-[67.37%]  h-fit flex flex-row pvmax:max-md:flex-col">
-                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
-                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
+                        <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
+                            <img className="w-full h-full  rounded-[1rem]" src={Img2}></img>
                         </div>
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
-                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
+                            <img className="w-full h-full rounded-[1rem]" src={Img3}></img>
                         </div>
                     </div>
 
@@ -57,7 +61,7 @@ const UseCases = () => {
                     <div className="w-[50%] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
                         <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">Digital Payment</p>
-                        <p className="text-justify pr-[2rem] text-[1.1rem]">
+                        <p className="text-justify pr-[2rem] pvmax:max-md:pr-0 text-[1.1rem]">
                             MDP's Digital Payment solution offers secure, convenient, and versatile payment options for businesses and consumers alike. Features include:
                             Card Payments: Acceptance of debit/credit card payments through POS terminals, e-commerce websites, and mobile apps, ensuring a seamless checkout experience.
                             Mobile Wallet Integration: Integration with popular mobile wallet platforms allows customers to make payments using their preferred digital wallet.
@@ -66,7 +70,7 @@ const UseCases = () => {
                         </p>
                     </div>
                     <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-32 pl-8  pvmax:max-md:pl-0 flex justify-center content-center items-center">
-                        <img className="w-full h-fit rounded-[1rem]" src="https://img.freepik.com/free-vector/online-banking-isometric-web-page_1284-29561.jpg?t=st=1709004607~exp=1709008207~hmac=a0ca102ecfc944cb0c7b9ac3db1f7986d752b0894dc8691d55562d4876597736&w=740"></img>
+                        <img className="w-full h-fit rounded-[1rem]" src={Img1}></img>
                     </div>
                 </div>
 
@@ -79,7 +83,7 @@ const UseCases = () => {
                         <p className="text-[1rem] w-full font-mono text-slate-300 py-2 pvmax:max-md:text-center">Use Cases</p>
                         <p className=" w-[70%] pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Consumer Lending</p>
                     </div>
-                    <div className="w-[50%] pl-[2rem] pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
+                    <div className="w-[50%] pl-[2rem] pvmax:max-md:pl-0 pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
                         MDP's Consumer Lending solution empowers banks and financial institutions to offer a wide range of consumer loan products to individuals. Features include:
                         Personal Loans: Quick and easy access to personal loans for various purposes such as home renovation, education, or medical expenses.
                         Auto Loans: Financing options for purchasing new or used vehicles, with flexible terms and competitive interest rates.
@@ -92,10 +96,10 @@ const UseCases = () => {
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
                     <div className="w-[67.37%] h-fit flex flex-row pvmax:max-md:flex-col">
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
-                        <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
+                            <img className="w-full h-full  rounded-[1rem]" src={Img3}></img>
                         </div>
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
-                        <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
+                            <img className="w-full h-full rounded-[1rem]" src={Img2}></img>
                         </div>
                     </div>
 
@@ -105,9 +109,9 @@ const UseCases = () => {
             <div className="w-full h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center  flex-row pvmax:max-md:flex-col py-20 my-10 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
                 <div className="w-[67.37%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
                     <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-32 pr-8 pvmax:max-md:hidden  pvmax:max-md:pr-0 flex justify-center content-center items-center">
-                        <img className="w-full h-fit rounded-[1rem]" src="https://img.freepik.com/free-vector/online-banking-isometric-web-page_1284-29561.jpg?t=st=1709004607~exp=1709008207~hmac=a0ca102ecfc944cb0c7b9ac3db1f7986d752b0894dc8691d55562d4876597736&w=740"></img>
+                        <img className="w-full h-fit rounded-[1rem]" src={Img1}></img>
                     </div>
-                    <div className="w-[50%] pl-[2rem] pvmax:max-md:w-full h-[100%] flex flex-col justify-center pvmax:max-md:mt-8 align-middle">
+                    <div className="w-[50%] pl-[2rem] pvmax:max-md:pl-0 pvmax:max-md:w-full h-[100%] flex flex-col justify-center pvmax:max-md:mt-8 align-middle">
                         <p className="text-[1rem] pvmax:max-md:w-full font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
                         <p className="w-[70%]  pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">SME Lending</p>
                         <p className="text-justify text-[1.1rem] pvmax:max-md:w-full">
@@ -131,7 +135,7 @@ const UseCases = () => {
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-end">Use Cases</p>
                         <p className="w-full text-end  pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Merchant Lending</p>
                     </div>
-                    <div className="w-[50%] pr-[2rem] pvmax:max-md:w-full h-fit text-justify text-[1.1rem] flex flex-col items-center">
+                    <div className="w-[50%] pr-[2rem] pvmax:max-md:pr-0 pvmax:max-md:w-full h-fit text-justify text-[1.1rem] flex flex-col items-center">
                         MDP's Merchant Lending solution offers tailored financing solutions for merchants and businesses, enabling them to access capital for growth and expansion. Features include:
                         Merchant Cash Advances: Flexible financing options based on future credit card sales, providing merchants with immediate access to working capital.
                         POS Financing: Financing solutions integrated with point-of-sale systems, allowing merchants to offer installment plans and deferred payments to customers.
@@ -146,10 +150,10 @@ const UseCases = () => {
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
                     <div className="w-[67.37%] h-fit flex flex-row pvmax:max-md:flex-col">
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
-                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
+                            <img className="w-full h-full  rounded-[1rem]" src={Img2}></img>
                         </div>
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
-                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
+                            <img className="w-full h-full rounded-[1rem]" src={Img3}></img>
                         </div>
                     </div>
 
@@ -158,7 +162,7 @@ const UseCases = () => {
             {/* 6 */}
             <div className="w-full pvmax:max-md:mt-8 h-[100vh] pvmax:max-md:h-fit flex items-center content-center justify-center flex-row pvmax:max-md:flex-col py-20 my-10 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
                 <div className="w-[67.37%] pvmax:max-md:w-[80%] h-fit flex flex-row pvmax:max-md:flex-col">
-                    <div className="w-[50%] pr-[2rem] pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
+                    <div className="w-[50%] pr-[2rem] pvmax:max-md:pr-0 pvmax:max-md:w-full h-full flex flex-col justify-center align-middle">
                         <p className="text-[1rem] font-mono text-slate-300 py-2 text-start pvmax:max-md:text-center">Use Cases</p>
                         <p className="w-[70%] pvmax:max-md:w-full text-start pvmax:max-md:text-center text-5xl text-[#4fb645] pb-8 font-semibold">eKYC Platform</p>
                         <p className="text-justify text-[1.1rem]">
@@ -170,7 +174,7 @@ const UseCases = () => {
                         </p>
                     </div>
                     <div className="w-[50%] pvmax:max-md:w-full max-h-full pt-20 pl-8  pvmax:max-md:pl-0 flex justify-center content-center items-center">
-                        <img className="w-full h-fit rounded-[1rem]" src="https://img.freepik.com/free-vector/online-banking-isometric-web-page_1284-29561.jpg?t=st=1709004607~exp=1709008207~hmac=a0ca102ecfc944cb0c7b9ac3db1f7986d752b0894dc8691d55562d4876597736&w=740"></img>
+                        <img className="w-full h-fit rounded-[1rem]" src={Img1}></img>
                     </div>
                 </div>
 
@@ -184,7 +188,7 @@ const UseCases = () => {
                         <p className="text-[1rem] w-full font-mono pvmax:max-md:text-center text-slate-300 py-2 ">Use Cases</p>
                         <p className=" w-full pvmax:max-md:w-full pvmax:max-md:text-center pvmax:max-md:pb-10 font-semibold text-5xl text-[#4fb645]" >Open Banking</p>
                     </div>
-                    <div className="w-[50%] pl-[2rem] pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
+                    <div className="w-[50%] pl-[2rem] pvmax:max-md:pl-0 pvmax:max-md:w-full h-fit text-justify text-[1.1rem]">
                         MDP's Open Banking solution empowers banks and financial institutions to embrace open banking principles and leverage APIs to enhance innovation, collaboration, and customer experience. Features include:
                         API Integration: Secure and standardized APIs for connecting with third-party developers, fintech partners, and service providers to access customer data and functionality.
                         Data Sharing: Controlled access to customer-permissioned data, enabling banks to share account information, transaction data, and financial insights with authorized third parties.
@@ -197,10 +201,10 @@ const UseCases = () => {
                 <div className="w-full h-[40%] pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:flex-col ">
                     <div className="w-[67.37%] h-fit flex flex-row pvmax:max-md:flex-col">
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pr-8 pvmax:max-md:pr-0 pvmax:max-md:pb-6 usecases-img">
-                            <img className="w-full h-full  rounded-[1rem]" src="https://img.freepik.com/free-vector/online-payment-concept-with-mobile-phone-paper-receipt-electron-bill-billing-system_39422-723.jpg?t=st=1709190019~exp=1709193619~hmac=d2a810e8c42106450afad3ba8632f0b41632ee3003f2e7ced5d8da616be4b96d&w=1060"></img>
+                            <img className="w-full h-full  rounded-[1rem]" src={Img2}></img>
                         </div>
                         <div className="w-[50%] pvmax:max-md:w-full h-[40vh] pvmax:max-md:h-fit pvmax:max-md:pl-0 pl-8 usecases-img">
-                            <img className="w-full h-full rounded-[1rem]" src="https://img.freepik.com/free-vector/isometric-futuristic-city-background_52683-10372.jpg?t=st=1709191160~exp=1709194760~hmac=d73a3bcac9b7b11fc71dc17760ec4c87bd7dd751fd3bb2ab67bf2cc75e6e944b&w=1380"></img>
+                            <img className="w-full h-full rounded-[1rem]" src={Img3}></img>
                         </div>
                     </div>
 
