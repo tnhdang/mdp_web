@@ -14,15 +14,8 @@ import {
   EndSolutions,
   Sustainability,
 } from "../../components";
-import ImgCampain from "../../assets/HomePage/banner.png";
-import ImgTab1 from "../../assets/images/imageTab1.png";
-import ImgTab2 from "../../assets/images/imageTab2.webp";
-import ImgTab3 from "../../assets/images/imageTab3.webp";
-import Img4 from "../../assets/HomePage/808.jpg"
-import draftsolutioncontent from "../../assets/HomePage/solution.jpg"
 import SolutionsImg from "../../assets/HomePage/solutionscontent.svg"
-import { dataFeatured, dataFriends } from "../../utils/Mockdata";
-import { AnimatedOnScroll } from "react-animated-css-onscroll";
+import SolutionCardImg from "../../assets/mdpcanva2.jpg"
 const HomePage = () => {
   const [isTab1, setIsTab1] = useState(true);
   const [isTab2, setIsTab2] = useState(false);
@@ -213,7 +206,7 @@ const HomePage = () => {
           description={
             "With pre-built integrations and modular architecture, our platform enables banks and FIs to launch new products and services in record time. By eliminating the need for lengthy development cycles and customizations, we empower our clients to stay ahead of the competition and capitalize on market opportunities swiftly."
           }
-          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          image={SolutionCardImg}
           titleButton={"Learn More"}
         ></CardTabs>
         <CardTabs
@@ -223,7 +216,7 @@ const HomePage = () => {
           description={
             "Our user-friendly interface and intuitive design make it easy for banks and FIs to onboard and manage customers, process transactions, and access valuable insights. Whether it's configuring products, managing workflows, or analyzing data, our platform streamlines every aspect of banking operations for maximum efficiency and convenience."
           }
-          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          image={SolutionCardImg}
           titleButton={"Learn More"}
         ></CardTabs>
         <CardTabs
@@ -233,7 +226,7 @@ const HomePage = () => {
           description={
             "By adopting a cloud-native approach and leveraging Mambu's scalable infrastructure, our platform offers unparalleled cost savings and flexibility. Banks and FIs can scale their operations seamlessly to accommodate growth and fluctuations in demand, without incurring significant upfront investments or ongoing maintenance costs."
           }
-          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          image={SolutionCardImg}
           titleButton={"Explore lending"}
         ></CardTabs>
         <CardTabs
@@ -243,7 +236,7 @@ const HomePage = () => {
           description={
             "Through our partnership with Best-for-Purpose solution partners, we empower banks and FIs to innovate their product offerings and deliver differentiated experiences to their customers. Whether it's launching digital lending solutions, personalized wealth management tools, or AI-powered analytics, our platform provides the flexibility and agility to adapt to changing market trends and customer preferences."
           }
-          image="https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?t=st=1708920076~exp=1708923676~hmac=da9da51f78a162a95287f8c18d67418a50d4cb4195ed8f57b709b072aa19d8b5&w=826"
+          image={SolutionCardImg}
           titleButton={"Discover deposits"}
         ></CardTabs>
       </div>
