@@ -3,7 +3,7 @@
 import React, { useRef, useEffect, useState } from "react";
 // import imageBanner from "../../assets/images/banner.png";
 // import baasimg from "../../assets/HomePage/baas.mp4";
-import BannerImg from "../../assets/HomePage/banner.png"
+import BannerImg from "../../assets/mdpcanva3.jpg"
 import "./style.css";
 const Banner = () => {
 
