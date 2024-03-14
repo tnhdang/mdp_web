@@ -35,7 +35,7 @@ const Company = () => {
     const [isTab1CoreValue, setIsTab1CoreValue] = useState(true);
     const [isTab2CoreValue, setIsTab2CoreValue] = useState(false);
     const [isTab3CoreValue, setIsTab3CoreValue] = useState(false);
-    const [isTab4CoreValue, setIsTab4CoreValue] = useState(false);
+    const [isTab4CoreValue, setIsTab4CoreValue] = useState(true);
     const [isTab5CoreValue, setIsTab5CoreValue] = useState(false);
     const [isTab6CoreValue, setIsTab6CoreValue] = useState(false);
 

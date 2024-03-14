@@ -60,7 +60,7 @@ const UseCases = () => {
 
 
             {/* 1 */}
-            <div className="w-full h-fit pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:mt-8 flex-row pvmax:max-md:flex-col py-20 mt-10 mb-10 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
+            <div className="w-full solution-intro-container h-fit pvmax:max-md:h-fit flex items-center content-center justify-center pvmax:max-md:mt-8 flex-row pvmax:max-md:flex-col py-20 mt-10 mb-10 pvmax:max-md:py-0 pvmax:max-md:my-0 pvmax:max-md:px-8 ">
                 <div className="w-[67.37%] items-center pvmax:max-md:w-[80%]  h-fit flex flex-row pvmax:max-md:flex-col">
                     
                     <div className="w-[50%] pvmax:max-md:w-full max-h-full   pvmax:max-md:pt-8 pr-8  pvmax:max-md:pr-0 flex justify-center content-center items-center">
@@ -354,7 +354,7 @@ const UseCases = () => {
 
 
 
-            <div className="w-[100%]  mx-auto  pvmax:max-lg:pl-0 pvmax:max-md:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro flex items-center justify-center">
+            <div className="w-[100%] endpage mx-auto  pvmax:max-lg:pl-0 pvmax:max-md:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro flex items-center justify-center">
                 <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     With MDP's comprehensive banking use cases, including Digital Banking, Digital Payment, Consumer Lending, SME Lending, Merchant Lending, eKYC Platform, and Open Banking, banks and financial institutions can unlock new opportunities, drive innovation, and deliver superior value to their customers in today's digital-first world.
                 </p>

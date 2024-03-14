@@ -384,6 +384,8 @@ const Services = () => {
                     </p>
                 </div>
             </div>
+
+            <div className="w-full h-fit Baas-bg">
             <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     MDP's Banking-as-a-Service (BaaS) offering is a comprehensive suite of solutions designed to empower banks, financial institutions, and businesses to innovate, streamline operations, and deliver seamless digital experiences to their customers. Our BaaS platform encompasses a range of capabilities, including:
@@ -617,6 +619,7 @@ const Services = () => {
                     and Fraud Prevention, Digital Banking, Digital Bank, Digital Lending, Open Banking, and Business Ecosystem Integration, we enable businesses
                     to thrive in the rapidly evolving digital landscape and deliver exceptional value to their customers.
                 </p>
+            </div>
             </div>
         </div>
     );

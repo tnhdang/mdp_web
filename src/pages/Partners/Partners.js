@@ -122,7 +122,8 @@ const Partners = () => {
                 </div>
             </div>
 
-            <div className="w-[100%] mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex align-middle content-center justify-center">
+            <div className="w-full h-fit solution-intro-container">
+                <div className="w-[100%] mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex align-middle content-center justify-center ">
                 <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                     MDP collaborates with a curated selection of best-for-purpose technology solution partners to build end-to-end banking technology
                     stacks that empower banks and financial institutions to innovate, streamline operations, and deliver exceptional customer experiences.
@@ -150,6 +151,9 @@ const Partners = () => {
                     </p>
                 </div>
             </div>
+            </div>
+
+            
 
 
             <div className=" h-[20rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
@@ -160,7 +164,8 @@ const Partners = () => {
                 </div>
             </div>
 
-            <div className="w-[100%] mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex align-middle content-center justify-center">
+            <div className="w-full h-fit endpage">
+                <div className="w-[100%] mx-auto  pvmax:max-lg:px-[2rem] py-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex align-middle content-center justify-center">
                 <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%]  ">
                 MDP's business ecosystem partners play a crucial role in helping banks and financial institutions (FIs) access their target customer segments 
                 and stimulate deposit and credit growth by leveraging the existing user base and transaction volume of these partners' platforms. Through strategic 
@@ -189,6 +194,9 @@ const Partners = () => {
                     </p>
                 </div>
             </div>
+            </div>
+
+            
 
 
 

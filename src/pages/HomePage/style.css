@@ -101,7 +101,17 @@ background: linear-gradient(90deg, rgba(8,56,99) 5%, rgba(79,182,69,1) 50%);
 
 
 .part1-home {
-   
+    background: url("../../assets/seedoflife121.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.Baas-bg {
+    background: url("../../assets/seedoflife121.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20%;
 }
 
 .slider-company-container{

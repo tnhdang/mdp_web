@@ -76,7 +76,9 @@ const Baas = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem]  md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+
+            <div className="w-full h-fit Baas-bg">
+                <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem]  md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-[1.1rem] font-bold text-start w-[66.67%] py-10 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
                     <a href="/services">Service</a> 
                     <RightOutlined className="px-4 pvmax:max-lg:inline" />
@@ -313,6 +315,8 @@ const Baas = () => {
             exceptional value to their customers.
             </p>
             </div>
+            </div>
+            
             
         
         </>
