@@ -28,6 +28,18 @@ const Company = () => {
     const [isTab31, setIsTab31] = useState(false);
     const [isTab41, setIsTab41] = useState(false);
 
+    const [isTab1Mission, setIsTab1Mission] = useState(true);
+    const [isTab2Mission, setIsTab2Mission] = useState(false);
+    const [isTab3Mission, setIsTab3Mission] = useState(false);
+
+    const [isTab1CoreValue, setIsTab1CoreValue] = useState(true);
+    const [isTab2CoreValue, setIsTab2CoreValue] = useState(false);
+    const [isTab3CoreValue, setIsTab3CoreValue] = useState(false);
+    const [isTab4CoreValue, setIsTab4CoreValue] = useState(false);
+    const [isTab5CoreValue, setIsTab5CoreValue] = useState(false);
+    const [isTab6CoreValue, setIsTab6CoreValue] = useState(false);
+
+
 
 
     const List = [
@@ -58,9 +70,327 @@ const Company = () => {
 
     ];
 
+    const Mission = [
+        {
+            key: "1",
+            title: "Empowering Financial Inclusion",
+            description: "We are committed to breaking down barriers to financial access and inclusion. Our mission is to provide inclusive financial services that cater to the diverse needs of all individuals, regardless of their background or circumstances. By offering accessible banking solutions, promoting financial literacy, and reaching underserved communities, we aim to empower people to achieve financial independence and prosperity. ",
+        },
+        {
+            key: "2",
+            title: "Driving Innovation",
+            description: "Innovation is at the heart of everything we do. We strive to push the boundaries of financial technology, developing cutting-edge solutions that meet the evolving needs of our customers. Through continuous research, experimentation, and collaboration, we aim to drive transformative innovation that enhances the efficiency, accessibility, and security of financial services for everyone.",
+        },
+        {
+            key: "3",
+            title: "Enabling Sustainable Growth",
+            description: "We recognize the interconnectedness of economic prosperity, environmental sustainability, and social well-being. Our mission is to foster sustainable growth that creates value for all stakeholders while minimizing negative impacts on the planet. We integrate sustainability into our business practices, investing in environmentally friendly initiatives, and supporting responsible business conduct. By prioritizing long-term sustainability, we aim to build a resilient and thriving economy that benefits present and future generations.",
+        },
+        
+    ];
 
     return (
         <div className="">
+            <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
+                <div className="  w-full mx-auto pvmax:max-lg:w-[90%] flex content-center justify-center ">
+                    <p className="text-white text-8xl  font-bold text-start  w-[67.37%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
+                        Mission
+                    </p>
+                </div>
+            </div>
+            <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+                Our mission is to empower individuals, businesses, and communities through accessible and innovative financial solutions. We are dedicated to fostering financial inclusion, 
+                driving technological advancement for innovation, and promoting sustainable growth in the global economy.
+                </p>
+            </div>
+
+            {/* Section Card Tab */}
+            <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+            <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1Mission ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab1Mission(true);
+                        setIsTab2Mission(false);
+                        setIsTab3Mission(false);
+
+                    }}
+                >
+                    <p className="">Empowering Financial Inclusion</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab2Mission ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab1Mission(false);
+                        setIsTab2Mission(true);
+                        setIsTab3Mission(false);
+
+                    }}
+                >
+                    <p className="">Driving Innovation</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab3Mission ? "text-black border-b-[3px] border-black " : ""
+                }`}
+                    onClick={() => {
+                        setIsTab1Mission(false);
+                        setIsTab2Mission(false);
+                        setIsTab3Mission(true);
+                    }}
+                >
+                    <p className="">Enabling Sustainable Growth</p>
+                </button>
+                
+            </div>
+            {Mission.map((item, index) => {
+                if (index === 0) {
+                    return (
+                        <CardTabsNoPics
+                        className={` ${isTab1Mission ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title=""
+                        description={item.description}
+                    ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 1) {
+                    return (
+                        <CardTabsNoPics
+                        className={` ${isTab2Mission ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title=""
+                        description={item.description}
+                    ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 2) {
+                    return (
+                        <CardTabsNoPics
+                        className={` ${isTab3Mission ? "grid" : "hidden"
+                            } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                        title=""
+                        description={item.description}
+                    ></CardTabsNoPics>
+                    )
+                }
+                
+            })}
+
+<div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="text-justify text-[1.1rem] w-[67.37%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-10">
+                At MDP, we are driven by our mission to empower, innovate, and enable sustainable growth. Through our unwavering commitment to these principles, we strive to make 
+                a positive impact on the lives of individuals, businesses, and society as a whole. Together, we can build a brighter and more inclusive financial future for everyone.
+                </p>
+            </div>
+
+
+            <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
+                <div className="  w-full mx-auto pvmax:max-lg:w-[90%] flex content-center justify-center ">
+                    <p className="text-white text-8xl  font-bold text-start  w-[67.37%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
+                        Core value
+                    </p>
+                </div>
+            </div>
+            <div className="w-[100%] flex content-center justify-center  mx-auto  pvmax:max-lg:px-[2rem] md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="text-[1.1rem] font-bold text-justify w-[67.37%] py-20 pvmax:max-lg:py-5 md:max-xl:w-[90%] pv:max-md:w-[100%] big-description-Services  ">
+                We create six core values and leverage these effectively to shape the company culture and drive success at MDP. Here's how we integrate each core value into 
+                the company culture:
+                </p>
+            </div>
+
+            {/* Section Card Tab */}
+            <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+                    <button
+                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1CoreValue ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
+                            }`}
+                        onClick={() => {
+                            setIsTab1CoreValue(true);
+                            setIsTab2CoreValue(false);
+                            setIsTab3CoreValue(false);
+                        }}
+                    >
+                        <p className="">Transparency</p>
+                    </button>
+
+                    <button
+                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab2CoreValue ? "text-black border-b-[3px] border-black " : ""
+                            }`}
+                        onClick={() => {
+                            setIsTab1CoreValue(false);
+                            setIsTab2CoreValue(true);
+                            setIsTab3CoreValue(false);
+                        }}
+                    >
+                        <p className="">Integrity</p>
+                    </button>
+
+                    <button
+                        className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645] "
+                        onClick={() => {
+                            setIsTab1CoreValue(false);
+                            setIsTab2CoreValue(false);
+                            setIsTab3CoreValue(true);
+                        }}
+                    >
+                        <p className="">Accountability</p>
+                    </button>
+
+
+                </div>
+                <CardTabsCompany
+                    className={` ${isTab1CoreValue ? "grid" : "hidden"
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                    title1={"Internal Communication: "}
+                    description1={
+                        "Foster open and transparent communication channels within the organization. Encourage regular updates, town hall meetings, and Q&A sessions where employees can freely express their thoughts and concerns."
+                    }
+                    title2={"Decision-Making: "}
+                    description2={
+                        "Strive for transparency in decision-making processes, ensuring that decisions are well-informed and communicated clearly to all stakeholders."
+                    }
+                    title3={"Feedback Culture: "}
+                    description3={
+                        "Promote a culture of giving and receiving feedback openly and constructively. Encourage employees to share feedback transparently, both upwards and across teams."
+                    }
+                ></CardTabsCompany>
+                <CardTabsCompany
+                    className={` ${isTab2CoreValue ? "grid" : "hidden"
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                    title1={"Ethical Standards: "}
+                    description1={
+                        "Uphold the highest ethical standards in all business practices. Lead by example and emphasize the importance of honesty, fairness, and integrity in every aspect of the business."
+                    }
+                    title2={"Compliance: "}
+                    description2={
+                        "Ensure compliance with laws, regulations, and industry standards. Encourage employees to speak up if they encounter any ethical dilemmas or misconduct."
+                    }
+                    title3={"Trust Building: "}
+                    description3={
+                        "Build trust with customers, partners, and employees by consistently demonstrating integrity in actions and decisions."
+                    }
+                ></CardTabsCompany>
+                <CardTabsCompany
+                    className={`  ${isTab3CoreValue ? "grid" : "hidden"
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                    title1={"Ownership Mentality: "}
+                    description1={
+                        "Encourage employees to take ownership of their work and responsibilities. Empower them to set clear goals, make decisions, and be accountable for outcomes."
+                    }
+                    title2={"Performance Measurement: "}
+                    description2={
+                        "Establish clear performance metrics and hold individuals and teams accountable for achieving them. Provide regular feedback and recognition for accomplishments."
+                    }
+                    title3={"Learning from Mistakes: "}
+                    description3={
+                        "Foster a culture where mistakes are viewed as opportunities for learning and growth rather than reasons for blame. Encourage accountability for addressing and learning from errors."
+                    }
+                ></CardTabsCompany>
+
+<div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] py-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+                <p className="text-justify text-[1.1rem] w-[67.37%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-10">
+                By embedding these core values into everyday practices, policies, and behaviors, MDP can cultivate a strong and resilient 
+                company culture that drives success and fosters long-term growth. Regular reinforcement and recognition of these values 
+                will help sustain a positive culture and keep them at the forefront of decision-making and actions across the organization.
+                </p>
+            </div>
+
+            {/* Section Card Tab */}
+            <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+                    <button
+                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab4CoreValue ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
+                            }`}
+                        onClick={() => {
+                            setIsTab4CoreValue(true);
+                            setIsTab5CoreValue(false);
+                            setIsTab6CoreValue(false);
+                        }}
+                    >
+                        <p className="">Collaboration</p>
+                    </button>
+
+                    <button
+                        className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab5CoreValue ? "text-black border-b-[3px] border-black " : ""
+                            }`}
+                        onClick={() => {
+                            setIsTab4CoreValue(false);
+                            setIsTab5CoreValue(true);
+                            setIsTab6CoreValue(false);
+                        }}
+                    >
+                        <p className="">Innovation</p>
+                    </button>
+
+                    <button
+                        className="text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645] "
+                        onClick={() => {
+                            setIsTab4CoreValue(false);
+                            setIsTab5CoreValue(false);
+                            setIsTab6CoreValue(true);
+                        }}
+                    >
+                        <p className="">Quality</p>
+                    </button>
+
+
+                </div>
+                <CardTabsCompany
+                    className={` ${isTab4CoreValue ? "grid" : "hidden"
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                    title1={"Teamwork: "}
+                    description1={
+                        "Promote cross-functional collaboration and teamwork. Encourage employees to share knowledge, skills, and resources to achieve common goals."
+                    }
+                    title2={"Diversity and Inclusion: "}
+                    description2={
+                        "Embrace diversity of perspectives, backgrounds, and ideas. Create an inclusive environment where all voices are valued and respected."
+                    }
+                    title3={"Partnerships: "}
+                    description3={
+                        "Foster collaborative partnerships with customers, suppliers, and other stakeholders to drive mutual success and innovation."
+                    }
+                ></CardTabsCompany>
+                <CardTabsCompany
+                    className={` ${isTab5CoreValue ? "grid" : "hidden"
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                    title1={"Creativity: "}
+                    description1={
+                        "Encourage creative thinking and problem-solving among employees. Create opportunities for brainstorming, experimentation, and exploration of new ideas."
+                    }
+                    title2={"Continuous Improvement: "}
+                    description2={
+                        "Foster a culture of continuous improvement, where employees are encouraged to challenge the status quo and seek innovative solutions to improve processes and products."
+                    }
+                    title3={"Risk-Taking: "}
+                    description3={
+                        "Support calculated risk-taking and experimentation. Encourage employees to embrace failure as a natural part of the innovation process and to learn from setbacks."
+                    }
+                ></CardTabsCompany>
+                <CardTabsCompany
+                    className={`  ${isTab6CoreValue ? "grid" : "hidden"
+                        } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg   pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                    title1={"Customer Focus: "}
+                    description1={
+                        "Prioritize quality and excellence in products and services to meet and exceed customer expectations. Encourage a customer-centric mindset throughout the organization."
+                    }
+                    title2={"Attention to Detail: "}
+                    description2={
+                        "Emphasize the importance of attention to detail and craftsmanship in delivering high-quality work. Set standards for excellence and hold employees accountable for maintaining them."
+                    }
+                    title3={"Continuous Learning: "}
+                    description3={
+                        "Invest in employee development and training to ensure that skills and knowledge are up-to-date and aligned with quality standards."
+                    }
+                ></CardTabsCompany>
+
+
+
+
+
+
             <div className=" h-[15rem] pvmax:max-lg:h-[10rem] w-[100%] bg-gradient-to-r from-[#00C7B0] to-[#7926F0] flex items-center solution gradient-bar">
                 <div className="  w-full mx-auto pvmax:max-lg:w-[90%] flex content-center justify-center ">
                     <p className="text-white text-8xl  font-bold text-start  w-[67.37%] md:max-lg:text-5xl pvmax:max-lg:w-[100%] pvmax:max-md:text-5xl">
@@ -75,6 +405,8 @@ const Company = () => {
                     at what the MDP culture entails:
                 </p>
             </div>
+
+            
 
             {/* <Swiper
                 slidesPerView={1}
@@ -109,7 +441,7 @@ const Company = () => {
             {/* Section Card Tab */}
             <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
             <button
-                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab11 ? "text-black border-b-[3px] border-black " : ""
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab11 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
                         }`}
                     onClick={() => {
                         setIsTab11(true);
@@ -209,10 +541,7 @@ const Company = () => {
                 }
             })}
 
-
-
-
-            <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] pb-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
+<div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:py-[2rem] py-12 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
                 <p className="text-justify text-[1.1rem] w-[67.37%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 pb-10">
                     At MDP, we are committed to empowering businesses with cutting-edge banking-as-a-service solutions that drive innovation, enhance
                     customer experiences, and accelerate digital transformation. With our comprehensive suite of offerings, including Payment and Card
@@ -221,6 +550,8 @@ const Company = () => {
                 </p>
             </div>
 
+
+            
 
 
 
@@ -313,6 +644,9 @@ const Company = () => {
                         "Employees take pride in delivering work of the highest quality, striving for excellence in everything they do."
                     }
                 ></CardTabsCompany>
+
+
+
 
             </div>
 

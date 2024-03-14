@@ -158,7 +158,7 @@ const Sustainability = () => {
             {/* Section Card Tab */}
             <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
             <button
-                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab11 ? "text-black border-b-[3px] border-black " : ""
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab11 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
                         }`}
                     onClick={() => {
                         setIsTab11(true);

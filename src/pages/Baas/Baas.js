@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useState } from "react";
 import "./style.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -9,8 +9,17 @@ import 'swiper/css/navigation';
 import { RightOutlined } from '@ant-design/icons';
 
 import { Navigation, Pagination } from 'swiper/modules';
+import { CardTabsNoPics } from "../../components";
 
 const Baas = () => {
+
+    const [isTab1, setIsTab1] = useState(true);
+    const [isTab2, setIsTab2] = useState(false);
+    const [isTab3, setIsTab3] = useState(false);
+    const [isTab4, setIsTab4] = useState(false);
+    const [isTab5, setIsTab5] = useState(true);
+    const [isTab6, setIsTab6] = useState(false);
+    const [isTab7, setIsTab7] = useState(false);
 
     const Baas = [
         {
@@ -80,7 +89,7 @@ const Baas = () => {
                 </p>
             </div>
 
-            <Swiper
+            {/* <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
                 navigation
@@ -107,7 +116,194 @@ const Baas = () => {
                         </div>
                     </SwiperSlide>)
                 })}
-            </Swiper>
+            </Swiper> */}
+
+            {/* Section Card Tab */}
+            <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab1 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab1(true);
+                        setIsTab2(false);
+                        setIsTab3(false);
+                        setIsTab4(false);
+
+
+
+                    }}
+                >
+                    <p className="">Payment and Card Processing</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab2 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab1(false);
+                        setIsTab2(true);
+                        setIsTab3(false);
+                        setIsTab4(false);
+
+                    }}
+                >
+                    <p className="">eKYC and Fraud Prevention</p>
+                </button>
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab3 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab1(false);
+                        setIsTab2(false);
+                        setIsTab3(true);
+                        setIsTab4(false);
+
+                    }}
+                >
+                    <p className="">Digital Banking</p>
+                </button>
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab4 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+                        setIsTab1(false);
+                        setIsTab2(false);
+                        setIsTab3(false);
+                        setIsTab4(true);
+
+                    }}
+                >
+                    <p className="">Digital Bank</p>
+                </button>
+
+
+
+            </div>
+            {Baas.map((item, index) => {
+                if (index === 0) {
+                    return (
+                        <CardTabsNoPics
+                            className={` ${isTab1 ? "grid" : "hidden"
+                                } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title=""
+                            description={item.description}
+                        ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 1) {
+                    return (
+                        <CardTabsNoPics
+                            className={` ${isTab2 ? "grid" : "hidden"
+                                } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title=""
+                            description={item.description}
+                        ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 2) {
+                    return (
+                        <CardTabsNoPics
+                            className={` ${isTab3 ? "grid" : "hidden"
+                                } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title=""
+                            description={item.description}
+                        ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 3) {
+                    return (
+                        <CardTabsNoPics
+                            className={` ${isTab4 ? "grid" : "hidden"
+                                } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title=""
+                            description={item.description}
+                        ></CardTabsNoPics>
+                    )
+
+                }
+
+            })}
+
+
+
+            {/* Section Card Tab */}
+            <div className="flex w-[67.37%] mx-auto gap-10  pvmax:max-xl:hidden">
+
+
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab5 ? "text-[#4fb645] border-b-[3px] border-[#4fb645] " : ""
+                        }`}
+                    onClick={() => {
+
+                        setIsTab5(true);
+                        setIsTab6(false);
+                        setIsTab7(false);
+                    }}
+                >
+                    <p className="">Digital Lending</p>
+                </button>
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab6 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+
+                        setIsTab5(false);
+                        setIsTab6(true);
+                        setIsTab7(false);
+                    }}
+                >
+                    <p className="">Open Banking</p>
+                </button>
+                <button
+                    className={`text-[1.5rem] text-[#170F58] font-bold focus:outline-none  focus:text-[#4fb645] focus:border-b-[3px] focus:border-[#4fb645]  ${isTab7 ? "text-black border-b-[3px] border-black " : ""
+                        }`}
+                    onClick={() => {
+
+                        setIsTab5(false);
+                        setIsTab6(false);
+                        setIsTab7(true);
+                    }}
+                >
+                    <p className="">Business Ecosystem Integration</p>
+                </button>
+
+
+            </div>
+            {Baas.map((item, index) => {
+                if (index === 4) {
+                    return (
+                        <CardTabsNoPics
+                            className={` ${isTab5 ? "grid" : "hidden"
+                                } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title=""
+                            description={item.description}
+                        ></CardTabsNoPics>
+                    )
+                }
+                else if (index === 5) {
+                    return (
+                        <CardTabsNoPics
+                            className={` ${isTab6 ? "grid" : "hidden"
+                                } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title=""
+                            description={item.description}
+                        ></CardTabsNoPics>
+                    )
+
+                }
+                else if (index === 6) {
+                    return (
+                        <CardTabsNoPics
+                            className={` ${isTab7 ? "grid" : "hidden"
+                                } px-10 bg-[#eeeeee] shadow-lg shadow-gray-300 w-[67.37%] py-10 mx-auto my-10 rounded-lg  pvmax:max-xl:flex pvmax:max-xl:flex-col pvmax:max-xl:w-[95%]`}
+                            title=""
+                            description={item.description}
+                        ></CardTabsNoPics>
+                    )
+
+                }
+            })}
 
             <div className="w-[100%] flex justify-center  mx-auto  pvmax:max-lg:pl-[2rem] pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] solution-intro">
             <p className="text-start text-[1.1rem] w-[66.67%] pvmax:max-lg:w-full  pvmax:max-lg:p-0 py-10">At MDP, we are committed to empowering businesses with cutting-edge 
