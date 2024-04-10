@@ -13,7 +13,7 @@ const Footer = () => {
                     <img className="logo-footer" src={logowhite} alt="logo" />
                 </Row>
 
-                <Row justify="start" align="top" className="pb-6">
+                {/* <Row justify="start" align="top" className="pb-6">
                     <Col xs={24} sm={24} md={24} lg={8} xl={8}>
                         <p className="text-start pr-2  leading-9 font-bold text-[1.1rem]"> Headquarter:</p>
                         <p className="text-start pr-3 leading-6 text-[1rem]">100 Le Lai street</p>
@@ -34,7 +34,7 @@ const Footer = () => {
                         <p className="text-start px-2 pv:max-md:pl-0 leading-6 text-[1rem]">Hanoi, VietNam</p>
 
                     </Col>
-                </Row>
+                </Row> */}
 
 
                 <Row justify="start" align="top" className="pb-6">

@@ -259,7 +259,7 @@ const HomePage = () => {
 
 
 
-      <div className="w-full h-fit flex items-center justify-center">
+      {/* <div className="w-full h-fit flex items-center justify-center">
         <div className="w-full mx-auto pb-10 md:max-xl:w-[90%] pv:max-md:w-[90%] flex content-center items-center justify-center">
           <div className=" grid grid-cols-2 md:max-xl:grid-cols-1 pv:max-md:grid-cols-1 w-[67.37%] pv:max-md:w-[90%] ">
 
@@ -281,7 +281,7 @@ const HomePage = () => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
 
 
